@@ -6,6 +6,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.utils.encoding import force_str
 from django.utils.http import urlsafe_base64_decode
 from rest_framework import exceptions, serializers
+from rest_framework.throttling import BaseThrottle
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer, TokenRefreshSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 
@@ -71,7 +72,10 @@ class EmailTokenObtainPairSerializer(TokenObtainPairSerializer):
 
         if device_data:
             request = self.context.get("request")
-            ip = request.META.get("REMOTE_ADDR") if request else None
+            # Не REMOTE_ADDR: за nginx это всегда адрес прокси, и поле «откуда
+            # заходили с устройства» стало бы бесполезным при разборе инцидента.
+            # get_ident учитывает NUM_PROXIES, поэтому заголовок не подделать.
+            ip = BaseThrottle().get_ident(request) if request else None
             device = services.register_device(user=self.user, ip=ip, **device_data)
             # jti сохраняется: OutstandingToken, созданный в get_token, остаётся валидным
             refresh = RefreshToken(data["refresh"])

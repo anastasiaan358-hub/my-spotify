@@ -3,6 +3,9 @@ services:
     build:
       context: .
       target: prod
+    # Тег обязателен: dev- и prod-стадии иначе собираются в образ с одним именем
+    # и затирают друг друга, из-за чего в «dev»-контейнере не оказывается ruff
+    image: my-spotify:prod
     env_file: .env
     # Перебивает DJANGO_SETTINGS_MODULE из .env: прод-стек обязан подниматься на
     # прод-настройках, даже если в .env лежит dev-значение для локальной работы
@@ -28,6 +31,7 @@ services:
     build:
       context: .
       target: prod
+    image: my-spotify:prod
     env_file: .env
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.prod
@@ -50,6 +54,7 @@ services:
     build:
       context: .
       target: prod
+    image: my-spotify:prod
     env_file: .env
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.prod

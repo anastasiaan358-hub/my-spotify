@@ -37,6 +37,20 @@ def test_login_with_device_registers_it(api_client, user):
     assert device.revoked_at is None
 
 
+def test_device_records_real_client_ip_not_spoofed_prefix(api_client, user):
+    """За балансировщиком REMOTE_ADDR — адрес прокси, поэтому клиентский IP берётся
+    из X-Forwarded-For. Реальный адрес дописывает в конец сам nginx, а всё до него
+    прислал клиент — записать нужно доверенное значение, а не подставленное."""
+    response = api_client.post(
+        TOKEN_URL,
+        {"email": user.email, "password": PASSWORD, "device": DEVICE},
+        format="json",
+        HTTP_X_FORWARDED_FOR="198.51.100.42, 203.0.113.7",  # подделка, реальный IP
+    )
+    assert response.status_code == 200
+    assert UserDevice.objects.get(user=user).last_ip == "203.0.113.7"
+
+
 def test_repeat_login_same_fingerprint_does_not_duplicate(api_client, user):
     login_with_device(api_client, user)
     login_with_device(api_client, user, {**DEVICE, "name": "Pixel 9 Pro"})
