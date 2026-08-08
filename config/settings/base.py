@@ -7,6 +7,7 @@ from datetime import timedelta
 from pathlib import Path
 
 import environ
+from celery.schedules import crontab
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -92,9 +93,13 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "apps.core.exceptions.exception_handler",
     "DEFAULT_THROTTLE_CLASSES": (
-        "rest_framework.throttling.AnonRateThrottle",
-        "rest_framework.throttling.UserRateThrottle",
+        "apps.core.throttling.AnonRateThrottle",
+        "apps.core.throttling.UserRateThrottle",
     ),
+    # Сколько доверенных прокси стоит перед приложением. Без этого DRF берёт
+    # X-Forwarded-For целиком, и лимиты обходятся подстановкой любого значения
+    # в заголовок: каждый запрос попадал бы в собственный бакет.
+    "NUM_PROXIES": env.int("NUM_PROXIES", default=1),
     # Rate limits — ARCHITECTURE.md §7.9; scope-лимиты подключаются на конкретных вьюхах
     "DEFAULT_THROTTLE_RATES": {
         "anon": "100/min",
@@ -141,6 +146,14 @@ CELERY_TASK_ACKS_LATE = True
 CELERY_WORKER_PREFETCH_MULTIPLIER = 1
 CELERY_TASK_DEFAULT_QUEUE = "default"
 CELERY_TIMEZONE = "UTC"
+CELERY_BEAT_SCHEDULE = {
+    # §7.4: чистка протухших записей blacklist — иначе таблицы растут на строку
+    # с каждой ротацией refresh и никогда не уменьшаются
+    "flush-expired-tokens": {
+        "task": "apps.users.tasks.flush_expired_tokens",
+        "schedule": crontab(hour=3, minute=30),
+    },
+}
 
 DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="noreply@example.com")
 # Базовый URL веб-клиента: из него собираются ссылки в письмах

@@ -4,6 +4,10 @@ services:
       context: .
       target: prod
     env_file: .env
+    # Перебивает DJANGO_SETTINGS_MODULE из .env: прод-стек обязан подниматься на
+    # прод-настройках, даже если в .env лежит dev-значение для локальной работы
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.prod
     ports:
       - "8000:8000"
     depends_on:
@@ -25,6 +29,8 @@ services:
       context: .
       target: prod
     env_file: .env
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.prod
     command: celery -A config worker -l info -Q default
     depends_on:
       db:
@@ -32,11 +38,25 @@ services:
       redis-queue:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "celery", "-A", "config", "inspect", "ping", "-d", "celery@$$HOSTNAME"]
+      # CMD-SHELL, а не CMD: exec-форма запускается без шелла и $HOSTNAME
+      # остался бы неразвёрнутой строкой, из-за чего проверка всегда падала
+      test: ["CMD-SHELL", "celery -A config inspect ping -d celery@$$HOSTNAME"]
       interval: 60s
       timeout: 10s
       retries: 3
       start_period: 20s
+
+  celery-beat:
+    build:
+      context: .
+      target: prod
+    env_file: .env
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.prod
+    command: celery -A config beat -l info
+    depends_on:
+      redis-queue:
+        condition: service_healthy
 
   db:
     image: postgres:16-alpine

@@ -42,6 +42,16 @@ def test_reset_request_case_insensitive(api_client, user):
     assert len(mail.outbox) == 1
 
 
+def test_reset_request_is_throttled(api_client, user):
+    """Scope email (5/hour): иначе эндпоинт превращается в рассылку писем жертве."""
+    for _ in range(5):
+        assert api_client.post(REQUEST_URL, {"email": user.email}, format="json").status_code == 202
+
+    response = api_client.post(REQUEST_URL, {"email": user.email}, format="json")
+    assert response.status_code == 429
+    assert response.data["error"]["code"] == "throttled"
+
+
 def test_reset_confirm_sets_new_password(api_client, user):
     api_client.post(REQUEST_URL, {"email": user.email}, format="json")
     params = extract_reset_params(mail.outbox[0])

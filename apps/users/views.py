@@ -1,12 +1,15 @@
+import logging
+
 from django.shortcuts import get_object_or_404
+from kombu.exceptions import OperationalError as BrokerUnavailable
 from rest_framework import generics, serializers, status
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-from rest_framework.throttling import ScopedRateThrottle
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken, TokenError
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+from apps.core.throttling import ScopedRateThrottle
 from apps.users import selectors, services, tasks, tokens
 from apps.users.models import Plan, User, UserDevice
 from apps.users.serializers import (
@@ -25,6 +28,17 @@ from apps.users.serializers import (
     SubscriptionSerializer,
 )
 
+logger = logging.getLogger(__name__)
+
+
+def enqueue_email(task, *args) -> None:
+    """Письмо — не критичный путь: недоступность брокера не должна валить
+    регистрацию или запрос сброса пароля 500-й ошибкой."""
+    try:
+        task.delay(*args)
+    except BrokerUnavailable:
+        logger.exception("Не удалось поставить письмо в очередь: %s", task.name)
+
 
 class RegisterView(APIView):
     permission_classes = [AllowAny]
@@ -34,8 +48,13 @@ class RegisterView(APIView):
     def post(self, request):
         serializer = RegisterSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        user = serializer.save()
-        tasks.send_email_verification.delay(user.id)
+        try:
+            user = serializer.save()
+        except services.EmailAlreadyTaken:
+            raise serializers.ValidationError(
+                {"email": ["Пользователь с таким email уже существует."]}
+            ) from None
+        enqueue_email(tasks.send_email_verification, user.id)
         return Response(
             {"public_id": str(user.public_id), "email": user.email},
             status=status.HTTP_201_CREATED,
@@ -59,6 +78,12 @@ class LogoutView(APIView):
         refresh = request.data.get("refresh")
         if not refresh:
             raise serializers.ValidationError({"refresh": ["Обязательное поле."]})
+
+        # Цепочка помечается завершённой явно: иначе повторный запрос с тем же
+        # токеном (in-flight, ретрай) выглядел бы как кража чужого токена
+        payload = tokens.decode_refresh_payload(refresh)
+        if payload is not None and payload.get("user_id") == str(request.user.id):
+            services.logout_chain(user=request.user, chain_id=payload.get(tokens.CHAIN_CLAIM))
         try:
             RefreshToken(refresh).blacklist()
         except TokenError:
@@ -80,7 +105,7 @@ class EmailVerifyRequestView(APIView):
 
     def post(self, request):
         if request.user.email_verified_at is None:
-            tasks.send_email_verification.delay(request.user.id)
+            enqueue_email(tasks.send_email_verification, request.user.id)
         return Response(status=status.HTTP_202_ACCEPTED)
 
 
@@ -106,7 +131,7 @@ class PasswordResetRequestView(APIView):
         serializer.is_valid(raise_exception=True)
         user = User.objects.filter(email=serializer.validated_data["email"], is_active=True).first()
         if user is not None:
-            tasks.send_password_reset.delay(user.id)
+            enqueue_email(tasks.send_password_reset, user.id)
         # Ответ одинаков независимо от существования аккаунта: иначе эндпоинт
         # превращается в проверялку «есть ли такой email в сервисе»
         return Response(status=status.HTTP_202_ACCEPTED)
@@ -169,12 +194,19 @@ class PasswordChangeView(APIView):
     def post(self, request):
         serializer = PasswordChangeSerializer(data=request.data, context={"request": request})
         serializer.is_valid(raise_exception=True)
+        # Привязка к устройству берётся из текущего access-токена: иначе новая
+        # пара теряет device_id и сессию больше нельзя отозвать через /me/devices
+        device = None
+        device_id = (request.auth.payload if request.auth else {}).get(tokens.DEVICE_CLAIM)
+        if device_id is not None:
+            device = UserDevice.objects.filter(id=device_id, user=request.user).first()
+
         services.change_password(
             user=request.user, new_password=serializer.validated_data["new_password"]
         )
         # Смена пароля отзывает все refresh-цепочки — текущему клиенту сразу
         # выдаём новую пару, чтобы пользователя не выкидывало из приложения
-        return Response(tokens.issue_tokens(request.user))
+        return Response(tokens.issue_tokens(request.user, device=device))
 
 
 class DeviceListView(generics.ListAPIView):

@@ -17,8 +17,9 @@ make up
 
 Без `make`: `docker compose -f docker-compose.yml -f compose.dev.yml up -d --build`.
 
-Поднимаются: `web` (Django), `celery` (фоновые задачи), `db` (PostgreSQL 16),
-`redis-cache` (кэш и троттлинг, allkeys-lru), `redis-queue` (брокер Celery, noeviction).
+Поднимаются: `web` (Django), `celery` и `celery-beat` (фоновые задачи и расписание),
+`db` (PostgreSQL 16), `redis-cache` (кэш и троттлинг, allkeys-lru),
+`redis-queue` (брокер Celery, noeviction).
 
 Полезное: `make test`, `make lint`, `make logs`, `make superuser`, `make migrate`.
 
@@ -43,12 +44,28 @@ make up
 | GET | `/api/v1/me/devices`, DELETE `/api/v1/me/devices/{id}` | устройства и их отзыв |
 | GET | `/api/v1/me/subscription`, `/api/v1/plans` | подписка и тарифы |
 
+## Отзыв токенов
+
+Два независимых уровня, чтобы отзыв бил ровно туда, куда нужно:
+
+- **цепочка** (claim `cid`) — одна последовательность refresh-токенов от одного входа.
+  Гасится выходом на устройстве и детектом кражи; остальные устройства не трогаются.
+  Повтор токена в пределах 10 секунд считается гонкой клиента, а не кражей.
+- **все токены пользователя** (claim `tv`) — гасятся сменой и сбросом пароля и «выйти везде».
+
+Access-токен живёт 15 минут и проверяется подписью без обращения к БД, поэтому отзыв
+прекращает доступ в пределах этого окна.
+
 ## Статус
 
 Готов «немузыкальный» контур: аутентификация (JWT с ротацией refresh, детект
 переиспользования токенов, привязка к устройству), профиль, тарифы и подписки,
 верификация email, сброс пароля, удаление аккаунта и экспорт данных.
-Инфраструктура: Docker Compose, Celery, два Redis, CI на GitHub Actions.
+Инфраструктура: Docker Compose, Celery с расписанием, два Redis, CI на GitHub Actions.
+
+Известное отклонение от [ARCHITECTURE.md](ARCHITECTURE.md) §7.4: refresh-токен пока
+отдаётся и принимается только в теле запроса. Cookie-контур для веба (httpOnly,
+`Path=/api/v1/auth/`) появится вместе с веб-клиентом.
 
 Дальше по [ARCHITECTURE.md](ARCHITECTURE.md): каталог, стриминг, поиск.
 

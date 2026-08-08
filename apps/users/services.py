@@ -1,15 +1,26 @@
 """Публичный API приложения users: вся запись — только через эти функции."""
 
-from django.db import transaction
+from django.db import IntegrityError, transaction
 from django.utils import timezone
 
 from apps.users import tokens
-from apps.users.models import User, UserDevice, UserProfile
+from apps.users.models import ChainRevocationReason, User, UserDevice, UserProfile
+
+
+class EmailAlreadyTaken(Exception):
+    """Email занят — гонка между проверкой уникальности и вставкой."""
 
 
 @transaction.atomic
 def register_user(*, email: str, password: str, display_name: str) -> User:
-    return User.objects.create_user(email=email, password=password, display_name=display_name)
+    """Уникальность email проверяется сериализатором, но между проверкой и
+    вставкой проходит хэширование пароля — на этом окне два параллельных
+    запроса могут разойтись, поэтому источником истины остаётся БД.
+    """
+    try:
+        return User.objects.create_user(email=email, password=password, display_name=display_name)
+    except IntegrityError as exc:
+        raise EmailAlreadyTaken from exc
 
 
 @transaction.atomic
@@ -31,7 +42,17 @@ def confirm_email(*, user: User) -> User:
 
 
 def logout_everywhere(*, user: User) -> None:
+    """Выход на всех устройствах: гасит все цепочки пользователя."""
     tokens.revoke_all_tokens(user)
+
+
+def revoke_token_chain(*, user: User, chain_id, reason: str) -> None:
+    """Гасит одну цепочку refresh-токенов: остальные сессии продолжают жить."""
+    tokens.revoke_chain(user=user, chain_id=chain_id, reason=reason)
+
+
+def logout_chain(*, user: User, chain_id) -> None:
+    revoke_token_chain(user=user, chain_id=chain_id, reason=ChainRevocationReason.LOGOUT)
 
 
 @transaction.atomic

@@ -15,6 +15,8 @@ urlpatterns = [
     path("api/v1/schema/", SpectacularAPIView.as_view(), name="schema"),
 ]
 
+handler500 = "apps.core.exceptions.server_error"
+
 if settings.DEBUG:
     urlpatterns += [
         path("api/v1/docs/", SpectacularSwaggerView.as_view(url_name="schema")),

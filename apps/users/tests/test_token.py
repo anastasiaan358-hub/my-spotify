@@ -58,11 +58,11 @@ def test_refresh_rotates_and_blacklists_old(api_client, tokens):
     second = api_client.post(REFRESH_URL, {"refresh": first.data["refresh"]}, format="json")
     assert second.status_code == 200
 
-    # повторное использование уже ротированного refresh — отказ
-    # (последствия для всей цепочки проверяются в test_token_revocation.py)
+    # мгновенный повтор ротированного refresh — это гонка клиента, а не кража:
+    # отказ есть, сессия жива (детект кражи проверяется в test_token_revocation.py)
     replay = api_client.post(REFRESH_URL, {"refresh": tokens["refresh"]}, format="json")
     assert replay.status_code == 401
-    assert replay.data["error"]["code"] == "token_reuse_detected"
+    assert replay.data["error"]["code"] == "token_not_valid"
 
 
 def test_logout_blacklists_refresh(api_client, auth_client, tokens):

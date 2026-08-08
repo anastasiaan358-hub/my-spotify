@@ -40,6 +40,16 @@ def test_verify_flow(api_client, auth_client, user):
     assert auth_client.get("/api/v1/me").data["email_verified"] is True
 
 
+def test_verify_request_is_throttled(auth_client):
+    """Scope email (5/hour) — защита от использования сервиса как мейл-бомбы."""
+    for _ in range(5):
+        assert auth_client.post(REQUEST_URL).status_code == 202
+
+    response = auth_client.post(REQUEST_URL)
+    assert response.status_code == 429
+    assert response.data["error"]["code"] == "throttled"
+
+
 def test_verify_request_requires_auth(api_client):
     assert api_client.post(REQUEST_URL).status_code == 401
 

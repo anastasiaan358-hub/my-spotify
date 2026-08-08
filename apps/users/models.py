@@ -151,6 +151,34 @@ class Subscription(TimeStampedModel):
         return f"{self.user_id}:{self.plan_id}:{self.status}"
 
 
+class ChainRevocationReason(models.TextChoices):
+    LOGOUT = "logout"
+    REUSE = "reuse"
+
+
+class RevokedTokenChain(models.Model):
+    """Отозванная цепочка refresh-токенов (claim `cid`).
+
+    Нужна, чтобы отзыв бил точечно: выход на одном устройстве и детект кражи
+    гасят одну цепочку, а не все сессии пользователя (для этого есть
+    token_version). Строки живут не дольше самого refresh-токена и удаляются
+    ночной задачей.
+    """
+
+    chain_id = models.UUIDField(unique=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="revoked_chains")
+    reason = models.CharField(max_length=16, choices=ChainRevocationReason.choices)
+    expires_at = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = "revoked_token_chains"
+        indexes = [models.Index(fields=["expires_at"])]
+
+    def __str__(self):
+        return f"{self.chain_id}:{self.reason}"
+
+
 class DeviceKind(models.TextChoices):
     WEB = "web"
     ANDROID = "android"

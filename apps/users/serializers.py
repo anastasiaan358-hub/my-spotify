@@ -1,4 +1,5 @@
 import json
+import uuid
 
 from django.contrib.auth.password_validation import validate_password
 from django.contrib.auth.tokens import default_token_generator
@@ -9,7 +10,15 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer, Toke
 from rest_framework_simplejwt.tokens import RefreshToken
 
 from apps.users import services, tokens
-from apps.users.models import DeviceKind, Plan, Subscription, User, UserDevice, UserProfile
+from apps.users.models import (
+    ChainRevocationReason,
+    DeviceKind,
+    Plan,
+    Subscription,
+    User,
+    UserDevice,
+    UserProfile,
+)
 
 SETTINGS_MAX_BYTES = 4096
 
@@ -51,6 +60,7 @@ class EmailTokenObtainPairSerializer(TokenObtainPairSerializer):
     def get_token(cls, user):
         token = super().get_token(user)
         token[tokens.TOKEN_VERSION_CLAIM] = user.token_version
+        token[tokens.CHAIN_CLAIM] = uuid.uuid4().hex
         return token
 
     def validate(self, attrs):
@@ -72,12 +82,11 @@ class EmailTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 
 class DeviceAwareTokenRefreshSerializer(TokenRefreshSerializer):
-    """Ротация refresh с тремя проверками поверх стандартной (§7.4).
+    """Ротация refresh с проверками поверх стандартной (§7.4).
 
-    1) Переиспользование уже ротированного токена — признак кражи: инвалидируем
-       всю цепочку пользователя, а не только предъявленный токен.
-    2) Версия токенов: смена пароля и logout-all убивают старые цепочки.
-    3) Устройство не отозвано.
+    Порядок проверок важен и разделяет три разных ситуации, которые внешне
+    выглядят одинаково: токен отозван явным действием владельца, цепочка
+    завершена выходом, токен предъявлен повторно.
     """
 
     def validate(self, attrs):
@@ -87,18 +96,30 @@ class DeviceAwareTokenRefreshSerializer(TokenRefreshSerializer):
 
         user = User.objects.filter(pk=payload.get("user_id")).first()
 
-        # Порядок проверок важен: версия сверяется первой. Иначе токен, отозванный
-        # явным действием владельца (смена пароля, logout-all), выглядел бы как
-        # кража и запускал ещё один каскад отзыва.
+        # 1. Версия токенов: смена/сброс пароля и «выйти везде» гасят всё разом.
         if user is None or payload.get(tokens.TOKEN_VERSION_CLAIM) != user.token_version:
             raise exceptions.AuthenticationFailed("Токен отозван.", code="token_revoked")
 
-        # Версия актуальна, но jti в блеклисте — предъявлен уже ротированный токен
-        # живой цепочки, то есть у кого-то есть его копия: гасим всю цепочку.
-        if tokens.is_blacklisted(payload):
-            services.logout_everywhere(user=user)
+        # 2. Цепочка завершена (выход на устройстве или ранее пойманный реюз).
+        chain_id = payload.get(tokens.CHAIN_CLAIM)
+        if tokens.is_chain_revoked(chain_id):
+            raise exceptions.AuthenticationFailed("Токен отозван.", code="token_revoked")
+
+        # 3. Токен уже ротирован. Свежий повтор — это гонка клиента (ретрай,
+        # параллельные запросы при возврате из фона), и отзывать за неё нельзя.
+        # Старый повтор означает, что копия токена есть у кого-то ещё: гасим
+        # ровно эту цепочку, остальные устройства пользователя не трогаем.
+        entry = tokens.get_blacklist_entry(payload)
+        if entry is not None:
+            if tokens.is_recent_blacklist(entry):
+                raise exceptions.AuthenticationFailed(
+                    "Токен уже был обновлён.", code="token_not_valid"
+                )
+            services.revoke_token_chain(
+                user=user, chain_id=chain_id, reason=ChainRevocationReason.REUSE
+            )
             raise exceptions.AuthenticationFailed(
-                "Обнаружено повторное использование refresh-токена, все сессии завершены.",
+                "Обнаружено повторное использование refresh-токена, сессия завершена.",
                 code="token_reuse_detected",
             )
 

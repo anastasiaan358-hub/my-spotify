@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.core.cache import cache
 from django.db import OperationalError, connection
 from django.http import JsonResponse
@@ -15,23 +16,45 @@ def healthz(request):
     return JsonResponse({"status": "ok"})
 
 
-def readyz(request):
-    """Readiness: PostgreSQL + Redis-кэш. Отказ = ноду надо вывести из ротации."""
-    checks = {}
-
+def _check_database() -> str:
     try:
         with connection.cursor() as cursor:
             cursor.execute("SELECT 1")
-        checks["database"] = "ok"
     except OperationalError:
-        checks["database"] = "unavailable"
+        return "unavailable"
+    return "ok"
 
+
+def _check_cache() -> str:
     try:
         cache.set("readyz", "1", timeout=5)
-        checks["cache"] = "ok" if cache.get("readyz") == "1" else "unavailable"
+        return "ok" if cache.get("readyz") == "1" else "unavailable"
     except Exception:
-        checks["cache"] = "unavailable"
+        return "unavailable"
 
+
+def _check_broker() -> str:
+    """Брокер Celery: без него регистрация и сброс пароля теряют письма."""
+    import redis
+
+    if getattr(settings, "CELERY_TASK_ALWAYS_EAGER", False):
+        return "ok"  # задачи выполняются на месте, брокер не нужен
+
+    try:
+        client = redis.from_url(settings.CELERY_BROKER_URL, socket_connect_timeout=2)
+        client.ping()
+    except Exception:
+        return "unavailable"
+    return "ok"
+
+
+def readyz(request):
+    """Readiness: PostgreSQL + оба Redis (§7.13). Отказ = ноду вывести из ротации."""
+    checks = {
+        "database": _check_database(),
+        "cache": _check_cache(),
+        "broker": _check_broker(),
+    }
     healthy = all(value == "ok" for value in checks.values())
     return JsonResponse(
         {"status": "ready" if healthy else "unavailable", "checks": checks},

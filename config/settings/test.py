@@ -1,6 +1,7 @@
 from .base import *  # noqa: F403
 
-SECRET_KEY = env("SECRET_KEY", default="test-only-secret-key")  # noqa: F405
+# SECRET_KEY и DATABASE_URL приходят из окружения: base.py требует их без
+# дефолтов, поэтому переопределить их здесь уже поздно (см. Makefile и CI)
 DEBUG = False
 ALLOWED_HOSTS = ["testserver", "localhost"]
 

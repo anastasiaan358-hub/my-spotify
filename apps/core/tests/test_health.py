@@ -25,7 +25,7 @@ def test_readyz_ok(client):
     assert response.status_code == 200
     body = response.json()
     assert body["status"] == "ready"
-    assert body["checks"] == {"database": "ok", "cache": "ok"}
+    assert body["checks"] == {"database": "ok", "cache": "ok", "broker": "ok"}
 
 
 @pytest.mark.django_db
@@ -43,6 +43,16 @@ def test_readyz_503_when_cache_is_down(client):
         response = client.get("/readyz")
     assert response.status_code == 503
     assert response.json()["checks"]["cache"] == "unavailable"
+
+
+@pytest.mark.django_db
+def test_readyz_503_when_broker_is_down(client, settings):
+    """Без брокера письма регистрации и сброса пароля теряются — нода не готова."""
+    settings.CELERY_TASK_ALWAYS_EAGER = False
+    settings.CELERY_BROKER_URL = "redis://127.0.0.1:6399/0"  # порт, где никого нет
+    response = client.get("/readyz")
+    assert response.status_code == 503
+    assert response.json()["checks"]["broker"] == "unavailable"
 
 
 def test_ping_is_public(client):

@@ -27,6 +27,15 @@ class UserAdmin(DjangoUserAdmin):
     )
     add_fieldsets = ((None, {"classes": ("wide",), "fields": ("email", "password1", "password2")}),)
 
+    def save_model(self, request, obj, form, change):
+        """Форма админки сохраняет объект напрямую, минуя UserManager, — а профиль
+        создаётся именно там. Без этого созданный в админке пользователь ронял
+        /me в 500."""
+        super().save_model(request, obj, form, change)
+        UserProfile.objects.get_or_create(
+            user=obj, defaults={"display_name": obj.email.split("@")[0]}
+        )
+
 
 @admin.register(Plan)
 class PlanAdmin(admin.ModelAdmin):

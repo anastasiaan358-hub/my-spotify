@@ -68,6 +68,18 @@ def test_me_patch_cannot_change_email(auth_client, user):
     assert user.email != "hax@example.com"
 
 
+def test_password_change_rejects_weak_new_password(auth_client, user):
+    response = auth_client.post(
+        "/api/v1/me/password",
+        {"current_password": PASSWORD, "new_password": "12345678"},
+        format="json",
+    )
+    assert response.status_code == 400
+    assert "new_password" in response.data["error"]["details"]
+    user.refresh_from_db()
+    assert user.check_password(PASSWORD)
+
+
 def test_password_change_wrong_current(auth_client):
     response = auth_client.post(
         "/api/v1/me/password",
