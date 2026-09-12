@@ -1,6 +1,3 @@
-import logging
-
-from kombu.exceptions import OperationalError as BrokerUnavailable
 from rest_framework import exceptions, generics, serializers, status
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
@@ -9,33 +6,19 @@ from rest_framework_simplejwt.tokens import RefreshToken, TokenError
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from apps.core.throttling import ScopedRateThrottle
-from apps.users import selectors, services, tasks, tokens
+from apps.users import selectors, services, tokens
 from apps.users.serializers import (
     AccountDeleteSerializer,
     DeviceAwareTokenRefreshSerializer,
     DeviceSerializer,
-    EmailTokenObtainPairSerializer,
-    EmailVerifyConfirmSerializer,
     MeSerializer,
     PasswordChangeSerializer,
-    PasswordResetConfirmSerializer,
-    PasswordResetRequestSerializer,
     PlanSerializer,
     ProfileSerializer,
     RegisterSerializer,
     SubscriptionSerializer,
+    UsernameTokenObtainPairSerializer,
 )
-
-logger = logging.getLogger(__name__)
-
-
-def enqueue_email(task, *args) -> None:
-    """Письмо — не критичный путь: недоступность брокера не должна валить
-    регистрацию или запрос сброса пароля 500-й ошибкой."""
-    try:
-        task.delay(*args)
-    except BrokerUnavailable:
-        logger.exception("Не удалось поставить письмо в очередь: %s", task.name)
 
 
 class RegisterView(APIView):
@@ -48,19 +31,18 @@ class RegisterView(APIView):
         serializer.is_valid(raise_exception=True)
         try:
             user = serializer.save()
-        except services.EmailAlreadyTaken:
+        except services.UsernameAlreadyTaken:
             raise serializers.ValidationError(
-                {"email": ["Пользователь с таким email уже существует."]}
+                {"username": ["Пользователь с таким логином уже существует."]}
             ) from None
-        enqueue_email(tasks.send_email_verification, user.id)
         return Response(
-            {"public_id": str(user.public_id), "email": user.email},
+            {"public_id": str(user.public_id), "username": user.username},
             status=status.HTTP_201_CREATED,
         )
 
 
 class TokenObtainView(TokenObtainPairView):
-    serializer_class = EmailTokenObtainPairSerializer
+    serializer_class = UsernameTokenObtainPairSerializer
     throttle_classes = [ScopedRateThrottle]
     throttle_scope = "auth"
 
@@ -94,59 +76,6 @@ class LogoutAllView(APIView):
 
     def post(self, request):
         services.logout_everywhere(user=request.user)
-        return Response(status=status.HTTP_204_NO_CONTENT)
-
-
-class EmailVerifyRequestView(APIView):
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "email"
-
-    def post(self, request):
-        if request.user.email_verified_at is None:
-            enqueue_email(tasks.send_email_verification, request.user.id)
-        return Response(status=status.HTTP_202_ACCEPTED)
-
-
-class EmailVerifyConfirmView(APIView):
-    permission_classes = [AllowAny]
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "auth"
-
-    def post(self, request):
-        serializer = EmailVerifyConfirmSerializer(data=request.data, context={})
-        serializer.is_valid(raise_exception=True)
-        services.confirm_email(user=serializer.context["target_user"])
-        return Response(status=status.HTTP_204_NO_CONTENT)
-
-
-class PasswordResetRequestView(APIView):
-    permission_classes = [AllowAny]
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "email"
-
-    def post(self, request):
-        serializer = PasswordResetRequestSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        user = selectors.get_active_user_by_email(serializer.validated_data["email"])
-        if user is not None:
-            enqueue_email(tasks.send_password_reset, user.id)
-        # Ответ одинаков независимо от существования аккаунта: иначе эндпоинт
-        # превращается в проверялку «есть ли такой email в сервисе»
-        return Response(status=status.HTTP_202_ACCEPTED)
-
-
-class PasswordResetConfirmView(APIView):
-    permission_classes = [AllowAny]
-    throttle_classes = [ScopedRateThrottle]
-    throttle_scope = "auth"
-
-    def post(self, request):
-        serializer = PasswordResetConfirmSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        services.change_password(
-            user=serializer.validated_data["user"],
-            new_password=serializer.validated_data["new_password"],
-        )
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 

@@ -10,10 +10,6 @@ from django.utils import timezone
 from apps.users.models import LIVE_SUBSCRIPTION_STATUSES, Plan, Subscription, User, UserDevice
 
 
-def get_active_user_by_email(email: str) -> User | None:
-    return User.objects.filter(email=email, is_active=True).first()
-
-
 def get_active_subscription(user: User) -> Subscription | None:
     return (
         user.subscriptions.select_related("plan")

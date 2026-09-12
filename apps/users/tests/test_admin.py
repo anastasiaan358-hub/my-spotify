@@ -1,7 +1,8 @@
 """Админка как путь записи мимо UserManager.
 
-Форма админки сохраняет объект напрямую, поэтому нормализацию email здесь
-обеспечивает User.clean(), а профиль — UserAdmin.save_model.
+Форма сохраняет объект напрямую, поэтому нормализацию логина обеспечивает
+User.normalize_username через AbstractBaseUser.clean(), а профиль —
+UserAdmin.save_model.
 """
 
 import pytest
@@ -26,36 +27,36 @@ INLINE = {
 
 @pytest.fixture
 def staff_client(client):
-    admin = User.objects.create_superuser(email="admin@example.com", password=PASSWORD)
+    admin = User.objects.create_superuser(username="admin", password=PASSWORD)
     client.force_login(admin)
     return client
 
 
-def add_user(staff_client, email):
+def add_user(staff_client, username):
     return staff_client.post(
         ADD_URL,
-        {"email": email, "password1": PASSWORD, "password2": PASSWORD, **INLINE},
+        {"username": username, "password1": PASSWORD, "password2": PASSWORD, **INLINE},
     )
 
 
 def test_admin_created_user_is_normalized_and_can_log_in(staff_client, api_client):
-    response = add_user(staff_client, "Mixed.Case@Example.COM")
+    response = add_user(staff_client, "MixedCase")
     assert response.status_code == 302, response.context["adminform"].form.errors
 
-    user = User.objects.get(email="mixed.case@example.com")
-    assert user.profile.display_name == "mixed.case"
+    user = User.objects.get(username="mixedcase")
+    assert user.profile.display_name == "mixedcase"
 
-    # Вход ищет пользователя по lowercase-адресу: до нормализации в clean()
-    # заведённый в админке аккаунт здесь получал бы 401
+    # Вход ищет аккаунт по нормализованному логину: без normalize_username
+    # заведённый в админке пользователь получал бы здесь 401
     login = api_client.post(
-        TOKEN_URL, {"email": "Mixed.Case@Example.COM", "password": PASSWORD}, format="json"
+        TOKEN_URL, {"username": "MixedCase", "password": PASSWORD}, format="json"
     )
     assert login.status_code == 200, login.data
 
 
-def test_admin_rejects_email_differing_only_in_case(staff_client, user):
+def test_admin_rejects_username_differing_only_in_case(staff_client, user):
     """Дубль по регистру — ошибка валидации формы, а не IntegrityError."""
-    response = add_user(staff_client, user.email.upper())
+    response = add_user(staff_client, user.username.upper())
     assert response.status_code == 200  # форма переотрисована с ошибкой
-    assert "email" in response.context["adminform"].form.errors
-    assert User.objects.filter(email__iexact=user.email).count() == 1
+    assert "username" in response.context["adminform"].form.errors
+    assert User.objects.filter(username__iexact=user.username).count() == 1
