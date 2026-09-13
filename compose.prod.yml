@@ -1,0 +1,79 @@
+# Прод-оверрайд. Разворачивается на прод-машине поверх базового файла:
+#   docker compose -f docker-compose.yml -f compose.prod.yml pull
+#   docker compose -f docker-compose.yml -f compose.prod.yml up -d
+#
+# Чем отличается от базового:
+#   - образ берётся из ghcr, собранный CI: на проде ничего не собирается,
+#     поэтому там не нужны ни исходники, ни тулчейн;
+#   - порты биндятся на 127.0.0.1: наружу приложение выходит через туннель или
+#     обратный прокси, а не напрямую с сетевого интерфейса;
+#   - MinIO как замена Cloudflare R2 на первом этапе (ARCHITECTURE.md §4.5).
+#
+# Миграции здесь НЕ выполняются командой контейнера, в отличие от
+# compose.dev.yml: при нескольких воркерах это гонка. Это отдельный шаг
+# деплоя, см. DEPLOY.md.
+
+x-logging: &logging
+  driver: json-file
+  options:
+    # Прод живёт на ноутбуке: без ротации логи съедят диск за несколько недель
+    max-size: "10m"
+    max-file: "3"
+
+x-app: &app
+  # Базовый файл собирает образ локально; в проде сборки быть не должно
+  build: !reset null
+  image: "${APP_IMAGE:?укажите образ, например ghcr.io/lokehoke/my-spotify с тегом}"
+  restart: unless-stopped
+  logging: *logging
+
+services:
+  web:
+    <<: *app
+    # Только на петле: TLS и заголовок X-Forwarded-Proto, на который смотрит
+    # SECURE_PROXY_SSL_HEADER из prod.py, ставит туннель перед приложением
+    ports: !override
+      - "127.0.0.1:8000:8000"
+
+  celery:
+    <<: *app
+
+  celery-beat:
+    <<: *app
+
+  db:
+    restart: unless-stopped
+    logging: *logging
+
+  redis-cache:
+    restart: unless-stopped
+    logging: *logging
+
+  redis-queue:
+    restart: unless-stopped
+    logging: *logging
+
+  # Замена R2 на первом этапе. Наружу пока не публикуется: клиентам аудио
+  # понадобится вместе с подключением django-storages, тогда MinIO уедет за
+  # тот же прокси, что и приложение
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: "${MINIO_ROOT_USER:?задайте в .env — дефолтные креды в проде недопустимы}"
+      MINIO_ROOT_PASSWORD: "${MINIO_ROOT_PASSWORD:?задайте в .env — дефолтные креды в проде недопустимы}"
+    ports:
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"
+    volumes:
+      - miniodata:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    logging: *logging
+
+volumes:
+  miniodata:
