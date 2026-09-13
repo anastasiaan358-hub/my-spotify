@@ -1,0 +1,119 @@
+name: Release
+
+# Образ собирается на каждый коммит в main — чтобы на проде всегда было что
+# развернуть. Деплой отдельно и осознанно: по тегу или руками.
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+concurrency:
+  group: release-${{ github.ref }}
+  # Деплой прерывать нельзя: миграции уже могли примениться
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  image:
+    name: Сборка и публикация образа
+    runs-on: ubuntu-latest
+    outputs:
+      image: ${{ steps.ref.outputs.image }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: docker/metadata-action@v5
+        id: meta
+        with:
+          images: ghcr.io/${{ github.repository }}
+          # latest — только с main: с тега он бы уехал на старый коммит
+          tags: |
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+            type=sha,prefix=sha-,format=short
+            type=semver,pattern={{version}}
+
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          target: prod
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          # Слой с зависимостями меняется редко — кэш экономит минуты сборки
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # Деплою нужен ровно один адрес образа, а metadata-action отдаёт список
+      - id: ref
+        run: |
+          short=$(echo "${{ github.sha }}" | cut -c1-7)
+          echo "image=ghcr.io/${{ github.repository }}:sha-$short" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    name: Деплой на прод
+    needs: image
+    # На push в main только собираем. Разворачиваем по тегу или вручную
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
+    # Прод-машина стоит дома за NAT, снаружи до неё не достучаться. Self-hosted
+    # раннер сам опрашивает GitHub, поэтому проброс портов не нужен
+    runs-on: [self-hosted, prod]
+    env:
+      # Имя проекта фиксируем: иначе при смене рабочей папки раннера compose
+      # заведёт новый набор контейнеров и томов, то есть потеряет данные
+      COMPOSE_PROJECT_NAME: my-spotify
+      COMPOSE_FILES: -f docker-compose.yml -f compose.prod.yml
+      APP_IMAGE: ${{ needs.image.outputs.image }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Секреты прода живут на машине, а не в репозитории и не в переменных
+      # GitHub: рабочую папку раннер пересоздаёт, поэтому кладём их перед стартом
+      - name: Подложить прод-окружение
+        run: cp /opt/my-spotify/.env .env
+
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Забрать образ
+        run: docker compose $COMPOSE_FILES pull
+
+      # Отдельным шагом до старта новых контейнеров: в compose.prod.yml миграции
+      # намеренно не зашиты в команду, иначе несколько воркеров погонятся
+      - name: Миграции
+        run: docker compose $COMPOSE_FILES run --rm web python manage.py migrate --noinput
+
+      - name: Поднять
+        run: docker compose $COMPOSE_FILES up -d --remove-orphans
+
+      - name: Дождаться готовности
+        run: |
+          for _ in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8000/readyz > /dev/null; then
+              echo "прод отвечает на /readyz"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "не поднялся за минуту, последние логи:"
+          docker compose $COMPOSE_FILES logs --tail=50 web
+          exit 1
+
+      # Старые образы копятся быстрее, чем кажется, а место на ноутбуке конечно
+      - name: Подчистить старые образы
+        if: always()
+        run: docker image prune -f

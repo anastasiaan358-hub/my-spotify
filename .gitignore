@@ -17,6 +17,8 @@ venv/
 .env
 .env.*
 !.env.example
+# Пример прод-окружения: значения в нём фиктивные, секретов нет
+!.env.prod.example
 
 # Node / frontend
 node_modules/
