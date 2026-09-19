@@ -1,9 +1,9 @@
 {
   "generatedAt": "2026-09-16T20:27:18.431343+00:00",
   "method": "Curated YouTube search; YouTube player/oEmbed availability audit; exact-title search in Internet Archive, Wikimedia Commons and Openverse for remaining works",
-  "totalWorks": 20,
-  "availableCount": 20,
-  "youtubeCount": 20,
+  "totalWorks": 21,
+  "availableCount": 21,
+  "youtubeCount": 21,
   "externalAudioCount": 0,
   "missingCount": 0,
   "works": {
@@ -218,6 +218,18 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=H7H9SASa3aM",
       "youtubeTitle": "The Music of Ancient Greece - \"Hymn To The Sun\"",
       "channel": "Michael Levy",
+      "durationSeconds": null,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-oembed"
+    },
+    "mesomedes-nemesis": {
+      "workId": "mesomedes-nemesis",
+      "title": "Гимн Немезиде",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WhKj0UPkCb0",
+      "youtubeTitle": "Ancient Greek Music - Hymn to Nemesis",
+      "channel": "Macedonian Always Greek",
       "durationSeconds": null,
       "playbackStatus": "playable",
       "interpretation": "notation-performance",

@@ -14,7 +14,7 @@ describe('ancient literature catalog', () => {
   it('публикует только памятники с нотацией или доступной записью', () => {
     const works = ancientTraditions.flatMap((tradition) => tradition.works)
 
-    expect(works).toHaveLength(20)
+    expect(works).toHaveLength(21)
     expect(works.every((work) =>
       work.evidence === 'notation' || ancientRecordedWorkIds.has(work.id),
     )).toBe(true)

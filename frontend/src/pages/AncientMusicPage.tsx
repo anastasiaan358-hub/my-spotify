@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { ExternalLink, FileText, GitBranch, Landmark, Music2, Play, Search } from 'lucide-react'
+import { BookOpen, ExternalLink, FileText, GitBranch, Landmark, Music2, Play, Search } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import type { AncientPlaybackCatalog, AncientPlaybackWork } from '../features/ancient-music/model/ancientPlayback'
+import { pendingAncientDocumentCount } from '../features/ancient-music/model/ancientAcademicResearch'
 import {
   ancientTraditions,
   ancientWorkCount,
@@ -108,10 +110,15 @@ export function AncientMusicPage() {
           <span className="mono-label">00 / КАК ЧИТАТЬ КАТАЛОГ</span>
           <h2 id="ancient-method-heading">ЧТО ИМЕННО СОХРАНИЛОСЬ</h2>
         </div>
-        <div className="ancient-method__legend">
-          <span><Music2 size={15} /> <b>Сохранилась нотация</b> — есть древние музыкальные знаки или инструкции.</span>
-          <span><FileText size={15} /> <b>Текст / мелодия утрачена</b> — сохранились слова песни или гимна, но не музыка.</span>
-          <span><Play size={15} /> <b>Запись найдена</b> — подлинная нотация исполнена, либо современная интерпретация помечена отдельно.</span>
+        <div className="ancient-method__research">
+          <div className="ancient-method__legend">
+            <span><Music2 size={15} /> <b>Сохранилась нотация</b> — есть древние музыкальные знаки или инструкции.</span>
+            <span><FileText size={15} /> <b>Текст / мелодия утрачена</b> — сохранились слова песни или гимна, но не музыка.</span>
+            <span><Play size={15} /> <b>Запись найдена</b> — подлинная нотация исполнена, либо современная интерпретация помечена отдельно.</span>
+          </div>
+          <Link className="ancient-research-link" to="/ancient-music/research">
+            <BookOpen size={16} /> Академический обзор и другие памятники <span>{pendingAncientDocumentCount}</span>
+          </Link>
         </div>
       </section>
 

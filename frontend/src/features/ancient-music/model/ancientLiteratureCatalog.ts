@@ -440,6 +440,20 @@ const allAncientLiteratureRecords: AncientLiteratureRecord[] = [
       oxfordAncientMusic,
     ],
   }),
+  add('mesomedes-nemesis', {
+    language: 'Древнегреческий',
+    genre: 'Гимн Немезиде',
+    relationship: 'Поэтический текст и древнегреческая вокальная нотация передавались вместе в рукописях.',
+    description: 'Месомед обращается к крылатой Немезиде как к дочери Правосудия, сдерживающей человеческую гордыню и измеряющей жизнь. Вторая часть соединяет её с Никой и наказанием высокомерия.',
+    survival: 'Гимн сохранился через средневековую рукописную традицию вместе с буквенной нотацией. Текст и мелодический контур древние, тогда как темп, сопровождение, строй и состав инструментов определяет современный исполнитель.',
+    manuscript: 'Средневековые греческие рукописи с древней буквенной вокальной нотацией; DAGM 28.',
+    history: mesomedesTransmission,
+    themes: ['Немезида и правосудие', 'Наказание гордыни', 'Весы и мера человеческой жизни', 'Ника как спутница справедливости'],
+    sources: [
+      { label: 'Ancient Greek Music: The Melodies — Hymn to Nemesis', reference: 'Академический указатель Стефана Хагеля: Месомед, II век н. э., рукописная передача, DAGM 28.', url: 'https://www.oeaw.ac.at/kal/agm/docum/main.htm', kind: 'Цифровое издание' },
+      { label: 'Ancient Music at Oxford: Hymn to Nemesis', reference: 'Оксфордская программа исполнения: текст и мелодия Месомеда, современное сопровождение обозначено отдельно.', url: 'https://ancientmusicoxford.site.ox.ac.uk/programme', kind: 'Исследование' },
+    ],
+  }),
   add('mesomedes-calliope-apollo', {
     language: 'Древнегреческий',
     genre: 'Двойное prooimion Каллиопе и Аполлону',

@@ -88,7 +88,24 @@ describe('App', () => {
     expect(screen.getByText('Гимн храму Кеша')).toBeInTheDocument()
     expect(screen.getByText('Хурритский гимн Никкаль h.6')).toBeInTheDocument()
     expect(screen.getByText('Первый Дельфийский гимн Аполлону')).toBeInTheDocument()
-    expect(screen.getAllByRole('link', { name: /В литературе: открыть историю текста/i })).toHaveLength(20)
+    expect(screen.getByText('Гимн Немезиде')).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: /В литературе: открыть историю текста/i })).toHaveLength(21)
+    expect(screen.getByRole('link', { name: /Академический обзор и другие памятники/i })).toHaveAttribute('href', '/ancient-music/research')
+  })
+
+  it('показывает академический обзор и реестр других памятников', () => {
+    window.history.replaceState({}, '', '/ancient-music/research')
+    render(<AppProviders><App /></AppProviders>)
+
+    expect(screen.getByRole('heading', { name: 'АКАДЕМИЧЕСКИЙ ОБЗОР', level: 1 })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'ДРУГИЕ ПАМЯТНИКИ' })).toBeInTheDocument()
+    expect(screen.getByText('P.Zenon 59 533')).toBeInTheDocument()
+    expect(screen.getByText('P.Oxy. 3705')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'КОРОТКИЕ ДОКУМЕНТЫ' })).toBeInTheDocument()
+    expect(screen.getByText('Сигнал трубы из Элевсина')).toBeInTheDocument()
+    expect(screen.getByText('Фрагменты «Ифигении в Авлиде»')).toBeInTheDocument()
+    expect(screen.getAllByRole('listitem')).toHaveLength(50)
+    expect(screen.getByText('Музыкально-теоретические системы')).toBeInTheDocument()
   })
 
   it('открывает полную литературную историю музыкального памятника', () => {
