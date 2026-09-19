@@ -88,7 +88,7 @@ describe('App', () => {
     expect(screen.getByText('Гимн храму Кеша')).toBeInTheDocument()
     expect(screen.getByText('Хурритский гимн Никкаль h.6')).toBeInTheDocument()
     expect(screen.getByText('Первый Дельфийский гимн Аполлону')).toBeInTheDocument()
-    expect(screen.getAllByRole('link', { name: /В литературе: открыть историю текста/i })).toHaveLength(31)
+    expect(screen.getAllByRole('link', { name: /В литературе: открыть историю текста/i })).toHaveLength(20)
   })
 
   it('открывает полную литературную историю музыкального памятника', () => {

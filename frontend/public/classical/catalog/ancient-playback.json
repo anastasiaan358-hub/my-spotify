@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-09-16T20:27:18.431343+00:00",
   "method": "Curated YouTube search; YouTube player/oEmbed availability audit; exact-title search in Internet Archive, Wikimedia Commons and Openverse for remaining works",
-  "totalWorks": 31,
+  "totalWorks": 20,
   "availableCount": 20,
   "youtubeCount": 20,
   "externalAudioCount": 0,
-  "missingCount": 11,
+  "missingCount": 0,
   "works": {
     "kesh-temple-hymn": {
       "workId": "kesh-temple-hymn",
@@ -248,61 +248,5 @@
       "verification": "youtube-player-and-oembed"
     }
   },
-  "missing": [
-    {
-      "workId": "temple-hymns",
-      "title": "Собрание храмовых гимнов",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "hymn-inanna",
-      "title": "Гимн Инанне",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "inanna-ebih",
-      "title": "Инанна и Эбих",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "shulgi-a",
-      "title": "Гимн Шульги A",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "iah-hymn",
-      "title": "Гимн Иаху, богу Луны",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "sargon-nanaya",
-      "title": "Гимн Нанайе Саргона II",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "ashurbanipal-ashur",
-      "title": "Гимн Ашшурбанипала Ашшуру",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "ashurbanipal-marduk",
-      "title": "Акростихический гимн Мардуку и Царпаниту",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "ashurbanipal-nanaya",
-      "title": "Гимн Нанайе Ашшурбанипала",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "ashurbanipal-tashmetu-nabu",
-      "title": "Гимн Ташмету и Набу",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    },
-    {
-      "workId": "ashurbanipal-coronation",
-      "title": "Коронационный гимн Ашшурбанипала",
-      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
-    }
-  ]
+  "missing": []
 }
