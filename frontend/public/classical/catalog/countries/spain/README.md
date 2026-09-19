@@ -1,0 +1,63 @@
+# Испания
+
+Композиторов с открытыми страницами нот: 59.
+
+- [Alonso Lobo](https://imslp.org/wiki/Category:Lobo,_Alonso) — 2 стр. нот
+- [Alonso Mudarra](https://imslp.org/wiki/Category:Mudarra,_Alonso) — 20 стр. нот
+- [Alonso de Alba](https://imslp.org/wiki/Category:Alba,_Alonso_de) — 1 стр. нот
+- [Alonso de Tejeda](https://imslp.org/wiki/Category:Tejeda,_Alonso_de) — 3 стр. нот
+- [Andreas De Silva](https://imslp.org/wiki/Category:De_Silva,_Andreas) — 3 стр. нот
+- [Antonio de Cabezón](https://imslp.org/wiki/Category:Cabez%C3%B3n,_Antonio_de) — 62 стр. нот
+- [Bartomeu Càrceres](https://imslp.org/wiki/Category:C%C3%A0rceres,_Bartomeu) — 1 стр. нот
+- [Bernardo Clavijo del Castillo](https://imslp.org/wiki/Category:Clavijo_del_Castillo,_Bernardo) — 1 стр. нот
+- [Carlos Patiño](https://imslp.org/wiki/Category:Pati%C3%B1o,_Carlos) — 1 стр. нот
+- [Cristóbal Cortés](https://imslp.org/wiki/Category:Cort%C3%A9s,_Crist%C3%B3bal) — 1 стр. нот
+- [Cristóbal de Morales](https://imslp.org/wiki/Category:Morales,_Crist%C3%B3bal_de) — 76 стр. нот
+- [Diego Garçon](https://imslp.org/wiki/Category:Gar%C3%A7on,_Diego) — 1 стр. нот
+- [Diego Ortiz](https://imslp.org/wiki/Category:Ortiz,_Diego) — 30 стр. нот
+- [Diego Pisador](https://imslp.org/wiki/Category:Pisador,_Diego) — 2 стр. нот
+- [Enríquez de Valderrábano](https://imslp.org/wiki/Category:Valderr%C3%A1bano,_Enr%C3%ADquez_de) — 16 стр. нот
+- [Fernando de las Infantas](https://imslp.org/wiki/Category:Infantas,_Fernando_de_las) — 2 стр. нот
+- [Francisco Corrêa de Araujo](https://imslp.org/wiki/Category:Corr%C3%AAa_de_Araujo,_Francisco) — 51 стр. нот
+- [Francisco Fernández Palero](https://imslp.org/wiki/Category:Fern%C3%A1ndez_Palero,_Francisco) — 4 стр. нот
+- [Francisco Guerrero](https://imslp.org/wiki/Category:Guerrero,_Francisco) — 27 стр. нот
+- [Francisco Soto de Langa](https://imslp.org/wiki/Category:Soto_de_Langa,_Francisco) — 7 стр. нот
+- [Francisco de Montanos](https://imslp.org/wiki/Category:Montanos,_Francisco_de) — 1 стр. нот
+- [Francisco de Peraza](https://imslp.org/wiki/Category:Peraza,_Francisco_de) — 1 стр. нот
+- [Francisco de Peñalosa](https://imslp.org/wiki/Category:Pe%C3%B1alosa,_Francisco_de) — 4 стр. нот
+- [Francisco de la Torre](https://imslp.org/wiki/Category:Torre,_Francisco_de_la) — 2 стр. нот
+- [Gil de Ávila](https://imslp.org/wiki/Category:%C3%81vila,_Gil_de) — 2 стр. нот
+- [Gracia Baptista](https://imslp.org/wiki/Category:Baptista,_Gracia) — 1 стр. нот
+- [Guillermo de Podio](https://imslp.org/wiki/Category:Podio,_Guillermo_de) — 2 стр. нот
+- [Hernando de Cabezón](https://imslp.org/wiki/Category:Cabez%C3%B3n,_Hernando_de) — 5 стр. нот
+- [Jerónimo de Aliseda](https://imslp.org/wiki/Category:Aliseda,_Jer%C3%B3nimo_de) — 1 стр. нот
+- [Joan Baptista Comes](https://imslp.org/wiki/Category:Comes,_Joan_Baptista) — 10 стр. нот
+- [Juan Blas de Castro](https://imslp.org/wiki/Category:Blas_de_Castro,_Juan) — 1 стр. нот
+- [Juan Esquivel Barahona](https://imslp.org/wiki/Category:Esquivel_Barahona,_Juan) — 3 стр. нот
+- [Juan Gutiérrez De Padilla](https://imslp.org/wiki/Category:De_Padilla,_Juan_Guti%C3%A9rrez) — 2 стр. нот
+- [Juan Navarro](https://imslp.org/wiki/Category:Navarro,_Juan) — 1 стр. нот
+- [Juan Ponce](https://imslp.org/wiki/Category:Ponce,_Juan) — 1 стр. нот
+- [Juan Riscos](https://imslp.org/wiki/Category:Riscos,_Juan) — 1 стр. нот
+- [Juan Vásquez](https://imslp.org/wiki/Category:V%C3%A1squez,_Juan) — 10 стр. нот
+- [Juan de Anchieta](https://imslp.org/wiki/Category:Anchieta,_Juan_de) — 3 стр. нот
+- [Juan de Leon](https://imslp.org/wiki/Category:Leon,_Juan_de) — 1 стр. нот
+- [Juan del Encina](https://imslp.org/wiki/Category:Encina,_Juan_del) — 9 стр. нот
+- [Luis Milán](https://imslp.org/wiki/Category:Mil%C3%A1n,_Luis) — 16 стр. нот
+- [Luis Venegas de Henestrosa](https://imslp.org/wiki/Category:Venegas_de_Henestrosa,_Luis) — 9 стр. нот
+- [Luys de Narváez](https://imslp.org/wiki/Category:Narv%C3%A1ez,_Luys_de) — 6 стр. нот
+- [Martín De Rivafrecha](https://imslp.org/wiki/Category:De_Rivafrecha,_Mart%C3%ADn) — 1 стр. нот
+- [Mateo Flecha el Joven](https://imslp.org/wiki/Category:Flecha_el_Joven,_Mateo) — 5 стр. нот
+- [Miguel de Fuenllana](https://imslp.org/wiki/Category:Fuenllana,_Miguel_de) — 63 стр. нот
+- [Moxica](https://imslp.org/wiki/Category:Moxica) — 1 стр. нот
+- [Pedro Guerrero](https://imslp.org/wiki/Category:Guerrero,_Pedro) — 1 стр. нот
+- [Pedro Rimonte](https://imslp.org/wiki/Category:Rimonte,_Pedro) — 4 стр. нот
+- [Pedro de Herrera](https://imslp.org/wiki/Category:Herrera,_Pedro_de) — 1 стр. нот
+- [Pedro de Lagarto](https://imslp.org/wiki/Category:Lagarto,_Pedro_de) — 1 стр. нот
+- [Pere Albert Vila](https://imslp.org/wiki/Category:Vila,_Pere_Albert) — 2 стр. нот
+- [Rodrigo De Ceballos](https://imslp.org/wiki/Category:De_Ceballos,_Rodrigo) — 2 стр. нот
+- [Sebastián Aguilera de Heredia](https://imslp.org/wiki/Category:Aguilera_de_Heredia,_Sebasti%C3%A1n) — 10 стр. нот
+- [Sebastián López de Velasco](https://imslp.org/wiki/Category:L%C3%B3pez_de_Velasco,_Sebasti%C3%A1n) — 1 стр. нот
+- [Sebastián Raval](https://imslp.org/wiki/Category:Raval,_Sebasti%C3%A1n) — 3 стр. нот
+- [Sebastián de Vivanco](https://imslp.org/wiki/Category:Vivanco,_Sebasti%C3%A1n_de) — 59 стр. нот
+- [Tomás Luis de Victoria](https://imslp.org/wiki/Category:Victoria,_Tom%C3%A1s_Luis_de) — 171 стр. нот
+- [Tomás Santamaría](https://imslp.org/wiki/Category:Santamar%C3%ADa,_Tom%C3%A1s) — 2 стр. нот

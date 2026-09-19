@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-09-16T20:27:18.431343+00:00",
+  "method": "Curated YouTube search; YouTube player/oEmbed availability audit; exact-title search in Internet Archive, Wikimedia Commons and Openverse for remaining works",
+  "totalWorks": 31,
+  "availableCount": 20,
+  "youtubeCount": 20,
+  "externalAudioCount": 0,
+  "missingCount": 11,
+  "works": {
+    "kesh-temple-hymn": {
+      "workId": "kesh-temple-hymn",
+      "title": "Гимн храму Кеша",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9X-t6DfXXKA",
+      "youtubeTitle": "01 Kesh Temple Hymn",
+      "channel": "Eric Atkinson",
+      "durationSeconds": 231,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "exaltation-inanna": {
+      "workId": "exaltation-inanna",
+      "title": "Возвышение Инанны",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PSoLHfnr5Gc",
+      "youtubeTitle": "THE EXALTATION OF INANNA in Sumerian",
+      "channel": "Peter Pringle",
+      "durationSeconds": 364,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "lipit-ishtar-b": {
+      "workId": "lipit-ishtar-b",
+      "title": "Гимн Липит-Иштару B",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JX129g7QJTI",
+      "youtubeTitle": "The ancient song to the king of justice, Lipit-Ishtar (1950 BC)",
+      "channel": "Harp Classic",
+      "durationSeconds": 39,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "sobek-hymns": {
+      "workId": "sobek-hymns",
+      "title": "Цикл гимнов Собеку",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FI576A9LE58",
+      "youtubeTitle": "A Hymn to  Sobek 𓋴𓃀𓎡𓆋 “sbk” Papyrus Project",
+      "channel": "EgyptologyLessons",
+      "durationSeconds": 84,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "great-hymn-aten": {
+      "workId": "great-hymn-aten",
+      "title": "Великий гимн Атону",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3oWPXU15K4g",
+      "youtubeTitle": "Hymn To The Aten (sung in Ancient Egyptian)",
+      "channel": "Mermuse",
+      "durationSeconds": 370,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "harpist-song-intef": {
+      "workId": "harpist-song-intef",
+      "title": "Песнь арфиста из дома Интефа",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YsKAkCNzCEg",
+      "youtubeTitle": "Make Holiday (King Intef's Song) | 3,000-Year-Old Ancient Egyptian Royal Anthem (Papyrus Harris 500)",
+      "channel": "Echoes of Kemet",
+      "durationSeconds": 299,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "harris-love-songs": {
+      "workId": "harris-love-songs",
+      "title": "Любовные песни папируса Харриса 500",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j8phte3eYcE",
+      "youtubeTitle": "Love Song in Ancient Egyptian | Music Video",
+      "channel": "Siamun",
+      "durationSeconds": 124,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "re-horakhty-hymn": {
+      "workId": "re-horakhty-hymn",
+      "title": "Гимн Ра-Хорахти",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SqwkQNruIv0",
+      "youtubeTitle": "Ancient Egyptian Hymn to Re-Horakhty, the Setting Sun (Egypt, Mythology, Religion, Horus, Ra, Gods)",
+      "channel": "Random Scripture and Religion Videos",
+      "durationSeconds": 203,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "isis-nephthys-songs": {
+      "workId": "isis-nephthys-songs",
+      "title": "Песни Исиды и Нефтиды",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=npOYmWYIBa4",
+      "youtubeTitle": "Lament of Isis and Nephythys on the Death of Osiris - Ancient Egyptian Music II (1 of 17)",
+      "channel": "Jeffrey Goodman",
+      "durationSeconds": 355,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "hurrian-hymn-6": {
+      "workId": "hurrian-hymn-6",
+      "title": "Хурритский гимн Никкаль h.6",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QpxN2VXPMLc",
+      "youtubeTitle": "The Oldest Known Melody (Hurrian Hymn no.6 - c.1400 B.C.)",
+      "channel": "DamianMusicChannel4",
+      "durationSeconds": 343,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    },
+    "hurrian-fragments": {
+      "workId": "hurrian-fragments",
+      "title": "Хурритские песни h.1—h.5 и h.7—h.29",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4i9O1U96tG4",
+      "youtubeTitle": "Puhiya(na) - Hurrian Hymn 5",
+      "channel": "Otolaryngologist,ORL,ENT-Medical Office,Artz Praxis",
+      "durationSeconds": null,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-oembed"
+    },
+    "ashurbanipal-ishtars": {
+      "workId": "ashurbanipal-ishtars",
+      "title": "Гимн Иштар Ниневии и Арбелы",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SFaS1CqKP00",
+      "youtubeTitle": "Nineveh & Arbela (Ashurbanipal's Hymn)",
+      "channel": "Melammu - Topic",
+      "durationSeconds": 172,
+      "playbackStatus": "playable",
+      "interpretation": "modern-interpretation",
+      "verification": "youtube-player-and-oembed"
+    },
+    "orestes-stasimon": {
+      "workId": "orestes-stasimon",
+      "title": "Стасим из «Ореста»",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3cZyv7UgOOY",
+      "youtubeTitle": "Euripides, Stasimon Chorus from Orestes (chromatic performance)",
+      "channel": "Steven Baur",
+      "durationSeconds": null,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-oembed"
+    },
+    "first-delphic-hymn": {
+      "workId": "first-delphic-hymn",
+      "title": "Первый Дельфийский гимн Аполлону",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ws7xUHt_W4o",
+      "youtubeTitle": "The First Delphic Hymn To Apollo",
+      "channel": "Michael Levy",
+      "durationSeconds": 450,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    },
+    "second-delphic-hymn": {
+      "workId": "second-delphic-hymn",
+      "title": "Второй Дельфийский гимн Аполлону",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XIMolG-M4L4",
+      "youtubeTitle": "Second Delphic Hymn to Apollo",
+      "channel": "Αncient Greece",
+      "durationSeconds": 435,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    },
+    "seikilos-song": {
+      "workId": "seikilos-song",
+      "title": "Песня со стелы Сейкила",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YmhOF_q2dao",
+      "youtubeTitle": "The Seikilos Epitaph (live performance)",
+      "channel": "Sister of Iris",
+      "durationSeconds": 201,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    },
+    "mesomedes-muse": {
+      "workId": "mesomedes-muse",
+      "title": "Гимн Музе",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=umeNnJ60d1M",
+      "youtubeTitle": "Hymn To The Muse (Mesomedes of Crete, circa 130 CE)",
+      "channel": "Michael Levy",
+      "durationSeconds": null,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-oembed"
+    },
+    "mesomedes-sun": {
+      "workId": "mesomedes-sun",
+      "title": "Гимн Солнцу",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H7H9SASa3aM",
+      "youtubeTitle": "The Music of Ancient Greece - \"Hymn To The Sun\"",
+      "channel": "Michael Levy",
+      "durationSeconds": null,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-oembed"
+    },
+    "mesomedes-calliope-apollo": {
+      "workId": "mesomedes-calliope-apollo",
+      "title": "Гимн Каллиопе и Аполлону",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H85Wh8E91ws",
+      "youtubeTitle": "Mesomedes - Hymn To Calliope and Apollo | Ancient",
+      "channel": "Music Dossier",
+      "durationSeconds": 236,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    },
+    "oxyrhynchus-hymn": {
+      "workId": "oxyrhynchus-hymn",
+      "title": "Оксиринхский христианский гимн",
+      "sourceType": "youtube",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WgPcFj1Leos",
+      "youtubeTitle": "Πρωτοχριστιανικός Υμνος στην Αγία Τριάδα. 3ος αι.μ.Χ.The Oxyrhynchus hymn (or P. Oxy. XV 1786)",
+      "channel": "Aliki Markantonatou",
+      "durationSeconds": 155,
+      "playbackStatus": "playable",
+      "interpretation": "notation-performance",
+      "verification": "youtube-player-and-oembed"
+    }
+  },
+  "missing": [
+    {
+      "workId": "temple-hymns",
+      "title": "Собрание храмовых гимнов",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "hymn-inanna",
+      "title": "Гимн Инанне",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "inanna-ebih",
+      "title": "Инанна и Эбих",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "shulgi-a",
+      "title": "Гимн Шульги A",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "iah-hymn",
+      "title": "Гимн Иаху, богу Луны",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "sargon-nanaya",
+      "title": "Гимн Нанайе Саргона II",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "ashurbanipal-ashur",
+      "title": "Гимн Ашшурбанипала Ашшуру",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "ashurbanipal-marduk",
+      "title": "Акростихический гимн Мардуку и Царпаниту",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "ashurbanipal-nanaya",
+      "title": "Гимн Нанайе Ашшурбанипала",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "ashurbanipal-tashmetu-nabu",
+      "title": "Гимн Ташмету и Набу",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    },
+    {
+      "workId": "ashurbanipal-coronation",
+      "title": "Коронационный гимн Ашшурбанипала",
+      "reason": "Подходящая запись YouTube и прямой MP3 в открытых архивах не найдены"
+    }
+  ]
+}

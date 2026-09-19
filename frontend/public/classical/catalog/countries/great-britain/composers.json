@@ -1,0 +1,96 @@
+{
+  "country": "Великобритания",
+  "composers": [
+    {
+      "id": "sturt-john",
+      "name": "John Sturt",
+      "imslpName": "Sturt, John",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": null,
+      "died": null,
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Sturt,_John"
+    },
+    {
+      "id": "alwood-richard",
+      "name": "Richard Alwood",
+      "imslpName": "Alwood, Richard",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": "1550",
+      "died": "?",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Alwood,_Richard"
+    },
+    {
+      "id": "oldfield-thomas",
+      "name": "Thomas Oldfield",
+      "imslpName": "Oldfield, Thomas",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": null,
+      "died": null,
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Oldfield,_Thomas"
+    },
+    {
+      "id": "ballet-william",
+      "name": "William Ballet",
+      "imslpName": "Ballet, William",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": null,
+      "died": null,
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Ballet,_William"
+    },
+    {
+      "id": "holborne-william",
+      "name": "William Holborne",
+      "imslpName": "Holborne, William",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": null,
+      "died": "?",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Holborne,_William"
+    },
+    {
+      "id": "rasar-william",
+      "name": "William Rasar",
+      "imslpName": "Rasar, William",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": "ca.1491",
+      "died": "ca.1515",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Rasar,_William"
+    },
+    {
+      "id": "shelbye-william",
+      "name": "William Shelbye",
+      "imslpName": "Shelbye, William",
+      "country": "Великобритания",
+      "countrySlug": "great-britain",
+      "nationality": "British",
+      "born": "ca 1520",
+      "died": "1584",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Shelbye,_William"
+    }
+  ]
+}

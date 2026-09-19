@@ -1,0 +1,109 @@
+{
+  "country": "Фландрия",
+  "composers": [
+    {
+      "id": "stappen-crispin-van",
+      "name": "Crispin van Stappen",
+      "imslpName": "Stappen, Crispin van",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "ca. 1465",
+      "died": "1532",
+      "period": "Renaissance",
+      "workCount": 5,
+      "scoresUrl": "https://imslp.org/wiki/Category:Stappen,_Crispin_van"
+    },
+    {
+      "id": "messaus-guillielmus",
+      "name": "Guillielmus Messaus",
+      "imslpName": "Messaus, Guillielmus",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "1589",
+      "died": "1640",
+      "period": "Baroque",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Messaus,_Guillielmus"
+    },
+    {
+      "id": "vaet-jacobus",
+      "name": "Jacobus Vaet",
+      "imslpName": "Vaet, Jacobus",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "ca.1529",
+      "died": "1567",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Vaet,_Jacobus"
+    },
+    {
+      "id": "le-maistre-mattheus",
+      "name": "Mattheus Le Maistre",
+      "imslpName": "Le Maistre, Mattheus",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "ca.1505",
+      "died": "1577",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Le_Maistre,_Mattheus"
+    },
+    {
+      "id": "lassus-orlande-de",
+      "name": "Orlande de Lassus",
+      "imslpName": "Lassus, Orlande de",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "ca.1532",
+      "died": "1594",
+      "period": "Renaissance",
+      "workCount": 1290,
+      "scoresUrl": "https://imslp.org/wiki/Category:Lassus,_Orlande_de"
+    },
+    {
+      "id": "cambio-perissone",
+      "name": "Perissone Cambio",
+      "imslpName": "Cambio, Perissone",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "ca.1520",
+      "died": "ca.1562",
+      "period": "Renaissance",
+      "workCount": 8,
+      "scoresUrl": "https://imslp.org/wiki/Category:Cambio,_Perissone"
+    },
+    {
+      "id": "le-duc-philippe",
+      "name": "Philippe Le Duc",
+      "imslpName": "Le Duc, Philippe",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "c.1550",
+      "died": "after 1568",
+      "period": "Renaissance",
+      "workCount": 3,
+      "scoresUrl": "https://imslp.org/wiki/Category:Le_Duc,_Philippe"
+    },
+    {
+      "id": "mareschal-samuel",
+      "name": "Samuel Mareschal",
+      "imslpName": "Mareschal, Samuel",
+      "country": "Фландрия",
+      "countrySlug": "flanders",
+      "nationality": "Flemish",
+      "born": "1554",
+      "died": "1640",
+      "period": "Baroque",
+      "workCount": 117,
+      "scoresUrl": "https://imslp.org/wiki/Category:Mareschal,_Samuel"
+    }
+  ]
+}

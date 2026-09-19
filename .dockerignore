@@ -10,6 +10,9 @@ __pycache__/
 .mypy_cache/
 staticfiles/
 node_modules/
+**/node_modules/
+frontend/dist/
+work/
 *.md
 .idea/
 .vscode/

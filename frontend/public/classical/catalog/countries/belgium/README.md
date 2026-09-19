@@ -1,0 +1,56 @@
+# Бельгия
+
+Композиторов с открытыми страницами нот: 52.
+
+- [Adrian Willaert](https://imslp.org/wiki/Category:Willaert,_Adrian) — 121 стр. нот
+- [André Pevernage](https://imslp.org/wiki/Category:Pevernage,_Andr%C3%A9) — 11 стр. нот
+- [Anton Gosswin](https://imslp.org/wiki/Category:Gosswin,_Anton) — 1 стр. нот
+- [Antonius Divitis](https://imslp.org/wiki/Category:Divitis,_Antonius) — 2 стр. нот
+- [Arnold von Bruck](https://imslp.org/wiki/Category:Bruck,_Arnold_von) — 36 стр. нот
+- [Carl Luython](https://imslp.org/wiki/Category:Luython,_Carl) — 2 стр. нот
+- [Cipriano de Rore](https://imslp.org/wiki/Category:Rore,_Cipriano_de) — 81 стр. нот
+- [Cornelis Verdonck](https://imslp.org/wiki/Category:Verdonck,_Cornelis) — 7 стр. нот
+- [Emanuel Adriaenssen](https://imslp.org/wiki/Category:Adriaenssen,_Emanuel) — 8 стр. нот
+- [Eustachius Barbion](https://imslp.org/wiki/Category:Barbion,_Eustachius) — 1 стр. нот
+- [Francesco Bonardo Perissone](https://imslp.org/wiki/Category:Perissone,_Francesco_Bonardo) — 1 стр. нот
+- [Francesco Menta](https://imslp.org/wiki/Category:Menta,_Francesco) — 1 стр. нот
+- [Franz Sale](https://imslp.org/wiki/Category:Sale,_Franz) — 1 стр. нот
+- [George de La Hèle](https://imslp.org/wiki/Category:La_H%C3%A8le,_George_de) — 1 стр. нот
+- [Giaches de Wert](https://imslp.org/wiki/Category:Wert,_Giaches_de) — 112 стр. нот
+- [Giovanni de Macque](https://imslp.org/wiki/Category:Macque,_Giovanni_de) — 21 стр. нот
+- [Heinrich Isaac](https://imslp.org/wiki/Category:Isaac,_Heinrich) — 121 стр. нот
+- [Hubert Waelrant](https://imslp.org/wiki/Category:Waelrant,_Hubert) — 3 стр. нот
+- [Ivo de Vento](https://imslp.org/wiki/Category:Vento,_Ivo_de) — 5 стр. нот
+- [Jacob Arcadelt](https://imslp.org/wiki/Category:Arcadelt,_Jacob) — 107 стр. нот
+- [Jacob Obrecht](https://imslp.org/wiki/Category:Obrecht,_Jacob) — 48 стр. нот
+- [Jacob Vredeman](https://imslp.org/wiki/Category:Vredeman,_Jacob) — 2 стр. нот
+- [Jacobus Clemens non Papa](https://imslp.org/wiki/Category:Clemens_non_Papa,_Jacobus) — 43 стр. нот
+- [Jacobus de Kerle](https://imslp.org/wiki/Category:Kerle,_Jacobus_de) — 9 стр. нот
+- [Jan Belle](https://imslp.org/wiki/Category:Belle,_Jan) — 1 стр. нот
+- [Jean Courtois](https://imslp.org/wiki/Category:Courtois,_Jean) — 4 стр. нот
+- [Jean de Castro](https://imslp.org/wiki/Category:Castro,_Jean_de) — 10 стр. нот
+- [Jheronimus Vinders](https://imslp.org/wiki/Category:Vinders,_Jheronimus) — 2 стр. нот
+- [Johannes Prioris](https://imslp.org/wiki/Category:Prioris,_Johannes) — 13 стр. нот
+- [Johannes Tinctoris](https://imslp.org/wiki/Category:Tinctoris,_Johannes) — 10 стр. нот
+- [Johannes de Fossa](https://imslp.org/wiki/Category:Fossa,_Johannes_de) — 3 стр. нот
+- [Josquin Desprez](https://imslp.org/wiki/Category:Josquin_Desprez) — 156 стр. нот
+- [Lambert de Sayve](https://imslp.org/wiki/Category:Sayve,_Lambert_de) — 1 стр. нот
+- [Leonard Meldert](https://imslp.org/wiki/Category:Meldert,_Leonard) — 1 стр. нот
+- [Mateo Romero](https://imslp.org/wiki/Category:Romero,_Mateo) — 1 стр. нот
+- [Mathias Werrecore](https://imslp.org/wiki/Category:Werrecore,_Mathias) — 1 стр. нот
+- [Nicolas Champion](https://imslp.org/wiki/Category:Champion,_Nicolas) — 1 стр. нот
+- [Nicolas Gombert](https://imslp.org/wiki/Category:Gombert,_Nicolas) — 27 стр. нот
+- [Noel Bauldeweyn](https://imslp.org/wiki/Category:Bauldeweyn,_Noel) — 5 стр. нот
+- [Paulus de Roda](https://imslp.org/wiki/Category:Roda,_Paulus_de) — 3 стр. нот
+- [Peeter Cornet](https://imslp.org/wiki/Category:Cornet,_Peeter) — 8 стр. нот
+- [Petit Jean De Latre](https://imslp.org/wiki/Category:De_Latre,_Petit_Jean) — 2 стр. нот
+- [Philippe Rogier](https://imslp.org/wiki/Category:Rogier,_Philippe) — 4 стр. нот
+- [Philippe de Monte](https://imslp.org/wiki/Category:Monte,_Philippe_de) — 63 стр. нот
+- [Pierre Bonhomme](https://imslp.org/wiki/Category:Bonhomme,_Pierre) — 1 стр. нот
+- [Pierre Phalèse](https://imslp.org/wiki/Category:Phal%C3%A8se,_Pierre) — 12 стр. нот
+- [Pierre Phalèse Jr.](https://imslp.org/wiki/Category:Phal%C3%A8se_Jr.,_Pierre) — 3 стр. нот
+- [Pierre de La Rue](https://imslp.org/wiki/Category:La_Rue,_Pierre_de) — 45 стр. нот
+- [Rinaldo del Mel](https://imslp.org/wiki/Category:Mel,_Rinaldo_del) — 19 стр. нот
+- [Sebastian Vredeman](https://imslp.org/wiki/Category:Vredeman,_Sebastian) — 2 стр. нот
+- [Simon Lohet](https://imslp.org/wiki/Category:Lohet,_Simon) — 2 стр. нот
+- [William Daman](https://imslp.org/wiki/Category:Daman,_William) — 2 стр. нот

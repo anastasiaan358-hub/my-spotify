@@ -1,0 +1,18 @@
+{
+  "country": "Франко-фламандская школа",
+  "composers": [
+    {
+      "id": "wilder-peter-van",
+      "name": "Peter van Wilder",
+      "imslpName": "Wilder, Peter van",
+      "country": "Франко-фламандская школа",
+      "countrySlug": "franco-flemish-school",
+      "nationality": "Franco-Flemish",
+      "born": "ca. ≤1500",
+      "died": "≥1562",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Wilder,_Peter_van"
+    }
+  ]
+}

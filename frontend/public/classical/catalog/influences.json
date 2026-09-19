@@ -1,0 +1,368 @@
+{
+  "updatedAt": "2026-09-13",
+  "method": "В схему включены только связи, для которых найден опубликованный источник. Сплошная линия означает документированное обучение, пунктир — стилистическое влияние или развитие школы.",
+  "nodes": [
+    {
+      "id": "willaert",
+      "name": "Адриан Вилларт",
+      "country": "Фландрия / Италия",
+      "years": "ок. 1490–1562",
+      "x": 180,
+      "y": 80,
+      "composerId": "willaert-adrian"
+    },
+    {
+      "id": "rore",
+      "name": "Чиприано де Роре",
+      "country": "Фландрия / Италия",
+      "years": "1515/16–1565",
+      "x": 430,
+      "y": 40,
+      "composerId": "rore-cipriano-de"
+    },
+    {
+      "id": "zarlino",
+      "name": "Джозеффо Царлино",
+      "country": "Италия",
+      "years": "1517–1590",
+      "x": 430,
+      "y": 130,
+      "composerId": "zarlino-gioseffo"
+    },
+    {
+      "id": "andrea-gabrieli",
+      "name": "Андреа Габриели",
+      "country": "Италия",
+      "years": "1532/33–1585",
+      "x": 430,
+      "y": 220,
+      "composerId": "gabrieli-andrea"
+    },
+    {
+      "id": "merulo",
+      "name": "Клаудио Меруло",
+      "country": "Италия",
+      "years": "1533–1604",
+      "x": 430,
+      "y": 310,
+      "composerId": "merulo-claudio"
+    },
+    {
+      "id": "monteverdi",
+      "name": "Клаудио Монтеверди",
+      "country": "Италия",
+      "years": "1567–1643",
+      "x": 700,
+      "y": 40,
+      "composerId": "monteverdi-claudio"
+    },
+    {
+      "id": "galilei",
+      "name": "Винченцо Галилей",
+      "country": "Италия",
+      "years": "ок. 1520–1591",
+      "x": 700,
+      "y": 130,
+      "composerId": "galilei-vincenzo"
+    },
+    {
+      "id": "giovanni-gabrieli",
+      "name": "Джованни Габриели",
+      "country": "Италия",
+      "years": "ок. 1554–1612",
+      "x": 700,
+      "y": 220,
+      "composerId": "gabrieli-giovanni"
+    },
+    {
+      "id": "hassler",
+      "name": "Ханс Лео Хасслер",
+      "country": "Германские земли",
+      "years": "1564–1612",
+      "x": 700,
+      "y": 310,
+      "composerId": "hassler-hans-leo"
+    },
+    {
+      "id": "ingegneri",
+      "name": "Марк’Антонио Индженьери",
+      "country": "Италия",
+      "years": "ок. 1535–1592",
+      "x": 430,
+      "y": 400,
+      "composerId": "ingegneri-marc-antonio"
+    },
+    {
+      "id": "peri",
+      "name": "Якопо Пери",
+      "country": "Италия",
+      "years": "1561–1633",
+      "x": 970,
+      "y": 90,
+      "composerId": "peri-jacopo"
+    },
+    {
+      "id": "caccini",
+      "name": "Джулио Каччини",
+      "country": "Италия",
+      "years": "1551–1618",
+      "x": 970,
+      "y": 170,
+      "composerId": "caccini-giulio"
+    },
+    {
+      "id": "schutz",
+      "name": "Генрих Шютц",
+      "country": "Германские земли",
+      "years": "1585–1672",
+      "x": 970,
+      "y": 250,
+      "composerId": "schutz-heinrich"
+    },
+    {
+      "id": "tallis",
+      "name": "Томас Таллис",
+      "country": "Англия",
+      "years": "ок. 1505–1585",
+      "x": 180,
+      "y": 500,
+      "composerId": "tallis-thomas"
+    },
+    {
+      "id": "byrd",
+      "name": "Уильям Бёрд",
+      "country": "Англия",
+      "years": "ок. 1540–1623",
+      "x": 430,
+      "y": 500,
+      "composerId": "byrd-william"
+    },
+    {
+      "id": "morley",
+      "name": "Томас Морли",
+      "country": "Англия",
+      "years": "ок. 1557–1602",
+      "x": 700,
+      "y": 500,
+      "composerId": "morley-thomas"
+    },
+    {
+      "id": "marenzio",
+      "name": "Лука Маренцио",
+      "country": "Италия",
+      "years": "ок. 1553–1599",
+      "x": 430,
+      "y": 590,
+      "composerId": "marenzio-luca"
+    },
+    {
+      "id": "sweelinck",
+      "name": "Ян Питерсзон Свелинк",
+      "country": "Нидерланды",
+      "years": "1562–1621",
+      "x": 180,
+      "y": 700,
+      "composerId": "sweelinck-jan-pieterszoon"
+    },
+    {
+      "id": "scheidemann",
+      "name": "Генрих Шейдеман",
+      "country": "Германские земли",
+      "years": "ок. 1595–1663",
+      "x": 430,
+      "y": 670,
+      "composerId": "scheidemann-heinrich"
+    },
+    {
+      "id": "scheidt",
+      "name": "Самуэль Шейдт",
+      "country": "Германские земли",
+      "years": "1587–1654",
+      "x": 430,
+      "y": 750,
+      "composerId": "scheidt-samuel"
+    },
+    {
+      "id": "palestrina",
+      "name": "Дж. П. да Палестрина",
+      "country": "Италия",
+      "years": "ок. 1525–1594",
+      "x": 700,
+      "y": 700,
+      "composerId": "palestrina-giovanni-pierluigi-da"
+    },
+    {
+      "id": "victoria",
+      "name": "Томас Луис де Виктория",
+      "country": "Испания",
+      "years": "ок. 1548–1611",
+      "x": 970,
+      "y": 700,
+      "composerId": "victoria-tomas-luis-de"
+    }
+  ],
+  "edges": [
+    {
+      "from": "willaert",
+      "to": "rore",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Роре был учеником Вилларта; через него продолжил венецианскую полифонию и развил выразительный мадригал.",
+      "sourceTitle": "Базилика Сан-Марко — музыкальная традиция",
+      "sourceUrl": "https://www.basilicasanmarco.it/basilica/tradizione-musicale/"
+    },
+    {
+      "from": "willaert",
+      "to": "zarlino",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Царлино учился у Вилларта и систематизировал контрапункт и устройство ладов в теоретических трудах.",
+      "sourceTitle": "Базилика Сан-Марко — музыкальная традиция",
+      "sourceUrl": "https://www.basilicasanmarco.it/basilica/tradizione-musicale/"
+    },
+    {
+      "from": "willaert",
+      "to": "andrea-gabrieli",
+      "kind": "school",
+      "label": "венецианская школа",
+      "summary": "Андреа Габриели формировался в школе Вилларта и развил многохорность и пространственные звуковые эффекты Сан-Марко.",
+      "sourceTitle": "Treccani — Andrea Gabrieli",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/andrea-gabrieli_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "willaert",
+      "to": "merulo",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Меруло назван среди знаменитых учеников Вилларта; линия продолжилась в венецианской органной школе.",
+      "sourceTitle": "Базилика Сан-Марко — музыкальная традиция",
+      "sourceUrl": "https://www.basilicasanmarco.it/basilica/tradizione-musicale/"
+    },
+    {
+      "from": "zarlino",
+      "to": "galilei",
+      "kind": "reaction",
+      "label": "учитель → спор",
+      "summary": "Галилей учился у Царлино, затем вступил с ним в спор о строе и гармонии; конфликт стал частью перехода от полифонии к монодии.",
+      "sourceTitle": "Treccani — Vincenzo Galilei",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/vincenzo-galilei_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "galilei",
+      "to": "peri",
+      "kind": "style",
+      "label": "монодия",
+      "summary": "Опыты Галилея с сольной монодией привлекли Пери и помогли сформировать речитативный стиль ранней оперы.",
+      "sourceTitle": "Treccani — Vincenzo Galilei",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/vincenzo-galilei_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "galilei",
+      "to": "caccini",
+      "kind": "style",
+      "label": "монодия",
+      "summary": "Каччини продолжил движение Галилея к сольному голосу, ясной декламации текста и инструментальному сопровождению.",
+      "sourceTitle": "Treccani — Vincenzo Galilei",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/vincenzo-galilei_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "andrea-gabrieli",
+      "to": "giovanni-gabrieli",
+      "kind": "teacher",
+      "label": "учитель и дядя",
+      "summary": "Андреа обучал племянника Джованни; тот расширил венецианскую многохорную манеру и самостоятельную роль инструментов.",
+      "sourceTitle": "Treccani — Andrea Gabrieli",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/andrea-gabrieli_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "andrea-gabrieli",
+      "to": "hassler",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Хасслер приехал из Нюрнберга учиться у Андреа и перенёс венецианскую манеру в германскую музыку.",
+      "sourceTitle": "Treccani — Andrea Gabrieli",
+      "sourceUrl": "https://www.treccani.it/enciclopedia/andrea-gabrieli_(Enciclopedia-Italiana)/"
+    },
+    {
+      "from": "giovanni-gabrieli",
+      "to": "schutz",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Шютц учился у Джованни Габриели; через него в германскую традицию вошли венецианские концертные и многохорные приёмы.",
+      "sourceTitle": "Encyclopedia.com — Andrea and Giovanni Gabrieli",
+      "sourceUrl": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/gabrieli-andrea-and-giovanni-andrea-gabrieli-c-153233-1585-giovanni-gabrieli-c-155457-1612"
+    },
+    {
+      "from": "rore",
+      "to": "monteverdi",
+      "kind": "style",
+      "label": "выразительный мадригал",
+      "summary": "Монтеверди продолжил ориентированную на слово, хроматическую и эмоциональную линию поздних мадригалов Роре.",
+      "sourceTitle": "Polska Biblioteka Muzyczna — Cipriano de Rore",
+      "sourceUrl": "https://polskabibliotekamuzyczna.pl/encyklopedia/rore-cipriano-de/?lang=en"
+    },
+    {
+      "from": "ingegneri",
+      "to": "monteverdi",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Индженьери обучал Монтеверди в Кремоне и передал ему технику ренессансного контрапункта и духовной полифонии.",
+      "sourceTitle": "University of Birmingham — Italian Madrigals and Arias",
+      "sourceUrl": "https://www.birmingham.ac.uk/research/projects/archive-of-seventeenth-century-italian-madrigals-and-arias"
+    },
+    {
+      "from": "tallis",
+      "to": "byrd",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Бёрд учился у Таллиса и унаследовал английскую традицию церковной полифонии; позже они совместно издавали музыку.",
+      "sourceTitle": "Illinois Public Media — William Byrd",
+      "sourceUrl": "https://will.illinois.edu/clefnotes/entry/william-byrd"
+    },
+    {
+      "from": "byrd",
+      "to": "morley",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Морли был учеником Бёрда; ранняя духовная музыка Морли опирается на усвоенную у него контрапунктическую технику.",
+      "sourceTitle": "Cambridge University Press — Thomas Morley",
+      "sourceUrl": "https://www.cambridge.org/core/books/thomas-morley/AAACD0BB7344032DD607ADA5F9E887DF"
+    },
+    {
+      "from": "marenzio",
+      "to": "morley",
+      "kind": "style",
+      "label": "итальянский мадригал",
+      "summary": "Английская школа, включая Морли, переняла у Маренцио звукопись, контраст фактур и хроматическую выразительность.",
+      "sourceTitle": "American Archive of Public Broadcasting — Mostly Madrigals",
+      "sourceUrl": "https://americanarchive.org/catalog/cpb-aacip-c8f47f9b6c9"
+    },
+    {
+      "from": "sweelinck",
+      "to": "scheidemann",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Шейдеман учился у Свелинка и перенёс его клавирную технику в северонемецкую органную школу.",
+      "sourceTitle": "DBNL — Jan Pieterszoon Sweelinck",
+      "sourceUrl": "https://www.dbnl.org/tekst/molh003nieu10_01/molh003nieu10_01_1517.php"
+    },
+    {
+      "from": "sweelinck",
+      "to": "scheidt",
+      "kind": "teacher",
+      "label": "учитель",
+      "summary": "Шейдт был среди известных германских учеников Свелинка; линия связала нидерландскую клавирную школу с северонемецкой.",
+      "sourceTitle": "DBNL — Jan Pieterszoon Sweelinck",
+      "sourceUrl": "https://www.dbnl.org/tekst/molh003nieu10_01/molh003nieu10_01_1517.php"
+    },
+    {
+      "from": "palestrina",
+      "to": "victoria",
+      "kind": "style",
+      "label": "стилистическое влияние",
+      "summary": "Ранние публикации Виктории показывают сильное влияние палестринианской техники; прямое ученичество документально не доказано.",
+      "sourceTitle": "Universitat Autònoma de Barcelona — Tomás Luis de Victoria",
+      "sourceUrl": "https://ddd.uab.cat/pub/expbib/2011/72963/tlvictoria/vida-i-obra.html"
+    }
+  ]
+}

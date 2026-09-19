@@ -1,0 +1,109 @@
+{
+  "country": "Дания",
+  "composers": [
+    {
+      "id": "brachrogge-hans",
+      "name": "Hans Brachrogge",
+      "imslpName": "Brachrogge, Hans",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish composers",
+      "born": "ca.1590",
+      "died": "1638 or later",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Brachrogge,_Hans"
+    },
+    {
+      "id": "kraft-hans",
+      "name": "Hans Kraft",
+      "imslpName": "Kraft, Hans",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "1565",
+      "died": "ca.1636",
+      "period": "Baroque",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Kraft,_Hans"
+    },
+    {
+      "id": "nielsen-hans",
+      "name": "Hans Nielsen",
+      "imslpName": "Nielsen, Hans",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "1580",
+      "died": "1626",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Nielsen,_Hans"
+    },
+    {
+      "id": "presten-jrgen",
+      "name": "Jørgen Presten",
+      "imslpName": "Presten, Jørgen",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": null,
+      "died": "1553",
+      "period": "Renaissance",
+      "workCount": 3,
+      "scoresUrl": "https://imslp.org/wiki/Category:Presten,_J%C3%B8rgen"
+    },
+    {
+      "id": "thomsen-magnus",
+      "name": "Magnus Thomsen",
+      "imslpName": "Thomsen, Magnus",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "1562",
+      "died": "1612",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Thomsen,_Magnus"
+    },
+    {
+      "id": "pedersn-mogens",
+      "name": "Mogens Pedersøn",
+      "imslpName": "Pedersøn, Mogens",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "ca.1583",
+      "died": "1623",
+      "period": "Renaissance",
+      "workCount": 23,
+      "scoresUrl": "https://imslp.org/wiki/Category:Peders%C3%B8n,_Mogens"
+    },
+    {
+      "id": "gistou-nicolo",
+      "name": "Nicolo Gistou",
+      "imslpName": "Gistou, Nicolo",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "1560",
+      "died": "1609",
+      "period": "Baroque",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Gistou,_Nicolo"
+    },
+    {
+      "id": "aagesen-truid",
+      "name": "Truid Aagesen",
+      "imslpName": "Aagesen, Truid",
+      "country": "Дания",
+      "countrySlug": "denmark",
+      "nationality": "Danish",
+      "born": "fl.1593",
+      "died": "c.1625",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Aagesen,_Truid"
+    }
+  ]
+}

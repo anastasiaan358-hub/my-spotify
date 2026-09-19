@@ -1,0 +1,18 @@
+{
+  "country": "Словения",
+  "composers": [
+    {
+      "id": "handl-jacob",
+      "name": "Jacob Handl",
+      "imslpName": "Handl, Jacob",
+      "country": "Словения",
+      "countrySlug": "slovenia",
+      "nationality": "Slovenian",
+      "born": "1550",
+      "died": "1591",
+      "period": "Renaissance",
+      "workCount": 58,
+      "scoresUrl": "https://imslp.org/wiki/Category:Handl,_Jacob"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+# Италия
+
+Композиторов с открытыми страницами нот: 413.
+
+- [Abundio Antonelli](https://imslp.org/wiki/Category:Antonelli,_Abundio) — 2 стр. нот
+- [Adam de Antiquis](https://imslp.org/wiki/Category:Antiquis,_Adam_de) — 1 стр. нот
+- [Adriano Banchieri](https://imslp.org/wiki/Category:Banchieri,_Adriano) — 52 стр. нот
+- [Agostino Agazzari](https://imslp.org/wiki/Category:Agazzari,_Agostino) — 37 стр. нот
+- [Agostino Agresta](https://imslp.org/wiki/Category:Agresta,_Agostino) — 1 стр. нот
+- [Agostino Facchi](https://imslp.org/wiki/Category:Facchi,_Agostino) — 2 стр. нот
+- [Agostino Licino](https://imslp.org/wiki/Category:Licino,_Agostino) — 1 стр. нот
+- [Agostino Soderini](https://imslp.org/wiki/Category:Soderini,_Agostino) — 10 стр. нот
+- [Alessandro Aglione](https://imslp.org/wiki/Category:Aglione,_Alessandro) — 1 стр. нот
+- [Alessandro Costantini](https://imslp.org/wiki/Category:Costantini,_Alessandro) — 8 стр. нот
+- [Alessandro Demophon](https://imslp.org/wiki/Category:Demophon,_Alessandro) — 1 стр. нот
+- [Alessandro Ghivizzani](https://imslp.org/wiki/Category:Ghivizzani,_Alessandro) — 1 стр. нот
+- [Alessandro Grandi](https://imslp.org/wiki/Category:Grandi,_Alessandro) — 13 стр. нот
+- [Alessandro Mantovano](https://imslp.org/wiki/Category:Mantovano,_Alessandro) — 3 стр. нот
+- [Alessandro Orologio](https://imslp.org/wiki/Category:Orologio,_Alessandro) — 4 стр. нот
+- [Alessandro Piccinini](https://imslp.org/wiki/Category:Piccinini,_Alessandro) — 1 стр. нот
+- [Alessandro Poglietti](https://imslp.org/wiki/Category:Poglietti,_Alessandro) — 19 стр. нот
+- [Alessandro Striggio](https://imslp.org/wiki/Category:Striggio,_Alessandro) — 49 стр. нот
+- [Alfonso Ferrabosco Sr.](https://imslp.org/wiki/Category:Ferrabosco_Sr.,_Alfonso) — 45 стр. нот
+- [Alfonso Ferrari](https://imslp.org/wiki/Category:Ferrari,_Alfonso) — 1 стр. нот
+- [Alfonso Fontanelli](https://imslp.org/wiki/Category:Fontanelli,_Alfonso) — 4 стр. нот
+- [Alvise Willaert](https://imslp.org/wiki/Category:Willaert,_Alvise) — 1 стр. нот
+- [Amante Franzoni](https://imslp.org/wiki/Category:Franzoni,_Amante) — 4 стр. нот
+- [Andrea Antico](https://imslp.org/wiki/Category:Antico,_Andrea) — 2 стр. нот
+- [Andrea Falconieri](https://imslp.org/wiki/Category:Falconieri,_Andrea) — 17 стр. нот
+- [Andrea Feliciani](https://imslp.org/wiki/Category:Feliciani,_Andrea) — 4 стр. нот
+- [Andrea Festa I](https://imslp.org/wiki/Category:Festa_I,_Andrea) — 1 стр. нот
+- [Andrea Gabrieli](https://imslp.org/wiki/Category:Gabrieli,_Andrea) — 208 стр. нот
+- [Andrea Ganassi](https://imslp.org/wiki/Category:Ganassi,_Andrea) — 2 стр. нот
+- [Andrea Rota](https://imslp.org/wiki/Category:Rota,_Andrea) — 2 стр. нот
+- [Angelo Notari](https://imslp.org/wiki/Category:Notari,_Angelo) — 1 стр. нот
+- [Angelo da Palestrina](https://imslp.org/wiki/Category:Palestrina,_Angelo_da) — 1 стр. нот
+- [Angelo da Piccitono](https://imslp.org/wiki/Category:Piccitono,_Angelo_da) — 1 стр. нот
+- [Annibale Padovano](https://imslp.org/wiki/Category:Padovano,_Annibale) — 16 стр. нот
+- [Annibale Stabile](https://imslp.org/wiki/Category:Stabile,_Annibale) — 3 стр. нот
+- [Annibale Zoilo](https://imslp.org/wiki/Category:Zoilo,_Annibale) — 5 стр. нот
+- [Antonio Artusini](https://imslp.org/wiki/Category:Artusini,_Antonio) — 1 стр. нот
+- [Antonio Barges](https://imslp.org/wiki/Category:Barges,_Antonio) — 3 стр. нот
+- [Antonio Bicci](https://imslp.org/wiki/Category:Bicci,_Antonio) — 1 стр. нот
+- [Antonio Brunelli](https://imslp.org/wiki/Category:Brunelli,_Antonio) — 2 стр. нот
+- [Antonio Cifra](https://imslp.org/wiki/Category:Cifra,_Antonio) — 26 стр. нот
+- [Antonio Demetrio](https://imslp.org/wiki/Category:Demetrio,_Antonio) — 1 стр. нот
+- [Antonio Gardano](https://imslp.org/wiki/Category:Gardano,_Antonio) — 7 стр. нот
+- [Antonio Il Verso](https://imslp.org/wiki/Category:Il_Verso,_Antonio) — 1 стр. нот
+- [Antonio Maria Abbatini](https://imslp.org/wiki/Category:Abbatini,_Antonio_Maria) — 2 стр. нот
+- [Antonio Mogavero](https://imslp.org/wiki/Category:Mogavero,_Antonio) — 1 стр. нот
+- [Antonio Morari](https://imslp.org/wiki/Category:Morari,_Antonio) — 2 стр. нот
+- [Antonio Mortaro](https://imslp.org/wiki/Category:Mortaro,_Antonio) — 22 стр. нот
+- [Antonio Orlandini](https://imslp.org/wiki/Category:Orlandini,_Antonio) — 1 стр. нот
+- [Antonio Rotta](https://imslp.org/wiki/Category:Rotta,_Antonio) — 11 стр. нот
+- [Antonio Scandello](https://imslp.org/wiki/Category:Scandello,_Antonio) — 6 стр. нот
+- [Antonio Tarroni](https://imslp.org/wiki/Category:Tarroni,_Antonio) — 1 стр. нот
+- [Antonio Valente](https://imslp.org/wiki/Category:Valente,_Antonio) — 3 стр. нот
+- [Antonio di Becchi](https://imslp.org/wiki/Category:Becchi,_Antonio_di) — 2 стр. нот
+- [Arcangelo Borsaro](https://imslp.org/wiki/Category:Borsaro,_Arcangelo) — 1 стр. нот
+- [Arcangelo Crivelli](https://imslp.org/wiki/Category:Crivelli,_Arcangelo) — 1 стр. нот
+- [Arcangelo Crotti](https://imslp.org/wiki/Category:Crotti,_Arcangelo) — 1 стр. нот
+- [Arcangelo Gherardini](https://imslp.org/wiki/Category:Gherardini,_Arcangelo) — 1 стр. нот
+- [Ascanio Mayone](https://imslp.org/wiki/Category:Mayone,_Ascanio) — 13 стр. нот
+- [Ascanio Trombetti](https://imslp.org/wiki/Category:Trombetti,_Ascanio) — 5 стр. нот
+- [Asprilio Pacelli](https://imslp.org/wiki/Category:Pacelli,_Asprilio) — 1 стр. нот
+- [Augustine Bassano](https://imslp.org/wiki/Category:Bassano,_Augustine) — 1 стр. нот
+- [Aurelio Bonelli](https://imslp.org/wiki/Category:Bonelli,_Aurelio) — 8 стр. нот
+- [Aurelio Signoretti](https://imslp.org/wiki/Category:Signoretti,_Aurelio) — 1 стр. нот
+- [Aurelio Virgiliano](https://imslp.org/wiki/Category:Virgiliano,_Aurelio) — 15 стр. нот
+- [Baldassare Donato](https://imslp.org/wiki/Category:Donato,_Baldassare) — 10 стр. нот
+- [Balthazar de Beaujoyeulx](https://imslp.org/wiki/Category:Beaujoyeulx,_Balthazar_de) — 2 стр. нот
+- [Bartolomeo Lieto Panhormitano](https://imslp.org/wiki/Category:Lieto_Panhormitano,_Bartolomeo) — 1 стр. нот
+- [Bartolomeo Spontone](https://imslp.org/wiki/Category:Spontone,_Bartolomeo) — 6 стр. нот
+- [Bartolomeo Tromboncino](https://imslp.org/wiki/Category:Tromboncino,_Bartolomeo) — 12 стр. нот
+- [Bartolomeo degli Organi](https://imslp.org/wiki/Category:Bartolomeo_degli_Organi) — 5 стр. нот
+- [Benedetto Pallavicino](https://imslp.org/wiki/Category:Pallavicino,_Benedetto) — 30 стр. нот
+- [Bernardino Borlasca](https://imslp.org/wiki/Category:Borlasca,_Bernardino) — 2 стр. нот
+- [Bernardo Corsi](https://imslp.org/wiki/Category:Corsi,_Bernardo) — 1 стр. нот
+- [Bernardo Giacomini](https://imslp.org/wiki/Category:Giacomini,_Bernardo) — 1 стр. нот
+- [Bernardo Pisano](https://imslp.org/wiki/Category:Pisano,_Bernardo) — 4 стр. нот
+- [Biagio Marini](https://imslp.org/wiki/Category:Marini,_Biagio) — 24 стр. нот
+- [Biagio Tomasi](https://imslp.org/wiki/Category:Tomasi,_Biagio) — 1 стр. нот
+- [Camillo Zanotti](https://imslp.org/wiki/Category:Zanotti,_Camillo) — 4 стр. нот
+- [Carlo Filago](https://imslp.org/wiki/Category:Filago,_Carlo) — 11 стр. нот
+- [Carlo Gesualdo](https://imslp.org/wiki/Category:Gesualdo,_Carlo) — 63 стр. нот
+- [Carlo Milanuzzi](https://imslp.org/wiki/Category:Milanuzzi,_Carlo) — 4 стр. нот
+- [Caterina Assandra](https://imslp.org/wiki/Category:Assandra,_Caterina) — 1 стр. нот
+- [Cesare Borgo](https://imslp.org/wiki/Category:Borgo,_Cesare) — 10 стр. нот
+- [Cesare Negri](https://imslp.org/wiki/Category:Negri,_Cesare) — 14 стр. нот
+- [Cesare Schietti](https://imslp.org/wiki/Category:Schietti,_Cesare) — 1 стр. нот
+- [Cesario Gussago](https://imslp.org/wiki/Category:Gussago,_Cesario) — 16 стр. нот
+- [Cherubino Waesich](https://imslp.org/wiki/Category:Waesich,_Cherubino) — 3 стр. нот
+- [Claudia Francesca Rusca](https://imslp.org/wiki/Category:Rusca,_Claudia_Francesca) — 2 стр. нот
+- [Claudia Sessa](https://imslp.org/wiki/Category:Sessa,_Claudia) — 1 стр. нот
+- [Claudio Bramieri](https://imslp.org/wiki/Category:Bramieri,_Claudio) — 1 стр. нот
+- [Claudio Merulo](https://imslp.org/wiki/Category:Merulo,_Claudio) — 48 стр. нот
+- [Claudio Monteverdi](https://imslp.org/wiki/Category:Monteverdi,_Claudio) — 134 стр. нот
+- [Claudio Pari](https://imslp.org/wiki/Category:Pari,_Claudio) — 2 стр. нот
+- [Claudio Saracini](https://imslp.org/wiki/Category:Saracini,_Claudio) — 4 стр. нот
+- [Colanardo De Monte](https://imslp.org/wiki/Category:De_Monte,_Colanardo) — 1 стр. нот
+- [Cornelio Antonelli](https://imslp.org/wiki/Category:Antonelli,_Cornelio) — 23 стр. нот
+- [Costanzo Antegnati](https://imslp.org/wiki/Category:Antegnati,_Costanzo) — 19 стр. нот
+- [Costanzo Festa](https://imslp.org/wiki/Category:Festa,_Costanzo) — 32 стр. нот
+- [Costanzo Porta](https://imslp.org/wiki/Category:Porta,_Costanzo) — 15 стр. нот
+- [Cristofano Malvezzi](https://imslp.org/wiki/Category:Malvezzi,_Cristofano) — 4 стр. нот
+- [Dario Castello](https://imslp.org/wiki/Category:Castello,_Dario) — 13 стр. нот
+- [Diomedes Cato](https://imslp.org/wiki/Category:Cato,_Diomedes) — 6 стр. нот
+- [Domenico Belli](https://imslp.org/wiki/Category:Belli,_Domenico) — 1 стр. нот
+- [Domenico Bianchini](https://imslp.org/wiki/Category:Bianchini,_Domenico) — 1 стр. нот
+- [Domenico Brunetti](https://imslp.org/wiki/Category:Brunetti,_Domenico) — 2 стр. нот
+- [Domenico Ferrabosco](https://imslp.org/wiki/Category:Ferrabosco,_Domenico) — 1 стр. нот
+- [Domenico Lauro](https://imslp.org/wiki/Category:Lauro,_Domenico) — 1 стр. нот
+- [Domenico Massenzio](https://imslp.org/wiki/Category:Massenzio,_Domenico) — 1 стр. нот
+- [Domenico Mazzocchi](https://imslp.org/wiki/Category:Mazzocchi,_Domenico) — 2 стр. нот
+- [Domenico Micheli](https://imslp.org/wiki/Category:Micheli,_Domenico) — 3 стр. нот
+- [Eleuterio Guazzi](https://imslp.org/wiki/Category:Guazzi,_Eleuterio) — 1 стр. нот
+- [Eliseo Ghibel](https://imslp.org/wiki/Category:Ghibel,_Eliseo) — 1 стр. нот
+- [Emilio de' Cavalieri](https://imslp.org/wiki/Category:Cavalieri,_Emilio_de') — 4 стр. нот
+- [Erasmo Marotta](https://imslp.org/wiki/Category:Marotta,_Erasmo) — 1 стр. нот
+- [Ercole Pasquini](https://imslp.org/wiki/Category:Pasquini,_Ercole) — 5 стр. нот
+- [Ercole Porta](https://imslp.org/wiki/Category:Porta,_Ercole) — 2 стр. нот
+- [Eustachio Romano](https://imslp.org/wiki/Category:Eustachio_Romano) — 1 стр. нот
+- [Fabio Costantini](https://imslp.org/wiki/Category:Costantini,_Fabio) — 1 стр. нот
+- [Fabritio Caroso](https://imslp.org/wiki/Category:Caroso,_Fabritio) — 3 стр. нот
+- [Fabrizio Dentice](https://imslp.org/wiki/Category:Dentice,_Fabrizio) — 2 стр. нот
+- [Fabrizio Fillimarino](https://imslp.org/wiki/Category:Fillimarino,_Fabrizio) — 1 стр. нот
+- [Fattorin da Reggio](https://imslp.org/wiki/Category:Fattorin_da_Reggio) — 1 стр. нот
+- [Felice Anerio](https://imslp.org/wiki/Category:Anerio,_Felice) — 34 стр. нот
+- [Filippo Azzaiolo](https://imslp.org/wiki/Category:Azzaiolo,_Filippo) — 13 стр. нот
+- [Filippo Vitali](https://imslp.org/wiki/Category:Vitali,_Filippo) — 8 стр. нот
+- [Filippo de Lurano](https://imslp.org/wiki/Category:Lurano,_Filippo_de) — 1 стр. нот
+- [Flaminio Tresti](https://imslp.org/wiki/Category:Tresti,_Flaminio) — 4 стр. нот
+- [Florentio Maschera](https://imslp.org/wiki/Category:Maschera,_Florentio) — 26 стр. нот
+- [Floriano Canale](https://imslp.org/wiki/Category:Canale,_Floriano) — 20 стр. нот
+- [Francesca Caccini](https://imslp.org/wiki/Category:Caccini,_Francesca) — 6 стр. нот
+- [Francesco Bianciardi](https://imslp.org/wiki/Category:Bianciardi,_Francesco) — 19 стр. нот
+- [Francesco Corteccia](https://imslp.org/wiki/Category:Corteccia,_Francesco) — 20 стр. нот
+- [Francesco Costa](https://imslp.org/wiki/Category:Costa,_Francesco) — 1 стр. нот
+- [Francesco Dognazzi](https://imslp.org/wiki/Category:Dognazzi,_Francesco) — 1 стр. нот
+- [Francesco Guami](https://imslp.org/wiki/Category:Guami,_Francesco) — 13 стр. нот
+- [Francesco Patavino](https://imslp.org/wiki/Category:Patavino,_Francesco) — 2 стр. нот
+- [Francesco Pio](https://imslp.org/wiki/Category:Pio,_Francesco) — 1 стр. нот
+- [Francesco Rasi](https://imslp.org/wiki/Category:Rasi,_Francesco) — 2 стр. нот
+- [Francesco Rovigo](https://imslp.org/wiki/Category:Rovigo,_Francesco) — 5 стр. нот
+- [Francesco Severi](https://imslp.org/wiki/Category:Severi,_Francesco) — 1 стр. нот
+- [Francesco Silvestrino](https://imslp.org/wiki/Category:Silvestrino,_Francesco) — 2 стр. нот
+- [Francesco Soriano](https://imslp.org/wiki/Category:Soriano,_Francesco) — 12 стр. нот
+- [Francesco Spinacino](https://imslp.org/wiki/Category:Spinacino,_Francesco) — 16 стр. нот
+- [Francesco Turini](https://imslp.org/wiki/Category:Turini,_Francesco) — 4 стр. нот
+- [Francesco Usper](https://imslp.org/wiki/Category:Usper,_Francesco) — 21 стр. нот
+- [Francesco da Milano](https://imslp.org/wiki/Category:Milano,_Francesco_da) — 8 стр. нот
+- [Francesco de Layolle](https://imslp.org/wiki/Category:Layolle,_Francesco_de) — 2 стр. нот
+- [Franchinus Gaffurius](https://imslp.org/wiki/Category:Gaffurius,_Franchinus) — 13 стр. нот
+- [Gabriello Puliti](https://imslp.org/wiki/Category:Puliti,_Gabriello) — 1 стр. нот
+- [Galeazzo](https://imslp.org/wiki/Category:Galeazzo) — 1 стр. нот
+- [Galileo Galilei](https://imslp.org/wiki/Category:Galilei,_Galileo) — 1 стр. нот
+- [Gasparo Alberti](https://imslp.org/wiki/Category:Alberti,_Gasparo) — 5 стр. нот
+- [Gasparo Fiorino](https://imslp.org/wiki/Category:Fiorino,_Gasparo) — 1 стр. нот
+- [Gasparo Pietragrua](https://imslp.org/wiki/Category:Pietragrua,_Gasparo) — 1 стр. нот
+- [Gasparo Torelli](https://imslp.org/wiki/Category:Torelli,_Gasparo) — 1 стр. нот
+- [Gasparo Zanetti](https://imslp.org/wiki/Category:Zanetti,_Gasparo) — 2 стр. нот
+- [Gemignano Capilupi](https://imslp.org/wiki/Category:Capilupi,_Gemignano) — 1 стр. нот
+- [Gerolamo Ballione](https://imslp.org/wiki/Category:Ballione,_Gerolamo) — 1 стр. нот
+- [Ghinolfo Dattari](https://imslp.org/wiki/Category:Dattari,_Ghinolfo) — 4 стр. нот
+- [Giacomo Antonio Piccioli](https://imslp.org/wiki/Category:Piccioli,_Giacomo_Antonio) — 1 стр. нот
+- [Giacomo Benincasa](https://imslp.org/wiki/Category:Benincasa,_Giacomo) — 6 стр. нот
+- [Giacomo Fogliano](https://imslp.org/wiki/Category:Fogliano,_Giacomo) — 4 стр. нот
+- [Giacomo Gorzanis](https://imslp.org/wiki/Category:Gorzanis,_Giacomo) — 10 стр. нот
+- [Giammateo Asola](https://imslp.org/wiki/Category:Asola,_Giammateo) — 20 стр. нот
+- [Giandominico La Martoretta](https://imslp.org/wiki/Category:La_Martoretta,_Giandominico) — 2 стр. нот
+- [Gioan Paien](https://imslp.org/wiki/Category:Paien,_Gioan) — 4 стр. нот
+- [Giorgio Mainerio](https://imslp.org/wiki/Category:Mainerio,_Giorgio) — 1 стр. нот
+- [Gioseffo Guami](https://imslp.org/wiki/Category:Guami,_Gioseffo) — 15 стр. нот
+- [Gioseffo Marini](https://imslp.org/wiki/Category:Marini,_Gioseffo) — 1 стр. нот
+- [Gioseffo Zarlino](https://imslp.org/wiki/Category:Zarlino,_Gioseffo) — 6 стр. нот
+- [Gioseppe Caimo](https://imslp.org/wiki/Category:Caimo,_Gioseppe) — 10 стр. нот
+- [Giovan Battista Aloisi](https://imslp.org/wiki/Category:Aloisi,_Giovan_Battista) — 1 стр. нот
+- [Giovan Domenico Montela](https://imslp.org/wiki/Category:Montela,_Giovan_Domenico) — 1 стр. нот
+- [Giovan Leonardo Primavera](https://imslp.org/wiki/Category:Primavera,_Giovan_Leonardo) — 1 стр. нот
+- [Giovan Tomaso Lambertini](https://imslp.org/wiki/Category:Lambertini,_Giovan_Tomaso) — 2 стр. нот
+- [Giovan Tommaso di Maio](https://imslp.org/wiki/Category:Maio,_Giovan_Tommaso_di) — 1 стр. нот
+- [Giovanni Andrea Cima](https://imslp.org/wiki/Category:Cima,_Giovanni_Andrea) — 9 стр. нот
+- [Giovanni Andrea Dragone](https://imslp.org/wiki/Category:Dragone,_Giovanni_Andrea) — 10 стр. нот
+- [Giovanni Animuccia](https://imslp.org/wiki/Category:Animuccia,_Giovanni) — 2 стр. нот
+- [Giovanni Antonio Cangiasi](https://imslp.org/wiki/Category:Cangiasi,_Giovanni_Antonio) — 1 стр. нот
+- [Giovanni Antonio Leoni](https://imslp.org/wiki/Category:Leoni,_Giovanni_Antonio) — 1 стр. нот
+- [Giovanni Antonio Terzi](https://imslp.org/wiki/Category:Terzi,_Giovanni_Antonio) — 1 стр. нот
+- [Giovanni Artusi](https://imslp.org/wiki/Category:Artusi,_Giovanni) — 8 стр. нот
+- [Giovanni Bassano](https://imslp.org/wiki/Category:Bassano,_Giovanni) — 4 стр. нот
+- [Giovanni Battista Ala](https://imslp.org/wiki/Category:Ala,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Buonamente](https://imslp.org/wiki/Category:Buonamente,_Giovanni_Battista) — 8 стр. нот
+- [Giovanni Battista Caletti](https://imslp.org/wiki/Category:Caletti,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Conforti](https://imslp.org/wiki/Category:Conforti,_Giovanni_Battista) — 6 стр. нот
+- [Giovanni Battista Dalla Gostena](https://imslp.org/wiki/Category:Dalla_Gostena,_Giovanni_Battista) — 4 стр. нот
+- [Giovanni Battista Fasolo](https://imslp.org/wiki/Category:Fasolo,_Giovanni_Battista) — 66 стр. нот
+- [Giovanni Battista Fontana](https://imslp.org/wiki/Category:Fontana,_Giovanni_Battista) — 6 стр. нот
+- [Giovanni Battista Grillo](https://imslp.org/wiki/Category:Grillo,_Giovanni_Battista) — 5 стр. нот
+- [Giovanni Battista Moscaglia](https://imslp.org/wiki/Category:Moscaglia,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Mosto](https://imslp.org/wiki/Category:Mosto,_Giovanni_Battista) — 7 стр. нот
+- [Giovanni Battista Recalchi](https://imslp.org/wiki/Category:Recalchi,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Rossi](https://imslp.org/wiki/Category:Rossi,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Strata](https://imslp.org/wiki/Category:Strata,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista Tibaldi](https://imslp.org/wiki/Category:Tibaldi,_Giovanni_Battista) — 2 стр. нот
+- [Giovanni Battista Zesso](https://imslp.org/wiki/Category:Zesso,_Giovanni_Battista) — 1 стр. нот
+- [Giovanni Battista da Gagliano](https://imslp.org/wiki/Category:Gagliano,_Giovanni_Battista_da) — 1 стр. нот
+- [Giovanni Battista de Bellis](https://imslp.org/wiki/Category:Bellis,_Giovanni_Battista_de) — 2 стр. нот
+- [Giovanni Bernardino Nanino](https://imslp.org/wiki/Category:Nanino,_Giovanni_Bernardino) — 5 стр. нот
+- [Giovanni Boschetto Boschetti](https://imslp.org/wiki/Category:Boschetti,_Giovanni_Boschetto) — 1 стр. нот
+- [Giovanni Cavaccio](https://imslp.org/wiki/Category:Cavaccio,_Giovanni) — 46 стр. нот
+- [Giovanni Ceresini](https://imslp.org/wiki/Category:Ceresini,_Giovanni) — 1 стр. нот
+- [Giovanni Croce](https://imslp.org/wiki/Category:Croce,_Giovanni) — 30 стр. нот
+- [Giovanni De Antiquis](https://imslp.org/wiki/Category:De_Antiquis,_Giovanni) — 1 стр. нот
+- [Giovanni Del Turco](https://imslp.org/wiki/Category:Del_Turco,_Giovanni) — 2 стр. нот
+- [Giovanni Domenico da Nola](https://imslp.org/wiki/Category:Nola,_Giovanni_Domenico_da) — 5 стр. нот
+- [Giovanni Felice Sances](https://imslp.org/wiki/Category:Sances,_Giovanni_Felice) — 10 стр. нот
+- [Giovanni Ferretti](https://imslp.org/wiki/Category:Ferretti,_Giovanni) — 8 стр. нот
+- [Giovanni Flori](https://imslp.org/wiki/Category:Flori,_Giovanni) — 4 стр. нот
+- [Giovanni Foscarini](https://imslp.org/wiki/Category:Foscarini,_Giovanni) — 1 стр. нот
+- [Giovanni Francesco Anerio](https://imslp.org/wiki/Category:Anerio,_Giovanni_Francesco) — 20 стр. нот
+- [Giovanni Gabrieli](https://imslp.org/wiki/Category:Gabrieli,_Giovanni) — 77 стр. нот
+- [Giovanni Ghizzolo](https://imslp.org/wiki/Category:Ghizzolo,_Giovanni) — 7 стр. нот
+- [Giovanni Giacomo Gastoldi](https://imslp.org/wiki/Category:Gastoldi,_Giovanni_Giacomo) — 72 стр. нот
+- [Giovanni Girolamo Kapsperger](https://imslp.org/wiki/Category:Kapsperger,_Giovanni_Girolamo) — 8 стр. нот
+- [Giovanni Luca Conforti](https://imslp.org/wiki/Category:Conforti,_Giovanni_Luca) — 1 стр. нот
+- [Giovanni Maria Nanino](https://imslp.org/wiki/Category:Nanino,_Giovanni_Maria) — 50 стр. нот
+- [Giovanni Maria Radino](https://imslp.org/wiki/Category:Radino,_Giovanni_Maria) — 2 стр. нот
+- [Giovanni Maria Sabino](https://imslp.org/wiki/Category:Sabino,_Giovanni_Maria) — 1 стр. нот
+- [Giovanni Maria Trabaci](https://imslp.org/wiki/Category:Trabaci,_Giovanni_Maria) — 68 стр. нот
+- [Giovanni Maria da Crema](https://imslp.org/wiki/Category:Crema,_Giovanni_Maria_da) — 1 стр. нот
+- [Giovanni Maria de Rossi](https://imslp.org/wiki/Category:Rossi,_Giovanni_Maria_de) — 1 стр. нот
+- [Giovanni Martino Cesare](https://imslp.org/wiki/Category:Cesare,_Giovanni_Martino) — 2 стр. нот
+- [Giovanni Paolo Caprioli](https://imslp.org/wiki/Category:Caprioli,_Giovanni_Paolo) — 2 стр. нот
+- [Giovanni Paolo Cima](https://imslp.org/wiki/Category:Cima,_Giovanni_Paolo) — 77 стр. нот
+- [Giovanni Paolo Cottone](https://imslp.org/wiki/Category:Cottone,_Giovanni_Paolo) — 1 стр. нот
+- [Giovanni Picchi](https://imslp.org/wiki/Category:Picchi,_Giovanni) — 9 стр. нот
+- [Giovanni Piccioni](https://imslp.org/wiki/Category:Piccioni,_Giovanni) — 2 стр. нот
+- [Giovanni Pierluigi da Palestrina](https://imslp.org/wiki/Category:Palestrina,_Giovanni_Pierluigi_da) — 813 стр. нот
+- [Giovanni Piero Manenti](https://imslp.org/wiki/Category:Manenti,_Giovanni_Piero) — 2 стр. нот
+- [Giovanni Pietro Cottone](https://imslp.org/wiki/Category:Cottone,_Giovanni_Pietro) — 1 стр. нот
+- [Giovanni Pietro Gallo](https://imslp.org/wiki/Category:Gallo,_Giovanni_Pietro) — 1 стр. нот
+- [Giovanni Priuli](https://imslp.org/wiki/Category:Priuli,_Giovanni) — 4 стр. нот
+- [Giovanni Rovetta](https://imslp.org/wiki/Category:Rovetta,_Giovanni) — 18 стр. нот
+- [Giovanni Spataro](https://imslp.org/wiki/Category:Spataro,_Giovanni) — 4 стр. нот
+- [Giovanni Thomaso Cimello](https://imslp.org/wiki/Category:Cimello,_Giovanni_Thomaso) — 2 стр. нот
+- [Giovanni Valentini](https://imslp.org/wiki/Category:Valentini,_Giovanni) — 16 стр. нот
+- [Girolamo Belli](https://imslp.org/wiki/Category:Belli,_Girolamo) — 1 стр. нот
+- [Girolamo Casati](https://imslp.org/wiki/Category:Casati,_Girolamo) — 1 стр. нот
+- [Girolamo Cavazzoni](https://imslp.org/wiki/Category:Cavazzoni,_Girolamo) — 14 стр. нот
+- [Girolamo Conversi](https://imslp.org/wiki/Category:Conversi,_Girolamo) — 8 стр. нот
+- [Girolamo Dalla Casa](https://imslp.org/wiki/Category:Dalla_Casa,_Girolamo) — 1 стр. нот
+- [Girolamo Diruta](https://imslp.org/wiki/Category:Diruta,_Girolamo) — 12 стр. нот
+- [Girolamo Fantini](https://imslp.org/wiki/Category:Fantini,_Girolamo) — 1 стр. нот
+- [Girolamo Frescobaldi](https://imslp.org/wiki/Category:Frescobaldi,_Girolamo) — 140 стр. нот
+- [Girolamo Giacobbi](https://imslp.org/wiki/Category:Giacobbi,_Girolamo) — 2 стр. нот
+- [Girolamo Scotto](https://imslp.org/wiki/Category:Scotto,_Girolamo) — 1 стр. нот
+- [Girolamo Vespa](https://imslp.org/wiki/Category:Vespa,_Girolamo) — 2 стр. нот
+- [Giuliano Tiburtino](https://imslp.org/wiki/Category:Tiburtino,_Giuliano) — 14 стр. нот
+- [Giulio Abondante](https://imslp.org/wiki/Category:Abondante,_Giulio) — 1 стр. нот
+- [Giulio Belli](https://imslp.org/wiki/Category:Belli,_Giulio) — 1 стр. нот
+- [Giulio Caccini](https://imslp.org/wiki/Category:Caccini,_Giulio) — 12 стр. нот
+- [Giulio Cardi](https://imslp.org/wiki/Category:Cardi,_Giulio) — 1 стр. нот
+- [Giulio Cesare Barbetta](https://imslp.org/wiki/Category:Barbetta,_Giulio_Cesare) — 3 стр. нот
+- [Giulio Cesare Bianchi](https://imslp.org/wiki/Category:Bianchi,_Giulio_Cesare) — 1 стр. нот
+- [Giulio Cesare Monteverdi](https://imslp.org/wiki/Category:Monteverdi,_Giulio_Cesare) — 2 стр. нот
+- [Giulio Eremita](https://imslp.org/wiki/Category:Eremita,_Giulio) — 3 стр. нот
+- [Giulio Ferro](https://imslp.org/wiki/Category:Ferro,_Giulio) — 1 стр. нот
+- [Giulio Fiesco](https://imslp.org/wiki/Category:Fiesco,_Giulio) — 1 стр. нот
+- [Giulio Gigli](https://imslp.org/wiki/Category:Gigli,_Giulio) — 1 стр. нот
+- [Giulio Renaldi](https://imslp.org/wiki/Category:Renaldi,_Giulio) — 2 стр. нот
+- [Giulio Segni](https://imslp.org/wiki/Category:Segni,_Giulio) — 10 стр. нот
+- [Giuseppe Giamberti](https://imslp.org/wiki/Category:Giamberti,_Giuseppe) — 3 стр. нот
+- [Giuseppe Palazzoto e Tagliavia](https://imslp.org/wiki/Category:Palazzoto_e_Tagliavia,_Giuseppe) — 1 стр. нот
+- [Gregorio Allegri](https://imslp.org/wiki/Category:Allegri,_Gregorio) — 11 стр. нот
+- [Gregorio Turini](https://imslp.org/wiki/Category:Turini,_Gregorio) — 2 стр. нот
+- [Gregorio Zucchini](https://imslp.org/wiki/Category:Zucchini,_Gregorio) — 1 стр. нот
+- [Grisostamo Rubiconi](https://imslp.org/wiki/Category:Rubiconi,_Grisostamo) — 1 стр. нот
+- [Guilio Cesare Ardemanio](https://imslp.org/wiki/Category:Ardemanio,_Guilio_Cesare) — 1 стр. нот
+- [Guizzardi Cristoforo](https://imslp.org/wiki/Category:Cristoforo,_Guizzardi) — 2 стр. нот
+- [Horatio Faa](https://imslp.org/wiki/Category:Faa,_Horatio) — 1 стр. нот
+- [Hortensio Perla](https://imslp.org/wiki/Category:Perla,_Hortensio) — 2 стр. нот
+- [Hoste Da Reggia](https://imslp.org/wiki/Category:Da_Reggia,_Hoste) — 3 стр. нот
+- [Ignazio Donati](https://imslp.org/wiki/Category:Donati,_Ignazio) — 2 стр. нот
+- [Ippolito Baccusi](https://imslp.org/wiki/Category:Baccusi,_Ippolito) — 3 стр. нот
+- [Ippolito Chamaterò](https://imslp.org/wiki/Category:Chamater%C3%B2,_Ippolito) — 1 стр. нот
+- [Ippolito Sabino](https://imslp.org/wiki/Category:Sabino,_Ippolito) — 4 стр. нот
+- [Ippolito Tartaglino](https://imslp.org/wiki/Category:Tartaglino,_Ippolito) — 2 стр. нот
+- [Ivo Barry](https://imslp.org/wiki/Category:Barry,_Ivo) — 1 стр. нот
+- [Jacobus Romanus](https://imslp.org/wiki/Category:Romanus,_Jacobus) — 1 стр. нот
+- [Jacopo Corfini](https://imslp.org/wiki/Category:Corfini,_Jacopo) — 1 стр. нот
+- [Jacopo Peri](https://imslp.org/wiki/Category:Peri,_Jacopo) — 5 стр. нот
+- [Joan Ambrosio Dalza](https://imslp.org/wiki/Category:Dalza,_Joan_Ambrosio) — 4 стр. нот
+- [Johannes Gardano](https://imslp.org/wiki/Category:Gardano,_Johannes) — 1 стр. нот
+- [Lazarin](https://imslp.org/wiki/Category:Lazarin) — 1 стр. нот
+- [Lelio Bertani](https://imslp.org/wiki/Category:Bertani,_Lelio) — 4 стр. нот
+- [Leone Leoni](https://imslp.org/wiki/Category:Leoni,_Leone) — 7 стр. нот
+- [Lodovico Agostini](https://imslp.org/wiki/Category:Agostini,_Lodovico) — 2 стр. нот
+- [Lodovico Bellanda](https://imslp.org/wiki/Category:Bellanda,_Lodovico) — 3 стр. нот
+- [Lodovico Zacconi](https://imslp.org/wiki/Category:Zacconi,_Lodovico) — 1 стр. нот
+- [Lodovico da Viadana](https://imslp.org/wiki/Category:Viadana,_Lodovico_da) — 35 стр. нот
+- [Lorenzino](https://imslp.org/wiki/Category:Lorenzino) — 3 стр. нот
+- [Lorenzo Allegri](https://imslp.org/wiki/Category:Allegri,_Lorenzo) — 8 стр. нот
+- [Lorenzo Ratti](https://imslp.org/wiki/Category:Ratti,_Lorenzo) — 2 стр. нот
+- [Luca Bati](https://imslp.org/wiki/Category:Bati,_Luca) — 1 стр. нот
+- [Luca Marenzio](https://imslp.org/wiki/Category:Marenzio,_Luca) — 275 стр. нот
+- [Lucia Quinciani](https://imslp.org/wiki/Category:Quinciani,_Lucia) — 1 стр. нот
+- [Lucretia Orsina Vizana](https://imslp.org/wiki/Category:Vizana,_Lucretia_Orsina) — 1 стр. нот
+- [Lucrezio Quintiani](https://imslp.org/wiki/Category:Quintiani,_Lucrezio) — 1 стр. нот
+- [Lucrezio Ruffolo](https://imslp.org/wiki/Category:Ruffolo,_Lucrezio) — 1 стр. нот
+- [Ludovico Balbi](https://imslp.org/wiki/Category:Balbi,_Ludovico) — 5 стр. нот
+- [Ludovico Torti](https://imslp.org/wiki/Category:Torti,_Ludovico) — 1 стр. нот
+- [Luigi Battiferri](https://imslp.org/wiki/Category:Battiferri,_Luigi) — 4 стр. нот
+- [Luigi Rossi](https://imslp.org/wiki/Category:Rossi,_Luigi) — 15 стр. нот
+- [Luzzasco Luzzaschi](https://imslp.org/wiki/Category:Luzzaschi,_Luzzasco) — 41 стр. нот
+- [Maddalena Casulana](https://imslp.org/wiki/Category:Casulana,_Maddalena) — 2 стр. нот
+- [Marc Antonio Ingegneri](https://imslp.org/wiki/Category:Ingegneri,_Marc_Antonio) — 38 стр. нот
+- [Marc Antonio Pifaro](https://imslp.org/wiki/Category:Pifaro,_Marc_Antonio) — 1 стр. нот
+- [Marcantonio Negri](https://imslp.org/wiki/Category:Negri,_Marcantonio) — 1 стр. нот
+- [Marcello Tosone](https://imslp.org/wiki/Category:Tosone,_Marcello) — 1 стр. нот
+- [Marchetto Cara](https://imslp.org/wiki/Category:Cara,_Marchetto) — 9 стр. нот
+- [Marco Antonio Cavazzoni](https://imslp.org/wiki/Category:Cavazzoni,_Marco_Antonio) — 3 стр. нот
+- [Marco Dall'Aquila](https://imslp.org/wiki/Category:Dall'Aquila,_Marco) — 1 стр. нот
+- [Marco Facoli](https://imslp.org/wiki/Category:Facoli,_Marco) — 11 стр. нот
+- [Marco da Gagliano](https://imslp.org/wiki/Category:Gagliano,_Marco_da) — 8 стр. нот
+- [Mario Capuana](https://imslp.org/wiki/Category:Capuana,_Mario) — 3 стр. нот
+- [Marsilio Casentini](https://imslp.org/wiki/Category:Casentini,_Marsilio) — 2 стр. нот
+- [Marsilio Santini](https://imslp.org/wiki/Category:Santini,_Marsilio) — 1 стр. нот
+- [Martino Pesenti](https://imslp.org/wiki/Category:Pesenti,_Martino) — 2 стр. нот
+- [Matteo Rampollini](https://imslp.org/wiki/Category:Rampollini,_Matteo) — 3 стр. нот
+- [Melchiore de Barberiis](https://imslp.org/wiki/Category:Barberiis,_Melchiore_de) — 2 стр. нот
+- [Michelangelo Amadei](https://imslp.org/wiki/Category:Amadei,_Michelangelo) — 1 стр. нот
+- [Michelangelo Galilei](https://imslp.org/wiki/Category:Galilei,_Michelangelo) — 12 стр. нот
+- [Michele Pesenti](https://imslp.org/wiki/Category:Pesenti,_Michele) — 3 стр. нот
+- [Michele Varotto](https://imslp.org/wiki/Category:Varotto,_Michele) — 1 стр. нот
+- [Niccolò Piffaro Senese](https://imslp.org/wiki/Category:Piffaro_Senese,_Niccol%C3%B2) — 1 стр. нот
+- [Nicola Burzio](https://imslp.org/wiki/Category:Burzio,_Nicola) — 1 стр. нот
+- [Nicola Parma](https://imslp.org/wiki/Category:Parma,_Nicola) — 3 стр. нот
+- [Nicola Vicentino](https://imslp.org/wiki/Category:Vicentino,_Nicola) — 1 стр. нот
+- [Nicolo Legname](https://imslp.org/wiki/Category:Legname,_Nicolo) — 4 стр. нот
+- [Olivio Simpliciano](https://imslp.org/wiki/Category:Simpliciano,_Olivio) — 1 стр. нот
+- [Onofrio Antenoreo Padovano](https://imslp.org/wiki/Category:Padovano,_Onofrio_Antenoreo) — 1 стр. нот
+- [Orazio Bassani](https://imslp.org/wiki/Category:Bassani,_Orazio) — 10 стр. нот
+- [Orazio Michi](https://imslp.org/wiki/Category:Michi,_Orazio) — 1 стр. нот
+- [Orazio Tigrini](https://imslp.org/wiki/Category:Tigrini,_Orazio) — 1 стр. нот
+- [Orazio Vecchi](https://imslp.org/wiki/Category:Vecchi,_Orazio) — 72 стр. нот
+- [Ottavio Bargnani](https://imslp.org/wiki/Category:Bargnani,_Ottavio) — 2 стр. нот
+- [Ottavio Borono](https://imslp.org/wiki/Category:Borono,_Ottavio) — 1 стр. нот
+- [Pandolfo Zallamella](https://imslp.org/wiki/Category:Zallamella,_Pandolfo) — 1 стр. нот
+- [Paolo Agostini](https://imslp.org/wiki/Category:Agostini,_Paolo) — 3 стр. нот
+- [Paolo Animuccia](https://imslp.org/wiki/Category:Animuccia,_Paolo) — 1 стр. нот
+- [Paolo Aretino](https://imslp.org/wiki/Category:Aretino,_Paolo) — 4 стр. нот
+- [Paolo Bellasio](https://imslp.org/wiki/Category:Bellasio,_Paolo) — 3 стр. нот
+- [Paolo Fonghetti](https://imslp.org/wiki/Category:Fonghetti,_Paolo) — 3 стр. нот
+- [Paolo Isnardi](https://imslp.org/wiki/Category:Isnardi,_Paolo) — 1 стр. нот
+- [Paolo Quagliati](https://imslp.org/wiki/Category:Quagliati,_Paolo) — 27 стр. нот
+- [Paolo Virchi](https://imslp.org/wiki/Category:Virchi,_Paolo) — 6 стр. нот
+- [Pasquale Tristabocca](https://imslp.org/wiki/Category:Tristabocca,_Pasquale) — 1 стр. нот
+- [Pedro de Heredia](https://imslp.org/wiki/Category:Heredia,_Pedro_de) — 3 стр. нот
+- [Perino Fiorentino](https://imslp.org/wiki/Category:Fiorentino,_Perino) — 1 стр. нот
+- [Petrus Organista](https://imslp.org/wiki/Category:Petrus_Organista) — 1 стр. нот
+- [Pierre de Pouille](https://imslp.org/wiki/Category:Pouille,_Pierre_de) — 1 стр. нот
+- [Pietro Amico Ripano Giacobetti](https://imslp.org/wiki/Category:Giacobetti,_Pietro_Amico_Ripano) — 1 стр. нот
+- [Pietro Lappi](https://imslp.org/wiki/Category:Lappi,_Pietro) — 16 стр. нот
+- [Pietro Maria Marsolo](https://imslp.org/wiki/Category:Marsolo,_Pietro_Maria) — 1 стр. нот
+- [Pietro Paolo Melli](https://imslp.org/wiki/Category:Melli,_Pietro_Paolo) — 1 стр. нот
+- [Pietro Paolo Paciotto](https://imslp.org/wiki/Category:Paciotto,_Pietro_Paolo) — 1 стр. нот
+- [Pietro Pontio](https://imslp.org/wiki/Category:Pontio,_Pietro) — 1 стр. нот
+- [Pietro Verdina](https://imslp.org/wiki/Category:Verdina,_Pietro) — 2 стр. нот
+- [Pietro Vinci](https://imslp.org/wiki/Category:Vinci,_Pietro) — 11 стр. нот
+- [Pompeo Stabile](https://imslp.org/wiki/Category:Stabile,_Pompeo) — 1 стр. нот
+- [Pomponio Nenna](https://imslp.org/wiki/Category:Nenna,_Pomponio) — 4 стр. нот
+- [Pomponio da Bologna](https://imslp.org/wiki/Category:Pomponio_da_Bologna) — 1 стр. нот
+- [Randulfus Romanus](https://imslp.org/wiki/Category:Randulfus_Romanus) — 1 стр. нот
+- [Rinaldo Dall'Arpa](https://imslp.org/wiki/Category:Dall'Arpa,_Rinaldo) — 2 стр. нот
+- [Rocco Rodio](https://imslp.org/wiki/Category:Rodio,_Rocco) — 4 стр. нот
+- [Rodolfo da Palestrina](https://imslp.org/wiki/Category:Palestrina,_Rodolfo_da) — 2 стр. нот
+- [Rofino](https://imslp.org/wiki/Category:Rofino) — 1 стр. нот
+- [Romolo Naldi](https://imslp.org/wiki/Category:Naldi,_Romolo) — 1 стр. нот
+- [Ruffino d' Assisi](https://imslp.org/wiki/Category:Assisi,_Ruffino_d') — 2 стр. нот
+- [Ruggier Trofeo](https://imslp.org/wiki/Category:Trofeo,_Ruggier) — 3 стр. нот
+- [Ruggiero Giovannelli](https://imslp.org/wiki/Category:Giovannelli,_Ruggiero) — 29 стр. нот
+- [Salamone Rossi](https://imslp.org/wiki/Category:Rossi,_Salamone) — 18 стр. нот
+- [Santino Garsi da Parma](https://imslp.org/wiki/Category:Garsi_da_Parma,_Santino) — 7 стр. нот
+- [Scipione Dentice](https://imslp.org/wiki/Category:Dentice,_Scipione) — 1 стр. нот
+- [Scipione Lacorcia](https://imslp.org/wiki/Category:Lacorcia,_Scipione) — 1 стр. нот
+- [Scipione Stella](https://imslp.org/wiki/Category:Stella,_Scipione) — 3 стр. нот
+- [Sebastiano Festa](https://imslp.org/wiki/Category:Festa,_Sebastiano) — 1 стр. нот
+- [Sessa d' Aranda](https://imslp.org/wiki/Category:Aranda,_Sessa_d') — 5 стр. нот
+- [Severo Bonini](https://imslp.org/wiki/Category:Bonini,_Severo) — 4 стр. нот
+- [Sigismondo D'India](https://imslp.org/wiki/Category:D'India,_Sigismondo) — 5 стр. нот
+- [Silla da Palestrina](https://imslp.org/wiki/Category:Palestrina,_Silla_da) — 2 стр. нот
+- [Silvio Marazzi](https://imslp.org/wiki/Category:Marazzi,_Silvio) — 1 стр. нот
+- [Simon Ferrarese](https://imslp.org/wiki/Category:Ferrarese,_Simon) — 1 стр. нот
+- [Simone Molinaro](https://imslp.org/wiki/Category:Molinaro,_Simone) — 12 стр. нот
+- [Sperindio Bertoldo](https://imslp.org/wiki/Category:Bertoldo,_Sperindio) — 6 стр. нот
+- [Stefano Felis](https://imslp.org/wiki/Category:Felis,_Stefano) — 4 стр. нот
+- [Stefano Landi](https://imslp.org/wiki/Category:Landi,_Stefano) — 2 стр. нот
+- [Stefano Venturi del Nibbio](https://imslp.org/wiki/Category:Venturi_del_Nibbio,_Stefano) — 2 стр. нот
+- [Steffano Bernardi](https://imslp.org/wiki/Category:Bernardi,_Steffano) — 14 стр. нот
+- [Sulpitia Lodovica Cesis](https://imslp.org/wiki/Category:Cesis,_Sulpitia_Lodovica) — 1 стр. нот
+- [Tarquinio Merula](https://imslp.org/wiki/Category:Merula,_Tarquinio) — 61 стр. нот
+- [Tiburtio Massaino](https://imslp.org/wiki/Category:Massaino,_Tiburtio) — 41 стр. нот
+- [Tommaso Cecchino](https://imslp.org/wiki/Category:Cecchino,_Tommaso) — 4 стр. нот
+- [Tommaso Pecci](https://imslp.org/wiki/Category:Pecci,_Tommaso) — 2 стр. нот
+- [Tullio Cima](https://imslp.org/wiki/Category:Cima,_Tullio) — 7 стр. нот
+- [Valerio Bona](https://imslp.org/wiki/Category:Bona,_Valerio) — 7 стр. нот
+- [Vincenzo Bellavere](https://imslp.org/wiki/Category:Bellavere,_Vincenzo) — 2 стр. нот
+- [Vincenzo Calestani](https://imslp.org/wiki/Category:Calestani,_Vincenzo) — 1 стр. нот
+- [Vincenzo Capirola](https://imslp.org/wiki/Category:Capirola,_Vincenzo) — 2 стр. нот
+- [Vincenzo Ferro](https://imslp.org/wiki/Category:Ferro,_Vincenzo) — 1 стр. нот
+- [Vincenzo Galilei](https://imslp.org/wiki/Category:Galilei,_Vincenzo) — 14 стр. нот
+- [Vincenzo Pellegrini](https://imslp.org/wiki/Category:Pellegrini,_Vincenzo) — 10 стр. нот
+- [Vincenzo Ruffo](https://imslp.org/wiki/Category:Ruffo,_Vincenzo) — 32 стр. нот
+- [Vincenzo Scapitta](https://imslp.org/wiki/Category:Scapitta,_Vincenzo) — 2 стр. нот
+- [Vincenzo Ugolini](https://imslp.org/wiki/Category:Ugolini,_Vincenzo) — 1 стр. нот
+- [Vincenzo da Verona](https://imslp.org/wiki/Category:Verona,_Vincenzo_da) — 1 стр. нот
+- [Virgilio Mazzocchi](https://imslp.org/wiki/Category:Mazzocchi,_Virgilio) — 3 стр. нот
+- [Vittoria Aleotti](https://imslp.org/wiki/Category:Aleotti,_Vittoria) — 19 стр. нот

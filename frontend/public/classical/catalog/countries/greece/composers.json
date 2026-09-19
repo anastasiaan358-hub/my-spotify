@@ -1,0 +1,18 @@
+{
+  "country": "Греция",
+  "composers": [
+    {
+      "id": "londariti-francesco",
+      "name": "Francesco Londariti",
+      "imslpName": "Londariti, Francesco",
+      "country": "Греция",
+      "countrySlug": "greece",
+      "nationality": "Greek",
+      "born": "1518",
+      "died": "1572",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Londariti,_Francesco"
+    }
+  ]
+}

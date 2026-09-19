@@ -1,0 +1,181 @@
+# Германские земли
+
+Композиторов с открытыми страницами нот: 177.
+
+- [Adam Gumpelzhaimer](https://imslp.org/wiki/Category:Gumpelzhaimer,_Adam) — 11 стр. нот
+- [Adam Steigleder](https://imslp.org/wiki/Category:Steigleder,_Adam) — 1 стр. нот
+- [Adrian Denss](https://imslp.org/wiki/Category:Denss,_Adrian) — 5 стр. нот
+- [Alexander Agricola](https://imslp.org/wiki/Category:Agricola,_Alexander) — 106 стр. нот
+- [Andreas Hakenberger](https://imslp.org/wiki/Category:Hakenberger,_Andreas) — 1 стр. нот
+- [Andreas Raselius](https://imslp.org/wiki/Category:Raselius,_Andreas) — 49 стр. нот
+- [Anton Holzner](https://imslp.org/wiki/Category:Holzner,_Anton) — 1 стр. нот
+- [Arnolt Schlick](https://imslp.org/wiki/Category:Schlick,_Arnolt) — 1 стр. нот
+- [August Nörmiger](https://imslp.org/wiki/Category:N%C3%B6rmiger,_August) — 1 стр. нот
+- [Balthasar Arthopius](https://imslp.org/wiki/Category:Arthopius,_Balthasar) — 1 стр. нот
+- [Balthasar Resinarius](https://imslp.org/wiki/Category:Resinarius,_Balthasar) — 29 стр. нот
+- [Bartholomaeus Praetorius](https://imslp.org/wiki/Category:Praetorius,_Bartholomaeus) — 2 стр. нот
+- [Bartholomäus Gesius](https://imslp.org/wiki/Category:Gesius,_Bartholom%C3%A4us) — 8 стр. нот
+- [Benedictus Ducis](https://imslp.org/wiki/Category:Ducis,_Benedictus) — 3 стр. нот
+- [Benedikt Faber](https://imslp.org/wiki/Category:Faber,_Benedikt) — 3 стр. нот
+- [Benedikt Lechler](https://imslp.org/wiki/Category:Lechler,_Benedikt) — 2 стр. нот
+- [Bernhard Klingenstein](https://imslp.org/wiki/Category:Klingenstein,_Bernhard) — 2 стр. нот
+- [Bernhard Schmid I](https://imslp.org/wiki/Category:Schmid_I,_Bernhard) — 13 стр. нот
+- [Bernhard Schmid II](https://imslp.org/wiki/Category:Schmid_II,_Bernhard) — 4 стр. нот
+- [Cajus Schmiedtlein](https://imslp.org/wiki/Category:Schmiedtlein,_Cajus) — 1 стр. нот
+- [Caspar Othmayr](https://imslp.org/wiki/Category:Othmayr,_Caspar) — 11 стр. нот
+- [Caspar Textorius](https://imslp.org/wiki/Category:Textorius,_Caspar) — 2 стр. нот
+- [Christian Erbach](https://imslp.org/wiki/Category:Erbach,_Christian) — 24 стр. нот
+- [Christoph Buel](https://imslp.org/wiki/Category:Buel,_Christoph) — 1 стр. нот
+- [Christoph Demantius](https://imslp.org/wiki/Category:Demantius,_Christoph) — 3 стр. нот
+- [Claudius Sebastiani](https://imslp.org/wiki/Category:Sebastiani,_Claudius) — 1 стр. нот
+- [Conrad Brumann](https://imslp.org/wiki/Category:Brumann,_Conrad) — 1 стр. нот
+- [Cornelius Freundt](https://imslp.org/wiki/Category:Freundt,_Cornelius) — 1 стр. нот
+- [Cyriacus Spangenberg](https://imslp.org/wiki/Category:Spangenberg,_Cyriacus) — 1 стр. нот
+- [Daniel Bollius](https://imslp.org/wiki/Category:Bollius,_Daniel) — 1 стр. нот
+- [Daniel Friderici](https://imslp.org/wiki/Category:Friderici,_Daniel) — 1 стр. нот
+- [David Aquinus](https://imslp.org/wiki/Category:Aquinus,_David) — 1 стр. нот
+- [David Köler](https://imslp.org/wiki/Category:K%C3%B6ler,_David) — 1 стр. нот
+- [David Scheidemann](https://imslp.org/wiki/Category:Scheidemann,_David) — 1 стр. нот
+- [David Wolder](https://imslp.org/wiki/Category:Wolder,_David) — 1 стр. нот
+- [Elias Mertel](https://imslp.org/wiki/Category:Mertel,_Elias) — 5 стр. нот
+- [Elias Nikolaus Ammerbach](https://imslp.org/wiki/Category:Ammerbach,_Elias_Nikolaus) — 11 стр. нот
+- [Erasmus Lapicida](https://imslp.org/wiki/Category:Lapicida,_Erasmus) — 2 стр. нот
+- [Erhard Hegenwald](https://imslp.org/wiki/Category:Hegenwald,_Erhard) — 1 стр. нот
+- [Eucharius Hoffmann](https://imslp.org/wiki/Category:Hoffmann,_Eucharius) — 1 стр. нот
+- [Ferdinand de Lassus](https://imslp.org/wiki/Category:Lassus,_Ferdinand_de) — 2 стр. нот
+- [Friedrich Lindner](https://imslp.org/wiki/Category:Lindner,_Friedrich) — 1 стр. нот
+- [Friedrich Pittanus](https://imslp.org/wiki/Category:Pittanus,_Friedrich) — 1 стр. нот
+- [Gabriel Voigtländer](https://imslp.org/wiki/Category:Voigtl%C3%A4nder,_Gabriel) — 1 стр. нот
+- [Gallus Dressler](https://imslp.org/wiki/Category:Dressler,_Gallus) — 4 стр. нот
+- [Georg Engelmann](https://imslp.org/wiki/Category:Engelmann,_Georg) — 2 стр. нот
+- [Georg Forster](https://imslp.org/wiki/Category:Forster,_Georg) — 5 стр. нот
+- [Georg Leopold Fuhrmann](https://imslp.org/wiki/Category:Fuhrmann,_Georg_Leopold) — 1 стр. нот
+- [Georg Paterman](https://imslp.org/wiki/Category:Paterman,_Georg) — 2 стр. нот
+- [Georg Schimmelpfennig](https://imslp.org/wiki/Category:Schimmelpfennig,_Georg) — 1 стр. нот
+- [Gotthard Erythräus](https://imslp.org/wiki/Category:Erythr%C3%A4us,_Gotthard) — 1 стр. нот
+- [Gregor Aichinger](https://imslp.org/wiki/Category:Aichinger,_Gregor) — 13 стр. нот
+- [Gregor Brayssing](https://imslp.org/wiki/Category:Brayssing,_Gregor) — 1 стр. нот
+- [Gregor Krengel](https://imslp.org/wiki/Category:Krengel,_Gregor) — 1 стр. нот
+- [Gregor Lange](https://imslp.org/wiki/Category:Lange,_Gregor) — 19 стр. нот
+- [Hans Buchner](https://imslp.org/wiki/Category:Buchner,_Hans) — 4 стр. нот
+- [Hans Judenkünig](https://imslp.org/wiki/Category:Judenk%C3%BCnig,_Hans) — 5 стр. нот
+- [Hans Kotter](https://imslp.org/wiki/Category:Kotter,_Hans) — 2 стр. нот
+- [Hans Leo Hassler](https://imslp.org/wiki/Category:Hassler,_Hans_Leo) — 83 стр. нот
+- [Hans Neusiedler](https://imslp.org/wiki/Category:Neusiedler,_Hans) — 45 стр. нот
+- [Heinrich Faber](https://imslp.org/wiki/Category:Faber,_Heinrich) — 1 стр. нот
+- [Heinrich Finck](https://imslp.org/wiki/Category:Finck,_Heinrich) — 4 стр. нот
+- [Heinrich Grimm](https://imslp.org/wiki/Category:Grimm,_Heinrich) — 1 стр. нот
+- [Heinrich Scheidemann](https://imslp.org/wiki/Category:Scheidemann,_Heinrich) — 69 стр. нот
+- [Heinrich Schütz](https://imslp.org/wiki/Category:Sch%C3%BCtz,_Heinrich) — 154 стр. нот
+- [Hieronymus Praetorius](https://imslp.org/wiki/Category:Praetorius,_Hieronymus) — 21 стр. нот
+- [Huldrich Steigleder](https://imslp.org/wiki/Category:Steigleder,_Huldrich) — 1 стр. нот
+- [Jacob Praetorius](https://imslp.org/wiki/Category:Praetorius,_Jacob) — 5 стр. нот
+- [Jacob Reiner](https://imslp.org/wiki/Category:Reiner,_Jacob) — 1 стр. нот
+- [Jacob Schedlich](https://imslp.org/wiki/Category:Schedlich,_Jacob) — 1 стр. нот
+- [Jakob Fabricius](https://imslp.org/wiki/Category:Fabricius,_Jakob) — 1 стр. нот
+- [Jakob Meiland](https://imslp.org/wiki/Category:Meiland,_Jakob) — 1 стр. нот
+- [Jakob Paix](https://imslp.org/wiki/Category:Paix,_Jakob) — 16 стр. нот
+- [Joachim Belitz](https://imslp.org/wiki/Category:Belitz,_Joachim) — 1 стр. нот
+- [Joachim Decker](https://imslp.org/wiki/Category:Decker,_Joachim) — 2 стр. нот
+- [Joachim Dönerus](https://imslp.org/wiki/Category:D%C3%B6nerus,_Joachim) — 1 стр. нот
+- [Joachim Magdeburg](https://imslp.org/wiki/Category:Magdeburg,_Joachim) — 1 стр. нот
+- [Joachim a Burck](https://imslp.org/wiki/Category:Burck,_Joachim_a) — 7 стр. нот
+- [Jobst vom Brandt](https://imslp.org/wiki/Category:Brandt,_Jobst_vom) — 1 стр. нот
+- [Johann Andreas Herbst](https://imslp.org/wiki/Category:Herbst,_Johann_Andreas) — 1 стр. нот
+- [Johann Christenius](https://imslp.org/wiki/Category:Christenius,_Johann) — 4 стр. нот
+- [Johann Crüger](https://imslp.org/wiki/Category:Cr%C3%BCger,_Johann) — 12 стр. нот
+- [Johann Decker](https://imslp.org/wiki/Category:Decker,_Johann) — 1 стр. нот
+- [Johann Groh](https://imslp.org/wiki/Category:Groh,_Johann) — 1 стр. нот
+- [Johann Hermann Schein](https://imslp.org/wiki/Category:Schein,_Johann_Hermann) — 216 стр. нот
+- [Johann Hess](https://imslp.org/wiki/Category:Hess,_Johann) — 1 стр. нот
+- [Johann Jeep](https://imslp.org/wiki/Category:Jeep,_Johann) — 1 стр. нот
+- [Johann Mayr](https://imslp.org/wiki/Category:Mayr,_Johann) — 1 стр. нот
+- [Johann Nauwach](https://imslp.org/wiki/Category:Nauwach,_Johann) — 2 стр. нот
+- [Johann Rude](https://imslp.org/wiki/Category:Rude,_Johann) — 1 стр. нот
+- [Johann Schachinger](https://imslp.org/wiki/Category:Schachinger,_Johann) — 1 стр. нот
+- [Johann Schop](https://imslp.org/wiki/Category:Schop,_Johann) — 5 стр. нот
+- [Johann Sommer](https://imslp.org/wiki/Category:Sommer,_Johann) — 6 стр. нот
+- [Johann Staden](https://imslp.org/wiki/Category:Staden,_Johann) — 10 стр. нот
+- [Johann Stadlmayr](https://imslp.org/wiki/Category:Stadlmayr,_Johann) — 3 стр. нот
+- [Johann Stahel](https://imslp.org/wiki/Category:Stahel,_Johann) — 3 стр. нот
+- [Johann Steffens](https://imslp.org/wiki/Category:Steffens,_Johann) — 7 стр. нот
+- [Johann Steuerlein](https://imslp.org/wiki/Category:Steuerlein,_Johann) — 4 стр. нот
+- [Johann Stobäus](https://imslp.org/wiki/Category:Stob%C3%A4us,_Johann) — 17 стр. нот
+- [Johann Ulrich Steigleder](https://imslp.org/wiki/Category:Steigleder,_Johann_Ulrich) — 20 стр. нот
+- [Johann Walter](https://imslp.org/wiki/Category:Walter,_Johann) — 82 стр. нот
+- [Johann Weinmann](https://imslp.org/wiki/Category:Weinmann,_Johann) — 1 стр. нот
+- [Johannes Agricola](https://imslp.org/wiki/Category:Agricola,_Johannes) — 2 стр. нот
+- [Johannes Celscher](https://imslp.org/wiki/Category:Celscher,_Johannes) — 1 стр. нот
+- [Johannes Eccard](https://imslp.org/wiki/Category:Eccard,_Johannes) — 43 стр. нот
+- [Johannes Galliculus](https://imslp.org/wiki/Category:Galliculus,_Johannes) — 1 стр. нот
+- [Johannes Heugel](https://imslp.org/wiki/Category:Heugel,_Johannes) — 1 стр. нот
+- [Johannes Kugelmann](https://imslp.org/wiki/Category:Kugelmann,_Johannes) — 1 стр. нот
+- [Johannes Rühling](https://imslp.org/wiki/Category:R%C3%BChling,_Johannes) — 1 стр. нот
+- [Johannes Schultz](https://imslp.org/wiki/Category:Schultz,_Johannes) — 5 стр. нот
+- [Jorg Weltzell](https://imslp.org/wiki/Category:Weltzell,_Jorg) — 1 стр. нот
+- [Joseph Klug](https://imslp.org/wiki/Category:Klug,_Joseph) — 1 стр. нот
+- [Julius Ernst Rautenstein](https://imslp.org/wiki/Category:Rautenstein,_Julius_Ernst) — 3 стр. нот
+- [Leonhard Kleber](https://imslp.org/wiki/Category:Kleber,_Leonhard) — 1 стр. нот
+- [Leonhard Lechner](https://imslp.org/wiki/Category:Lechner,_Leonhard) — 14 стр. нот
+- [Leonhard Schröter](https://imslp.org/wiki/Category:Schr%C3%B6ter,_Leonhard) — 17 стр. нот
+- [Lorenz Lemlin](https://imslp.org/wiki/Category:Lemlin,_Lorenz) — 1 стр. нот
+- [Lucas Lossius](https://imslp.org/wiki/Category:Lossius,_Lucas) — 1 стр. нот
+- [Lucas Osiander](https://imslp.org/wiki/Category:Osiander,_Lucas) — 1 стр. нот
+- [Ludwig Daser](https://imslp.org/wiki/Category:Daser,_Ludwig) — 4 стр. нот
+- [Malchinger](https://imslp.org/wiki/Category:Malchinger) — 1 стр. нот
+- [Martin Agricola](https://imslp.org/wiki/Category:Agricola,_Martin) — 4 стр. нот
+- [Martin Luther](https://imslp.org/wiki/Category:Luther,_Martin) — 6 стр. нот
+- [Martin Zeuner](https://imslp.org/wiki/Category:Zeuner,_Martin) — 1 стр. нот
+- [Matthaüs Reymann](https://imslp.org/wiki/Category:Reymann,_Mattha%C3%BCs) — 1 стр. нот
+- [Matthias Greiter](https://imslp.org/wiki/Category:Greiter,_Matthias) — 3 стр. нот
+- [Matthäus Luidke](https://imslp.org/wiki/Category:Luidke,_Matth%C3%A4us) — 2 стр. нот
+- [Matthäus Waissel](https://imslp.org/wiki/Category:Waissel,_Matth%C3%A4us) — 1 стр. нот
+- [Melchior Franck](https://imslp.org/wiki/Category:Franck,_Melchior) — 27 стр. нот
+- [Melchior Neusidler](https://imslp.org/wiki/Category:Neusidler,_Melchior) — 2 стр. нот
+- [Melchior Schildt](https://imslp.org/wiki/Category:Schildt,_Melchior) — 9 стр. нот
+- [Melchior Schramm](https://imslp.org/wiki/Category:Schramm,_Melchior) — 3 стр. нот
+- [Melchior Teschner](https://imslp.org/wiki/Category:Teschner,_Melchior) — 3 стр. нот
+- [Melchior Vulpius](https://imslp.org/wiki/Category:Vulpius,_Melchior) — 18 стр. нот
+- [Michael Altenburg](https://imslp.org/wiki/Category:Altenburg,_Michael) — 2 стр. нот
+- [Michael Praetorius](https://imslp.org/wiki/Category:Praetorius,_Michael) — 110 стр. нот
+- [Michael Weisse](https://imslp.org/wiki/Category:Weisse,_Michael) — 4 стр. нот
+- [Moritz von Hessen-Kassel](https://imslp.org/wiki/Category:Hessen-Kassel,_Moritz_von) — 9 стр. нот
+- [Nikolaus Decius](https://imslp.org/wiki/Category:Decius,_Nikolaus) — 1 стр. нот
+- [Nikolaus Herman](https://imslp.org/wiki/Category:Herman,_Nikolaus) — 2 стр. нот
+- [Nikolaus Zangius](https://imslp.org/wiki/Category:Zangius,_Nikolaus) — 4 стр. нот
+- [Oswald Reuter](https://imslp.org/wiki/Category:Reuter,_Oswald) — 2 стр. нот
+- [Ottmar Luscinius](https://imslp.org/wiki/Category:Luscinius,_Ottmar) — 3 стр. нот
+- [Paul Lütkemann](https://imslp.org/wiki/Category:L%C3%BCtkemann,_Paul) — 6 стр. нот
+- [Paul Peuerl](https://imslp.org/wiki/Category:Peuerl,_Paul) — 16 стр. нот
+- [Peter Hasse](https://imslp.org/wiki/Category:Hasse,_Peter) — 1 стр. нот
+- [Petrus Alamire](https://imslp.org/wiki/Category:Alamire,_Petrus) — 1 стр. нот
+- [Philipp Dulichius](https://imslp.org/wiki/Category:Dulichius,_Philipp) — 7 стр. нот
+- [Philipp III](https://imslp.org/wiki/Category:Philipp_III) — 1 стр. нот
+- [Philipp Nicolai](https://imslp.org/wiki/Category:Nicolai,_Philipp) — 1 стр. нот
+- [Rudolph de Lassus](https://imslp.org/wiki/Category:Lassus,_Rudolph_de) — 2 стр. нот
+- [Samuel Besler](https://imslp.org/wiki/Category:Besler,_Samuel) — 6 стр. нот
+- [Samuel II Bidermann](https://imslp.org/wiki/Category:Bidermann,_Samuel_II) — 1 стр. нот
+- [Samuel Michael](https://imslp.org/wiki/Category:Michael,_Samuel) — 1 стр. нот
+- [Samuel Scheidt](https://imslp.org/wiki/Category:Scheidt,_Samuel) — 48 стр. нот
+- [Sebald Nachtigal](https://imslp.org/wiki/Category:Nachtigal,_Sebald) — 1 стр. нот
+- [Sebastian Ochsenkhun](https://imslp.org/wiki/Category:Ochsenkhun,_Sebastian) — 1 стр. нот
+- [Sebastian Virdung](https://imslp.org/wiki/Category:Virdung,_Sebastian) — 2 стр. нот
+- [Seth Calvisius](https://imslp.org/wiki/Category:Calvisius,_Seth) — 7 стр. нот
+- [Simon Besler](https://imslp.org/wiki/Category:Besler,_Simon) — 2 стр. нот
+- [Sixt Dietrich](https://imslp.org/wiki/Category:Dietrich,_Sixt) — 5 стр. нот
+- [Stephan Mahu](https://imslp.org/wiki/Category:Mahu,_Stephan) — 13 стр. нот
+- [Stephan Zirler](https://imslp.org/wiki/Category:Zirler,_Stephan) — 5 стр. нот
+- [Thesselius Johann](https://imslp.org/wiki/Category:Johann,_Thesselius) — 1 стр. нот
+- [Thomas Fritsch](https://imslp.org/wiki/Category:Fritsch,_Thomas) — 1 стр. нот
+- [Thomas Selle](https://imslp.org/wiki/Category:Selle,_Thomas) — 2 стр. нот
+- [Thomas Stoltzer](https://imslp.org/wiki/Category:Stoltzer,_Thomas) — 72 стр. нот
+- [Tielman Susato](https://imslp.org/wiki/Category:Susato,_Tielman) — 19 стр. нот
+- [Ulrich Brätel](https://imslp.org/wiki/Category:Br%C3%A4tel,_Ulrich) — 3 стр. нот
+- [Valentin Dretzel](https://imslp.org/wiki/Category:Dretzel,_Valentin) — 2 стр. нот
+- [Valentin Haussmann](https://imslp.org/wiki/Category:Haussmann,_Valentin) — 14 стр. нот
+- [Valentin Slegel](https://imslp.org/wiki/Category:Slegel,_Valentin) — 1 стр. нот
+- [Virgilius Haugk](https://imslp.org/wiki/Category:Haugk,_Virgilius) — 1 стр. нот
+- [Volckmar Leisring](https://imslp.org/wiki/Category:Leisring,_Volckmar) — 1 стр. нот
+- [Wilhelm Breitengraser](https://imslp.org/wiki/Category:Breitengraser,_Wilhelm) — 2 стр. нот
+- [Wolff Heintz](https://imslp.org/wiki/Category:Heintz,_Wolff) — 4 стр. нот
+- [Wolfgang Figulus](https://imslp.org/wiki/Category:Figulus,_Wolfgang) — 2 стр. нот
