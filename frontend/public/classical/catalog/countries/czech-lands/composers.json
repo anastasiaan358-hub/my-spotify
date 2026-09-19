@@ -1,0 +1,44 @@
+{
+  "country": "Чешские земли",
+  "composers": [
+    {
+      "id": "michna-adam-vaclav",
+      "name": "Adam Václav Michna",
+      "imslpName": "Michna, Adam Václav",
+      "country": "Чешские земли",
+      "countrySlug": "czech-lands",
+      "nationality": "Czech",
+      "born": "1600",
+      "died": "1676",
+      "period": "Baroque",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Michna,_Adam_V%C3%A1clav"
+    },
+    {
+      "id": "peschin-gregor",
+      "name": "Gregor Peschin",
+      "imslpName": "Peschin, Gregor",
+      "country": "Чешские земли",
+      "countrySlug": "czech-lands",
+      "nationality": "Czech",
+      "born": "ca.1500",
+      "died": "after 1547",
+      "period": "Renaissance",
+      "workCount": 7,
+      "scoresUrl": "https://imslp.org/wiki/Category:Peschin,_Gregor"
+    },
+    {
+      "id": "turnovsky-jan-trojan",
+      "name": "Jan Trojan Turnovský",
+      "imslpName": "Turnovský, Jan Trojan",
+      "country": "Чешские земли",
+      "countrySlug": "czech-lands",
+      "nationality": "Czech",
+      "born": "1505",
+      "died": "1606",
+      "period": "Renaissance",
+      "workCount": 7,
+      "scoresUrl": "https://imslp.org/wiki/Category:Turnovsk%C3%BD,_Jan_Trojan"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Мексика",
+  "composers": [
+    {
+      "id": "ximeno-fabian",
+      "name": "Fabián Ximeno",
+      "imslpName": "Ximeno, Fabián",
+      "country": "Мексика",
+      "countrySlug": "mexico",
+      "nationality": "Mexican",
+      "born": "c.1595",
+      "died": "1654",
+      "period": "Baroque",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Ximeno,_Fabi%C3%A1n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Швеция",
+  "composers": [
+    {
+      "id": "duben-andreas",
+      "name": "Andreas Düben",
+      "imslpName": "Düben, Andreas",
+      "country": "Швеция",
+      "countrySlug": "sweden",
+      "nationality": "Swedish",
+      "born": "1597",
+      "died": "1662",
+      "period": "Baroque",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:D%C3%BCben,_Andreas"
+    }
+  ]
+}

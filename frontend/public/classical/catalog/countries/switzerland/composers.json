@@ -1,0 +1,83 @@
+{
+  "country": "Швейцария",
+  "composers": [
+    {
+      "id": "alder-cosmas",
+      "name": "Cosmas Alder",
+      "imslpName": "Alder, Cosmas",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "1497",
+      "died": "1550",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Alder,_Cosmas"
+    },
+    {
+      "id": "wurstisen-emanuel",
+      "name": "Emanuel Wurstisen",
+      "imslpName": "Wurstisen, Emanuel",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "1572",
+      "died": "1619",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Wurstisen,_Emanuel"
+    },
+    {
+      "id": "wecker-johann-jacob",
+      "name": "Johann Jacob Wecker",
+      "imslpName": "Wecker, Johann Jacob",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "1528",
+      "died": "1586",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Wecker,_Johann_Jacob"
+    },
+    {
+      "id": "wannenmacher-johannes",
+      "name": "Johannes Wannenmacher",
+      "imslpName": "Wannenmacher, Johannes",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "ca.1485",
+      "died": "1551",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Wannenmacher,_Johannes"
+    },
+    {
+      "id": "senfl-ludwig",
+      "name": "Ludwig Senfl",
+      "imslpName": "Senfl, Ludwig",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "ca.1486",
+      "died": "1543",
+      "period": "Renaissance",
+      "workCount": 137,
+      "scoresUrl": "https://imslp.org/wiki/Category:Senfl,_Ludwig"
+    },
+    {
+      "id": "wust-paulus",
+      "name": "Paulus Wüst",
+      "imslpName": "Wüst, Paulus",
+      "country": "Швейцария",
+      "countrySlug": "switzerland",
+      "nationality": "Swiss",
+      "born": "ca.1470",
+      "died": "ca.1540",
+      "period": "Renaissance",
+      "workCount": 22,
+      "scoresUrl": "https://imslp.org/wiki/Category:W%C3%BCst,_Paulus"
+    }
+  ]
+}

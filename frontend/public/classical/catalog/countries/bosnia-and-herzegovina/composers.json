@@ -1,0 +1,18 @@
+{
+  "country": "Босния и Герцеговина",
+  "composers": [
+    {
+      "id": "bossinensis-franciscus",
+      "name": "Franciscus Bossinensis",
+      "imslpName": "Bossinensis, Franciscus",
+      "country": "Босния и Герцеговина",
+      "countrySlug": "bosnia-and-herzegovina",
+      "nationality": "Bosnian",
+      "born": "1485",
+      "died": "1535",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Bossinensis,_Franciscus"
+    }
+  ]
+}

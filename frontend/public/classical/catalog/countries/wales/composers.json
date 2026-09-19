@@ -1,0 +1,31 @@
+{
+  "country": "Уэльс",
+  "composers": [
+    {
+      "id": "bevin-elway",
+      "name": "Elway Bevin",
+      "imslpName": "Bevin, Elway",
+      "country": "Уэльс",
+      "countrySlug": "wales",
+      "nationality": "Welsh",
+      "born": "ca.1554",
+      "died": "Buried 19 October 1638",
+      "period": "Renaissance",
+      "workCount": 4,
+      "scoresUrl": "https://imslp.org/wiki/Category:Bevin,_Elway"
+    },
+    {
+      "id": "tomkins-thomas",
+      "name": "Thomas Tomkins",
+      "imslpName": "Tomkins, Thomas",
+      "country": "Уэльс",
+      "countrySlug": "wales",
+      "nationality": "Welsh",
+      "born": "1572",
+      "died": "1656",
+      "period": "Baroque",
+      "workCount": 61,
+      "scoresUrl": "https://imslp.org/wiki/Category:Tomkins,_Thomas"
+    }
+  ]
+}

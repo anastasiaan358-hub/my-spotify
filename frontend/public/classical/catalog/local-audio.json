@@ -1,0 +1,388 @@
+{
+  "generatedAt": "2026-09-17T10:39:35.304166+00:00",
+  "playbackMode": "local-audio",
+  "totalEntries": 1,
+  "importedCount": 1,
+  "remainingCount": 0,
+  "artists": {
+    "tallis": {
+      "availableCount": 2,
+      "works": {
+        "1234687": {
+          "key": "tallis:1234687",
+          "title": "Laudate Dominum",
+          "streamUrl": "/classical/audio/imported/tallis/1234687.mid",
+          "mediaType": "midi",
+          "sourceName": "IMSLP / Gervais Frykman (нотный MIDI-рендер)",
+          "sourceUrl": "https://imslp.org/wiki/File:PMLP1234687-Tallis_Laudate_Dominum.mxl",
+          "license": "CC BY-NC 4.0",
+          "bytes": 19489,
+          "sha256": "9a6a0b7be1af31a8351fc390528d519e570c1cb8295faadf27d27a2d0df0f3e6",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        },
+        "131102": {
+          "key": "tallis:131102",
+          "title": "If Ye Love Me",
+          "streamUrl": "/classical/audio/tallis.ogg",
+          "mediaType": "audio",
+          "sourceName": "Wikimedia Commons / Mutopia Project",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tallis_if_ye_love_me_performed_by_the_dwsChorale.ogg",
+          "license": "Audio: CC BY-SA 3.0; score: Public Domain",
+          "bytes": 1830793,
+          "sha256": "2d1bf1e5a03399c184f384a229c5fe88b65a4174b0e9688c786cb28bb7ecf486",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "arbeau": {
+      "availableCount": 1,
+      "works": {
+        "1327009": {
+          "key": "arbeau:1327009",
+          "title": "Belle qui tiens ma vie",
+          "streamUrl": "/classical/audio/arbeau.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/ArbeauT/Orch/belle/belle.mid",
+          "license": "Public Domain",
+          "bytes": 2981,
+          "sha256": "c74442dd887bea1bafecac1a6ec5e5a1bf97e39f22e1a13c2e9eac2869b34cba",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "dowland": {
+      "availableCount": 1,
+      "works": {
+        "682488": {
+          "key": "dowland:682488",
+          "title": "Come Again, Sweet Love doth Now Invite",
+          "streamUrl": "/classical/audio/dowland.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/DowlandJ/ALS17/ComeAgain/ComeAgain.mid",
+          "license": "Public Domain",
+          "bytes": 3637,
+          "sha256": "4cc353989108ac40a7b74a40b170d331f783d7c6e4dfc9ed12f1e33e4dee59a8",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "galilei": {
+      "availableCount": 1,
+      "works": {
+        "81985": {
+          "key": "galilei:81985",
+          "title": "Saltarello",
+          "streamUrl": "/classical/audio/galilei.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/saltarello.mid",
+          "license": "Public Domain",
+          "bytes": 1961,
+          "sha256": "5d934a2d4e4fb86e7173997c063d447d36cb1d7ec461ed80a80a9764aacf410b",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "gastoldi": {
+      "availableCount": 1,
+      "works": {
+        "60070": {
+          "key": "gastoldi:60070",
+          "title": "Al mormorar de liquidi cristalli",
+          "streamUrl": "/classical/audio/gastoldi.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/GastoldiG/Al_mormorar/Al_mormorar.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 15762,
+          "sha256": "5c9cbcd141571435eebcc01ec4518cb0da6c2709494ce40dfd1629fb11c03767",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "gesualdo": {
+      "availableCount": 1,
+      "works": {
+        "625556": {
+          "key": "gesualdo:625556",
+          "title": "Dolcissima mia vita",
+          "streamUrl": "/classical/audio/gesualdo.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/GesualdoC/Dolcissima_mia_vita/Dolcissima_mia_vita.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 9079,
+          "sha256": "96056843e3a22d3f46717019d7335c39c252149a5974d425a45837b7dc57aeb1",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "marenzio": {
+      "availableCount": 1,
+      "works": {
+        "261051": {
+          "key": "marenzio:261051",
+          "title": "Solo e pensoso",
+          "streamUrl": "/classical/audio/marenzio.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/MarenzioL/Solo_e_pensoso/Solo_e_pensoso.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 22114,
+          "sha256": "a549678692e1aea12cebb76d2c066ce6c06fdf134ce9d031cdb7bb3cf7aae2ef",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "milan": {
+      "availableCount": 1,
+      "works": {
+        "1140385": {
+          "key": "milan:1140385",
+          "title": "Pavana II",
+          "streamUrl": "/classical/audio/milan.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/MilanL/milan-pavan2/milan-pavan2.mid",
+          "license": "Public Domain",
+          "bytes": 1905,
+          "sha256": "0a306cf7e617aca8a2babb9f1dc9160894f760cd5095aedf651394e7d78ccaad",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "josquin": {
+      "availableCount": 1,
+      "works": {
+        "360169": {
+          "key": "josquin:360169",
+          "title": "El grillo, NJE 28.12",
+          "streamUrl": "/classical/audio/josquin.ogg",
+          "mediaType": "audio",
+          "sourceName": "Wikimedia Commons / Mutopia Project",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Josquin_El_grillo_sung_by_the_dwsChorale.ogg",
+          "license": "Audio: CC BY-SA 3.0; score: Public Domain",
+          "bytes": 1732009,
+          "sha256": "97cc5aac51b58ee48282aad5a7df93dc7fdb8151ad414bc51bb225d31d18b7fd",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "victoria": {
+      "availableCount": 1,
+      "works": {
+        "46230": {
+          "key": "victoria:46230",
+          "title": "O magnum mysterium",
+          "streamUrl": "/classical/audio/victoria.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/VictoriaTLd/o_magnum_mysterium/o_magnum_mysterium-mids.zip",
+          "license": "CC BY-SA 3.0",
+          "bytes": 11301,
+          "sha256": "521488d21ec0218aafefa88a13db7bd2d1159baa9ff9c84e83f07a2b3afb6049",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "monteverdi": {
+      "availableCount": 1,
+      "works": {
+        "268758": {
+          "key": "monteverdi:268758",
+          "title": "T'amo mia vita, SV 104",
+          "streamUrl": "/classical/audio/monteverdi.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/MonteverdiC/SV105/T_Amo_Mia_Vita/T_Amo_Mia_Vita.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 11351,
+          "sha256": "e2e23386cf08a6ade449d337f6b28dcb64947e77db5d188f18a28c5326cd7f16",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "frescobaldi": {
+      "availableCount": 1,
+      "works": {
+        "653893": {
+          "key": "frescobaldi:653893",
+          "title": "Toccata avanti la Messa della Domenica, F 12.01",
+          "streamUrl": "/classical/audio/frescobaldi.ogg",
+          "mediaType": "audio",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frescobaldi_Toccata_avanti_la_Messa_della_Domenica.ogg",
+          "license": "Audio: CC BY 3.0; score: Public Domain",
+          "bytes": 741334,
+          "sha256": "c9f70c8a7e84168c56fad4a6d0ebae22c4f2fec2efe19867f1fb69f1435dfc80",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "praetorius": {
+      "availableCount": 1,
+      "works": {
+        "67213": {
+          "key": "praetorius:67213",
+          "title": "Es ist ein Ros entsprungen",
+          "streamUrl": "/classical/audio/praetorius.ogg",
+          "mediaType": "audio",
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Praetorius_-_Es_ist_ein%27_Ros%27_entsprungen.ogg",
+          "license": "Public Domain",
+          "bytes": 871089,
+          "sha256": "4bd986160aa5bc098c410167052048be833145e74caaafe2d67ac0bad8749a25",
+          "featuredAsset": true,
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "galilei-vincenzo": {
+      "availableCount": 1,
+      "works": {
+        "81985": {
+          "key": "galilei-vincenzo|81985",
+          "title": "Saltarello",
+          "streamUrl": "/classical/audio/galilei.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/GalileiV/saltarello/saltarello.mid",
+          "license": "Public Domain",
+          "bytes": 1961,
+          "sha256": "5d934a2d4e4fb86e7173997c063d447d36cb1d7ec461ed80a80a9764aacf410b",
+          "featuredAsset": true,
+          "inheritedFrom": "galilei/81985",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "marenzio-luca": {
+      "availableCount": 1,
+      "works": {
+        "261051": {
+          "key": "marenzio-luca|261051",
+          "title": "Solo e pensoso",
+          "streamUrl": "/classical/audio/marenzio.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/MarenzioL/Solo_e_pensoso/Solo_e_pensoso.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 22114,
+          "sha256": "a549678692e1aea12cebb76d2c066ce6c06fdf134ce9d031cdb7bb3cf7aae2ef",
+          "featuredAsset": true,
+          "inheritedFrom": "marenzio/261051",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "tallis-thomas": {
+      "availableCount": 2,
+      "works": {
+        "131102": {
+          "key": "tallis-thomas|131102",
+          "title": "If Ye Love Me",
+          "streamUrl": "/classical/audio/tallis.ogg",
+          "mediaType": "audio",
+          "sourceName": "Wikimedia Commons / Mutopia Project",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tallis_if_ye_love_me_performed_by_the_dwsChorale.ogg",
+          "license": "Audio: CC BY-SA 3.0; score: Public Domain",
+          "bytes": 1830793,
+          "sha256": "2d1bf1e5a03399c184f384a229c5fe88b65a4174b0e9688c786cb28bb7ecf486",
+          "featuredAsset": true,
+          "inheritedFrom": "tallis/131102",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        },
+        "1234687": {
+          "key": "tallis-thomas|1234687",
+          "title": "Laudate Dominum",
+          "streamUrl": "/classical/audio/imported/tallis/1234687.mid",
+          "mediaType": "midi",
+          "sourceName": "IMSLP / Gervais Frykman (нотный MIDI-рендер)",
+          "sourceUrl": "https://imslp.org/wiki/File:PMLP1234687-Tallis_Laudate_Dominum.mxl",
+          "license": "CC BY-NC 4.0",
+          "bytes": 19489,
+          "sha256": "9a6a0b7be1af31a8351fc390528d519e570c1cb8295faadf27d27a2d0df0f3e6",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00",
+          "inheritedFrom": "tallis/1234687"
+        }
+      }
+    },
+    "victoria-tomas-luis-de": {
+      "availableCount": 1,
+      "works": {
+        "46230": {
+          "key": "victoria-tomas-luis-de|46230",
+          "title": "O magnum mysterium",
+          "streamUrl": "/classical/audio/victoria.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/VictoriaTLd/o_magnum_mysterium/o_magnum_mysterium-mids.zip",
+          "license": "CC BY-SA 3.0",
+          "bytes": 11301,
+          "sha256": "521488d21ec0218aafefa88a13db7bd2d1159baa9ff9c84e83f07a2b3afb6049",
+          "featuredAsset": true,
+          "inheritedFrom": "victoria/46230",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    },
+    "monteverdi-claudio": {
+      "availableCount": 1,
+      "works": {
+        "268758": {
+          "key": "monteverdi-claudio|268758",
+          "title": "T'amo mia vita, SV 104",
+          "streamUrl": "/classical/audio/monteverdi.mid",
+          "mediaType": "midi",
+          "sourceName": "Mutopia Project",
+          "sourceUrl": "https://www.mutopiaproject.org/ftp/MonteverdiC/SV105/T_Amo_Mia_Vita/T_Amo_Mia_Vita.mid",
+          "license": "CC BY-SA 3.0",
+          "bytes": 11351,
+          "sha256": "e2e23386cf08a6ade449d337f6b28dcb64947e77db5d188f18a28c5326cd7f16",
+          "featuredAsset": true,
+          "inheritedFrom": "monteverdi/268758",
+          "playbackStatus": "playable",
+          "verifiedAt": "2026-09-16T18:30:29.884647+00:00"
+        }
+      }
+    }
+  },
+  "catalogPlayableEntryCount": 20,
+  "featuredAssetCount": 18,
+  "inheritedEntryCount": 6,
+  "openTorrentEntryCount": 0,
+  "openTorrentUniqueFileCount": 0
+}

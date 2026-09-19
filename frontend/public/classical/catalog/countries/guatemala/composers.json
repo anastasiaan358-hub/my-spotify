@@ -1,0 +1,18 @@
+{
+  "country": "Гватемала",
+  "composers": [
+    {
+      "id": "franco-hernando",
+      "name": "Hernando Franco",
+      "imslpName": "Franco, Hernando",
+      "country": "Гватемала",
+      "countrySlug": "guatemala",
+      "nationality": "Guatemalan",
+      "born": "1532",
+      "died": "1585",
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Franco,_Hernando"
+    }
+  ]
+}

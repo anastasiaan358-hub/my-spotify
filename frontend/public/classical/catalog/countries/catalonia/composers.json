@@ -1,0 +1,18 @@
+{
+  "country": "Каталония",
+  "composers": [
+    {
+      "id": "flecha-mateo",
+      "name": "Mateo Flecha",
+      "imslpName": "Flecha, Mateo",
+      "country": "Каталония",
+      "countrySlug": "catalonia",
+      "nationality": "Catalan",
+      "born": "1481",
+      "died": "1553",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Flecha,_Mateo"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+# Франция
+
+Композиторов с открытыми страницами нот: 139.
+
+- [Adrien Le Roy](https://imslp.org/wiki/Category:Le_Roy,_Adrien) — 34 стр. нот
+- [Anselmo de Reulx](https://imslp.org/wiki/Category:Reulx,_Anselmo_de) — 1 стр. нот
+- [Anthoine de Bertrand](https://imslp.org/wiki/Category:Bertrand,_Anthoine_de) — 84 стр. нот
+- [Antoine Bruhier](https://imslp.org/wiki/Category:Bruhier,_Antoine) — 4 стр. нот
+- [Antoine Brumel](https://imslp.org/wiki/Category:Brumel,_Antoine) — 34 стр. нот
+- [Antoine De Cousu](https://imslp.org/wiki/Category:De_Cousu,_Antoine) — 1 стр. нот
+- [Antoine Mornable](https://imslp.org/wiki/Category:Mornable,_Antoine) — 1 стр. нот
+- [Antoine de Boësset](https://imslp.org/wiki/Category:Bo%C3%ABsset,_Antoine_de) — 7 стр. нот
+- [Antoine de Févin](https://imslp.org/wiki/Category:F%C3%A9vin,_Antoine_de) — 4 стр. нот
+- [Artus Aux-Cousteaux](https://imslp.org/wiki/Category:Aux-Cousteaux,_Artus) — 1 стр. нот
+- [Benoit](https://imslp.org/wiki/Category:Benoit) — 3 стр. нот
+- [Bertrandus Vaqueras](https://imslp.org/wiki/Category:Vaqueras,_Bertrandus) — 2 стр. нот
+- [Carpentras](https://imslp.org/wiki/Category:Carpentras) — 2 стр. нот
+- [Charles Racquet](https://imslp.org/wiki/Category:Racquet,_Charles) — 2 стр. нот
+- [Charles Tessier](https://imslp.org/wiki/Category:Tessier,_Charles) — 1 стр. нот
+- [Charles d' Argentille](https://imslp.org/wiki/Category:Argentille,_Charles_d') — 3 стр. нот
+- [Claude Gervaise](https://imslp.org/wiki/Category:Gervaise,_Claude) — 55 стр. нот
+- [Claude Goudimel](https://imslp.org/wiki/Category:Goudimel,_Claude) — 178 стр. нот
+- [Claude Le Jeune](https://imslp.org/wiki/Category:Le_Jeune,_Claude) — 120 стр. нот
+- [Claude Martin](https://imslp.org/wiki/Category:Martin,_Claude) — 1 стр. нот
+- [Claudin de Sermisy](https://imslp.org/wiki/Category:Sermisy,_Claudin_de) — 64 стр. нот
+- [Clement Morel](https://imslp.org/wiki/Category:Morel,_Clement) — 1 стр. нот
+- [Clément Janequin](https://imslp.org/wiki/Category:Janequin,_Cl%C3%A9ment) — 110 стр. нот
+- [Contreman](https://imslp.org/wiki/Category:Contreman) — 1 стр. нот
+- [Denis Gaultier](https://imslp.org/wiki/Category:Gaultier,_Denis) — 3 стр. нот
+- [Didier Le Blanc](https://imslp.org/wiki/Category:Le_Blanc,_Didier) — 43 стр. нот
+- [Didier Lupi Second](https://imslp.org/wiki/Category:Lupi_Second,_Didier) — 1 стр. нот
+- [Dominique Phinot](https://imslp.org/wiki/Category:Phinot,_Dominique) — 2 стр. нот
+- [Ebran](https://imslp.org/wiki/Category:Ebran) — 1 стр. нот
+- [Ennemond Gaultier](https://imslp.org/wiki/Category:Gaultier,_Ennemond) — 4 стр. нот
+- [Estienne Du Tertre](https://imslp.org/wiki/Category:Du_Tertre,_Estienne) — 5 стр. нот
+- [Eustache Du Caurroy](https://imslp.org/wiki/Category:Du_Caurroy,_Eustache) — 62 стр. нот
+- [François Bourgoing](https://imslp.org/wiki/Category:Bourgoing,_Fran%C3%A7ois) — 1 стр. нот
+- [François Bourguignon](https://imslp.org/wiki/Category:Bourguignon,_Fran%C3%A7ois) — 2 стр. нот
+- [François Dulot](https://imslp.org/wiki/Category:Dulot,_Fran%C3%A7ois) — 2 стр. нот
+- [François Regnard](https://imslp.org/wiki/Category:Regnard,_Fran%C3%A7ois) — 21 стр. нот
+- [François Richard](https://imslp.org/wiki/Category:Richard,_Fran%C3%A7ois) — 1 стр. нот
+- [François Roussel](https://imslp.org/wiki/Category:Roussel,_Fran%C3%A7ois) — 3 стр. нот
+- [François de Chancy](https://imslp.org/wiki/Category:Chancy,_Fran%C3%A7ois_de) — 1 стр. нот
+- [Frougy](https://imslp.org/wiki/Category:Frougy) — 1 стр. нот
+- [Gabriel Bataille](https://imslp.org/wiki/Category:Bataille,_Gabriel) — 1 стр. нот
+- [Gabriel Coste](https://imslp.org/wiki/Category:Coste,_Gabriel) — 1 стр. нот
+- [Germain Pinel](https://imslp.org/wiki/Category:Pinel,_Germain) — 2 стр. нот
+- [Gilles Mureau](https://imslp.org/wiki/Category:Mureau,_Gilles) — 4 стр. нот
+- [Guiard](https://imslp.org/wiki/Category:Guiard) — 2 стр. нот
+- [Guillaume Boni](https://imslp.org/wiki/Category:Boni,_Guillaume) — 2 стр. нот
+- [Guillaume Bouzignac](https://imslp.org/wiki/Category:Bouzignac,_Guillaume) — 15 стр. нот
+- [Guillaume Costeley](https://imslp.org/wiki/Category:Costeley,_Guillaume) — 67 стр. нот
+- [Guillaume Franc](https://imslp.org/wiki/Category:Franc,_Guillaume) — 1 стр. нот
+- [Guillaume Le Heurteur](https://imslp.org/wiki/Category:Le_Heurteur,_Guillaume) — 9 стр. нот
+- [Guillaume Morlaye](https://imslp.org/wiki/Category:Morlaye,_Guillaume) — 2 стр. нот
+- [Henry Fresneau](https://imslp.org/wiki/Category:Fresneau,_Henry) — 1 стр. нот
+- [Jacob Regnart](https://imslp.org/wiki/Category:Regnart,_Jacob) — 72 стр. нот
+- [Jacotin](https://imslp.org/wiki/Category:Jacotin) — 3 стр. нот
+- [Jacques Lefèvre](https://imslp.org/wiki/Category:Lef%C3%A8vre,_Jacques) — 1 стр. нот
+- [Jacques Lefèvre d'Étaples](https://imslp.org/wiki/Category:Lef%C3%A8vre_d'%C3%89taples,_Jacques) — 1 стр. нот
+- [Jacquet of Mantua](https://imslp.org/wiki/Category:Jacquet_of_Mantua) — 15 стр. нот
+- [Jean Boyer](https://imslp.org/wiki/Category:Boyer,_Jean) — 1 стр. нот
+- [Jean Braconnier](https://imslp.org/wiki/Category:Braconnier,_Jean) — 1 стр. нот
+- [Jean Conseil](https://imslp.org/wiki/Category:Conseil,_Jean) — 3 стр. нот
+- [Jean Guyot](https://imslp.org/wiki/Category:Guyot,_Jean) — 10 стр. нот
+- [Jean Henry le jeune](https://imslp.org/wiki/Category:Henry_le_jeune,_Jean) — 3 стр. нот
+- [Jean Japart](https://imslp.org/wiki/Category:Japart,_Jean) — 24 стр. нот
+- [Jean Le Brung](https://imslp.org/wiki/Category:Le_Brung,_Jean) — 3 стр. нот
+- [Jean Le Gendre](https://imslp.org/wiki/Category:Le_Gendre,_Jean) — 1 стр. нот
+- [Jean Lecocq](https://imslp.org/wiki/Category:Lecocq,_Jean) — 1 стр. нот
+- [Jean Maillard](https://imslp.org/wiki/Category:Maillard,_Jean) — 3 стр. нот
+- [Jean Molinet](https://imslp.org/wiki/Category:Molinet,_Jean) — 1 стр. нот
+- [Jean Mouton](https://imslp.org/wiki/Category:Mouton,_Jean) — 24 стр. нот
+- [Jean Richafort](https://imslp.org/wiki/Category:Richafort,_Jean) — 9 стр. нот
+- [Jean Rousée](https://imslp.org/wiki/Category:Rous%C3%A9e,_Jean) — 1 стр. нот
+- [Jean Servin](https://imslp.org/wiki/Category:Servin,_Jean) — 1 стр. нот
+- [Jean Titelouze](https://imslp.org/wiki/Category:Titelouze,_Jean) — 20 стр. нот
+- [Jean Veillot](https://imslp.org/wiki/Category:Veillot,_Jean) — 1 стр. нот
+- [Jean Yssandon](https://imslp.org/wiki/Category:Yssandon,_Jean) — 1 стр. нот
+- [Jean-Baptiste Besard](https://imslp.org/wiki/Category:Besard,_Jean-Baptiste) — 8 стр. нот
+- [Jehan Chardavoine](https://imslp.org/wiki/Category:Chardavoine,_Jehan) — 7 стр. нот
+- [Jehan Fresneau](https://imslp.org/wiki/Category:Fresneau,_Jehan) — 5 стр. нот
+- [Johannes Beausseron](https://imslp.org/wiki/Category:Beausseron,_Johannes) — 1 стр. нот
+- [Johannes Bonnevin](https://imslp.org/wiki/Category:Bonnevin,_Johannes) — 1 стр. нот
+- [Johannes Lupi](https://imslp.org/wiki/Category:Lupi,_Johannes) — 4 стр. нот
+- [Julien Belin](https://imslp.org/wiki/Category:Belin,_Julien) — 1 стр. нот
+- [Julien Perrichon](https://imslp.org/wiki/Category:Perrichon,_Julien) — 1 стр. нот
+- [Lambert Courtois](https://imslp.org/wiki/Category:Courtois,_Lambert) — 1 стр. нот
+- [Laurent Bonard](https://imslp.org/wiki/Category:Bonard,_Laurent) — 1 стр. нот
+- [Le Peletier](https://imslp.org/wiki/Category:Le_Peletier) — 2 стр. нот
+- [Louis Constantin](https://imslp.org/wiki/Category:Constantin,_Louis) — 1 стр. нот
+- [Loys Bourgeois](https://imslp.org/wiki/Category:Bourgeois,_Loys) — 4 стр. нот
+- [Loyset Compère](https://imslp.org/wiki/Category:Comp%C3%A8re,_Loyset) — 76 стр. нот
+- [M. Raoult](https://imslp.org/wiki/Category:Raoult,_M.) — 1 стр. нот
+- [Maistre Jhan](https://imslp.org/wiki/Category:Maistre_Jhan) — 1 стр. нот
+- [Marc-Antoine de Muret](https://imslp.org/wiki/Category:Muret,_Marc-Antoine_de) — 2 стр. нот
+- [Mathieu Gascongne](https://imslp.org/wiki/Category:Gascongne,_Mathieu) — 5 стр. нот
+- [Mathieu Lasson](https://imslp.org/wiki/Category:Lasson,_Mathieu) — 1 стр. нот
+- [Mathieu Sohier](https://imslp.org/wiki/Category:Sohier,_Mathieu) — 1 стр. нот
+- [Mercure d' Orléans](https://imslp.org/wiki/Category:Orl%C3%A9ans,_Mercure_d') — 1 стр. нот
+- [Michel de Menehou](https://imslp.org/wiki/Category:Menehou,_Michel_de) — 1 стр. нот
+- [Mittantier](https://imslp.org/wiki/Category:Mittantier) — 2 стр. нот
+- [Monsieur de Bussy](https://imslp.org/wiki/Category:Bussy,_Monsieur_de) — 2 стр. нот
+- [Nicolas Pagnier](https://imslp.org/wiki/Category:Pagnier,_Nicolas) — 1 стр. нот
+- [Nicolas de La Grotte](https://imslp.org/wiki/Category:La_Grotte,_Nicolas_de) — 7 стр. нот
+- [Nicolas de Marle](https://imslp.org/wiki/Category:Marle,_Nicolas_de) — 3 стр. нот
+- [Nicolaus Benoist](https://imslp.org/wiki/Category:Benoist,_Nicolaus) — 1 стр. нот
+- [Nicole Regnes](https://imslp.org/wiki/Category:Regnes,_Nicole) — 2 стр. нот
+- [Nicolle des Celliers de Hesdin](https://imslp.org/wiki/Category:Hesdin,_Nicolle_des_Celliers_de) — 4 стр. нот
+- [Ninot le Petit](https://imslp.org/wiki/Category:Ninot_le_Petit) — 12 стр. нот
+- [Nollet](https://imslp.org/wiki/Category:Nollet) — 1 стр. нот
+- [Noë Faignient](https://imslp.org/wiki/Category:Faignient,_No%C3%AB) — 1 стр. нот
+- [Paschal de L'Estocart](https://imslp.org/wiki/Category:L'Estocart,_Paschal_de) — 27 стр. нот
+- [Pernot Vermont](https://imslp.org/wiki/Category:Vermont,_Pernot) — 2 стр. нот
+- [Philippe Verdelot](https://imslp.org/wiki/Category:Verdelot,_Philippe) — 40 стр. нот
+- [Pierre Attaingnant](https://imslp.org/wiki/Category:Attaingnant,_Pierre) — 5 стр. нот
+- [Pierre Blondeau](https://imslp.org/wiki/Category:Blondeau,_Pierre) — 3 стр. нот
+- [Pierre Bonnet](https://imslp.org/wiki/Category:Bonnet,_Pierre) — 10 стр. нот
+- [Pierre Cadéac](https://imslp.org/wiki/Category:Cad%C3%A9ac,_Pierre) — 4 стр. нот
+- [Pierre Certon](https://imslp.org/wiki/Category:Certon,_Pierre) — 34 стр. нот
+- [Pierre Clereau](https://imslp.org/wiki/Category:Clereau,_Pierre) — 2 стр. нот
+- [Pierre Colin](https://imslp.org/wiki/Category:Colin,_Pierre) — 3 стр. нот
+- [Pierre Guédron](https://imslp.org/wiki/Category:Gu%C3%A9dron,_Pierre) — 4 стр. нот
+- [Pierre Moulu](https://imslp.org/wiki/Category:Moulu,_Pierre) — 1 стр. нот
+- [Pierre Passereau](https://imslp.org/wiki/Category:Passereau,_Pierre) — 9 стр. нот
+- [Pierre Vermont](https://imslp.org/wiki/Category:Vermont,_Pierre) — 1 стр. нот
+- [Pierre de Manchicourt](https://imslp.org/wiki/Category:Manchicourt,_Pierre_de) — 12 стр. нот
+- [Pierre de Villiers](https://imslp.org/wiki/Category:Villiers,_Pierre_de) — 56 стр. нот
+- [Pierrequin de Thérache](https://imslp.org/wiki/Category:Th%C3%A9rache,_Pierrequin_de) — 3 стр. нот
+- [René Descartes](https://imslp.org/wiki/Category:Descartes,_Ren%C3%A9) — 1 стр. нот
+- [René Mézangeau](https://imslp.org/wiki/Category:M%C3%A9zangeau,_Ren%C3%A9) — 1 стр. нот
+- [Robert Ballard II](https://imslp.org/wiki/Category:Ballard_II,_Robert) — 3 стр. нот
+- [Robert Godard](https://imslp.org/wiki/Category:Godard,_Robert) — 1 стр. нот
+- [Robert de Févin](https://imslp.org/wiki/Category:F%C3%A9vin,_Robert_de) — 1 стр. нот
+- [Robinet](https://imslp.org/wiki/Category:Robinet) — 9 стр. нот
+- [Rogier Pathie](https://imslp.org/wiki/Category:Pathie,_Rogier) — 1 стр. нот
+- [Sandrin](https://imslp.org/wiki/Category:Sandrin) — 9 стр. нот
+- [Simon Gintzler](https://imslp.org/wiki/Category:Gintzler,_Simon) — 2 стр. нот
+- [Thoinot Arbeau](https://imslp.org/wiki/Category:Arbeau,_Thoinot) — 1 стр. нот
+- [Thomas Champion dit Mithou](https://imslp.org/wiki/Category:Champion_dit_Mithou,_Thomas) — 1 стр. нот
+- [Thomas Crecquillon](https://imslp.org/wiki/Category:Crecquillon,_Thomas) — 24 стр. нот
+- [Verjus](https://imslp.org/wiki/Category:Verjus) — 1 стр. нот
+- [Étienne Moulinié](https://imslp.org/wiki/Category:Moulini%C3%A9,_%C3%89tienne) — 7 стр. нот

@@ -1,3 +1,5 @@
+FROM node:24-bookworm-slim AS node-runtime
+
 FROM python:3.13-slim AS base
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -9,11 +11,12 @@ WORKDIR /app
 
 # curl — для healthcheck контейнера
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl \
+    && apt-get install -y --no-install-recommends curl nodejs \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements/ requirements/
 RUN pip install -r requirements/base.txt
+COPY --from=node-runtime /usr/local/bin/node /usr/local/bin/node
 
 # Dev: + линтер и тесты, код примонтируется томом, root — чтобы не воевать с правами bind mount
 FROM base AS dev
@@ -35,4 +38,4 @@ RUN SECRET_KEY=build-only DATABASE_URL=sqlite:///build.db \
 RUN useradd --create-home appuser && chown -R appuser:appuser /app
 USER appuser
 EXPOSE 8000
-CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "4", "--access-logfile", "-"]
+CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "4", "--timeout", "180", "--access-logfile", "-"]

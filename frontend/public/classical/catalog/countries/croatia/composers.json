@@ -1,0 +1,31 @@
+{
+  "country": "Хорватия",
+  "composers": [
+    {
+      "id": "schiavetti-giulio",
+      "name": "Giulio Schiavetti",
+      "imslpName": "Schiavetti, Giulio",
+      "country": "Хорватия",
+      "countrySlug": "croatia",
+      "nationality": "Croatian",
+      "born": null,
+      "died": null,
+      "period": "Renaissance",
+      "workCount": 2,
+      "scoresUrl": "https://imslp.org/wiki/Category:Schiavetti,_Giulio"
+    },
+    {
+      "id": "lukacic-ivan",
+      "name": "Ivan Lukačić",
+      "imslpName": "Lukačić, Ivan",
+      "country": "Хорватия",
+      "countrySlug": "croatia",
+      "nationality": "Croatian",
+      "born": "before 1587 [?1575]",
+      "died": "1648",
+      "period": "Renaissance",
+      "workCount": 5,
+      "scoresUrl": "https://imslp.org/wiki/Category:Luka%C4%8Di%C4%87,_Ivan"
+    }
+  ]
+}

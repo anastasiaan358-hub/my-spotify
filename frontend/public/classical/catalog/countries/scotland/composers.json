@@ -1,0 +1,44 @@
+{
+  "country": "Шотландия",
+  "composers": [
+    {
+      "id": "angus-jhone",
+      "name": "Jhone Angus",
+      "imslpName": "Angus, Jhone",
+      "country": "Шотландия",
+      "countrySlug": "scotland",
+      "nationality": "Scottish",
+      "born": null,
+      "died": "?",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Angus,_Jhone"
+    },
+    {
+      "id": "carver-robert",
+      "name": "Robert Carver",
+      "imslpName": "Carver, Robert",
+      "country": "Шотландия",
+      "countrySlug": "scotland",
+      "nationality": "Scottish",
+      "born": "by 1490",
+      "died": "after 1567",
+      "period": "Renaissance",
+      "workCount": 3,
+      "scoresUrl": "https://imslp.org/wiki/Category:Carver,_Robert"
+    },
+    {
+      "id": "johnson-i-robert",
+      "name": "Robert Johnson I",
+      "imslpName": "Johnson I, Robert",
+      "country": "Шотландия",
+      "countrySlug": "scotland",
+      "nationality": "Scottish",
+      "born": "1500ca.",
+      "died": "1560ca.",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Johnson_I,_Robert"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "country": "Болгария",
+  "composers": [
+    {
+      "id": "folk-songs-bulgarian",
+      "name": "Bulgarian Folk Songs",
+      "imslpName": "Folk Songs, Bulgarian",
+      "country": "Болгария",
+      "countrySlug": "bulgaria",
+      "nationality": "Bulgarian",
+      "born": "500",
+      "died": "1900",
+      "period": "Renaissance",
+      "workCount": 1,
+      "scoresUrl": "https://imslp.org/wiki/Category:Folk_Songs,_Bulgarian"
+    }
+  ]
+}

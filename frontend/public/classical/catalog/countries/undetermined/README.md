@@ -1,0 +1,162 @@
+# Страна не установлена
+
+Композиторов с открытыми страницами нот: 158.
+
+- [Abbate D. Francisco à Tarento](https://imslp.org/wiki/Category:Francisco_%C3%A0_Tarento,_Abbate_D.) — 1 стр. нот
+- [Alessandro Romano](https://imslp.org/wiki/Category:Romano,_Alessandro) — 2 стр. нот
+- [Alfonso Dalla Viola](https://imslp.org/wiki/Category:Dalla_Viola,_Alfonso) — 1 стр. нот
+- [Andreas Berger](https://imslp.org/wiki/Category:Berger,_Andreas) — 1 стр. нот
+- [Andreas Michot](https://imslp.org/wiki/Category:Michot,_Andreas) — 1 стр. нот
+- [Andrzej Rohaczewski](https://imslp.org/wiki/Category:Rohaczewski,_Andrzej) — 1 стр. нот
+- [Annibale Perini](https://imslp.org/wiki/Category:Perini,_Annibale) — 1 стр. нот
+- [Antoine ou Jean Boyvin](https://imslp.org/wiki/Category:Boyvin,_Antoine_ou_Jean) — 1 стр. нот
+- [Antonio Formica](https://imslp.org/wiki/Category:Formica,_Antonio) — 1 стр. нот
+- [Antonio Morsolino](https://imslp.org/wiki/Category:Morsolino,_Antonio) — 1 стр. нот
+- [Antonio Romanini](https://imslp.org/wiki/Category:Romanini,_Antonio) — 1 стр. нот
+- [Arnold Fleron](https://imslp.org/wiki/Category:Fleron,_Arnold) — 1 стр. нот
+- [Barthelemy Poignare](https://imslp.org/wiki/Category:Poignare,_Barthelemy) — 1 стр. нот
+- [Batra](https://imslp.org/wiki/Category:Batra) — 1 стр. нот
+- [Bebrelyn](https://imslp.org/wiki/Category:Bebrelyn) — 1 стр. нот
+- [Bellerofonte Castaldi](https://imslp.org/wiki/Category:Castaldi,_Bellerofonte) — 2 стр. нот
+- [Benedictus de Opitiis](https://imslp.org/wiki/Category:Opitiis,_Benedictus_de) — 1 стр. нот
+- [Bernardino Bottazzi](https://imslp.org/wiki/Category:Bottazzi,_Bernardino) — 1 стр. нот
+- [Bernardino Vannini](https://imslp.org/wiki/Category:Vannini,_Bernardino) — 1 стр. нот
+- [Blome](https://imslp.org/wiki/Category:Blome) — 2 стр. нот
+- [Bohuslav Čechtický](https://imslp.org/wiki/Category:%C4%8Cechtick%C3%BD,_Bohuslav) — 1 стр. нот
+- [Bon Voisin](https://imslp.org/wiki/Category:Bon_Voisin) — 2 стр. нот
+- [Briquet](https://imslp.org/wiki/Category:Briquet) — 1 стр. нот
+- [Bulkyn](https://imslp.org/wiki/Category:Bulkyn) — 1 стр. нот
+- [Caesar Tudinus Adriensis](https://imslp.org/wiki/Category:Tudinus_Adriensis,_Caesar) — 1 стр. нот
+- [Cesaro Todino](https://imslp.org/wiki/Category:Todino,_Cesaro) — 2 стр. нот
+- [Charles de Courbes](https://imslp.org/wiki/Category:Courbes,_Charles_de) — 1 стр. нот
+- [Cherisy](https://imslp.org/wiki/Category:Cherisy) — 1 стр. нот
+- [Christoph Straus](https://imslp.org/wiki/Category:Straus,_Christoph) — 1 стр. нот
+- [Cornelius de Wilde](https://imslp.org/wiki/Category:Wilde,_Cornelius_de) — 1 стр. нот
+- [Cristoforo Piochi](https://imslp.org/wiki/Category:Piochi,_Cristoforo) — 5 стр. нот
+- [D. Luca](https://imslp.org/wiki/Category:Luca,_D.) — 1 стр. нот
+- [Damiano Scarabelli](https://imslp.org/wiki/Category:Scarabelli,_Damiano) — 1 стр. нот
+- [Decapella](https://imslp.org/wiki/Category:Decapella) — 2 стр. нот
+- [Dulos Couillart](https://imslp.org/wiki/Category:Couillart,_Dulos) — 1 стр. нот
+- [Emanuell Soncino](https://imslp.org/wiki/Category:Soncino,_Emanuell) — 2 стр. нот
+- [Erasmus Emring](https://imslp.org/wiki/Category:Emring,_Erasmus) — 1 стр. нот
+- [Felice](https://imslp.org/wiki/Category:Felice) — 1 стр. нот
+- [Ferdinandus et frater eius](https://imslp.org/wiki/Category:Ferdinandus_et_frater_eius) — 1 стр. нот
+- [Fra Thomas De Sancta Maria](https://imslp.org/wiki/Category:De_Sancta_Maria,_Fra_Thomas) — 1 стр. нот
+- [Francesco Colombini](https://imslp.org/wiki/Category:Colombini,_Francesco) — 1 стр. нот
+- [Francesco Lambardi](https://imslp.org/wiki/Category:Lambardi,_Francesco) — 3 стр. нот
+- [Francesco Manara](https://imslp.org/wiki/Category:Manara,_Francesco) — 1 стр. нот
+- [Francesco Milani](https://imslp.org/wiki/Category:Milani,_Francesco) — 1 стр. нот
+- [Francesco Portinaro](https://imslp.org/wiki/Category:Portinaro,_Francesco) — 1 стр. нот
+- [Francesco Viola](https://imslp.org/wiki/Category:Viola,_Francesco) — 1 стр. нот
+- [Franchois Lebertoul](https://imslp.org/wiki/Category:Lebertoul,_Franchois) — 6 стр. нот
+- [Francisco Vellez](https://imslp.org/wiki/Category:Vellez,_Francisco) — 1 стр. нот
+- [Francisco de Santiago](https://imslp.org/wiki/Category:Santiago,_Francisco_de) — 3 стр. нот
+- [Fridolin Sicher](https://imslp.org/wiki/Category:Sicher,_Fridolin) — 1 стр. нот
+- [G. F.](https://imslp.org/wiki/Category:F.,_G.) — 1 стр. нот
+- [G. Jarsins](https://imslp.org/wiki/Category:Jarsins,_G.) — 1 стр. нот
+- [Galeazzo Sabbatini](https://imslp.org/wiki/Category:Sabbatini,_Galeazzo) — 1 стр. нот
+- [Garnier](https://imslp.org/wiki/Category:Garnier) — 1 стр. нот
+- [Gasparo Zerto](https://imslp.org/wiki/Category:Zerto,_Gasparo) — 1 стр. нот
+- [Georg Hemmerley](https://imslp.org/wiki/Category:Hemmerley,_Georg) — 1 стр. нот
+- [Georg Vogelhuber](https://imslp.org/wiki/Category:Vogelhuber,_Georg) — 3 стр. нот
+- [Georgio Borgia](https://imslp.org/wiki/Category:Borgia,_Georgio) — 1 стр. нот
+- [Giacomo Brignoli](https://imslp.org/wiki/Category:Brignoli,_Giacomo) — 1 стр. нот
+- [Giovan Battista Cali](https://imslp.org/wiki/Category:Cali,_Giovan_Battista) — 1 стр. нот
+- [Giovanni Briccio](https://imslp.org/wiki/Category:Briccio,_Giovanni) — 2 стр. нот
+- [Giovanni Matteo Faà di Bruno](https://imslp.org/wiki/Category:Giovanni_Matteo_Fa%C3%A0_di_Bruno) — 1 стр. нот
+- [Giovanni Pacoloni](https://imslp.org/wiki/Category:Pacoloni,_Giovanni) — 1 стр. нот
+- [Giovanni Paolo Paladino](https://imslp.org/wiki/Category:Paladino,_Giovanni_Paolo) — 2 стр. нот
+- [Giovanni Pelio](https://imslp.org/wiki/Category:Pelio,_Giovanni) — 1 стр. нот
+- [Giovanni Vincenzo Palma](https://imslp.org/wiki/Category:Palma,_Giovanni_Vincenzo) — 1 стр. нот
+- [Girolamo Bartei](https://imslp.org/wiki/Category:Bartei,_Girolamo) — 2 стр. нот
+- [Girolamo Casati detto Filago](https://imslp.org/wiki/Category:Casati_detto_Filago,_Girolamo) — 1 стр. нот
+- [Girolamo Parabosco](https://imslp.org/wiki/Category:Parabosco,_Girolamo) — 4 стр. нот
+- [Gregoire](https://imslp.org/wiki/Category:Gregoire) — 3 стр. нот
+- [Gregor Meyer](https://imslp.org/wiki/Category:Meyer,_Gregor) — 1 стр. нот
+- [Gregorius Trehou](https://imslp.org/wiki/Category:Trehou,_Gregorius) — 1 стр. нот
+- [Gregorius de Brugis](https://imslp.org/wiki/Category:Brugis,_Gregorius_de) — 1 стр. нот
+- [Guglielmo Gonzaga](https://imslp.org/wiki/Category:Gonzaga,_Guglielmo) — 1 стр. нот
+- [Guillaume Colin](https://imslp.org/wiki/Category:Colin,_Guillaume) — 1 стр. нот
+- [Guillaume Prevost](https://imslp.org/wiki/Category:Prevost,_Guillaume) — 1 стр. нот
+- [Henricus Morinensis](https://imslp.org/wiki/Category:Morinensis,_Henricus) — 1 стр. нот
+- [Herman Hollander](https://imslp.org/wiki/Category:Hollander,_Herman) — 1 стр. нот
+- [Hubert Naich](https://imslp.org/wiki/Category:Naich,_Hubert) — 3 стр. нот
+- [Hylaire Bernonneau](https://imslp.org/wiki/Category:Bernonneau,_Hylaire) — 1 стр. нот
+- [Infantis](https://imslp.org/wiki/Category:Infantis) — 1 стр. нот
+- [Ippolito Fiorini](https://imslp.org/wiki/Category:Fiorini,_Ippolito) — 1 стр. нот
+- [Iulio Romano](https://imslp.org/wiki/Category:Romano,_Iulio) — 1 стр. нот
+- [J. P.](https://imslp.org/wiki/Category:P.,_J.) — 1 стр. нот
+- [Jacobus de Clibano](https://imslp.org/wiki/Category:Clibano,_Jacobus_de) — 2 стр. нот
+- [Jacques Mauduit](https://imslp.org/wiki/Category:Mauduit,_Jacques) — 32 стр. нот
+- [James Lauder](https://imslp.org/wiki/Category:Lauder,_James) — 1 стр. нот
+- [Jean Hesdimois](https://imslp.org/wiki/Category:Hesdimois,_Jean) — 1 стр. нот
+- [Jean Lhéritier](https://imslp.org/wiki/Category:Lh%C3%A9ritier,_Jean) — 17 стр. нот
+- [Jean de Hollande](https://imslp.org/wiki/Category:Hollande,_Jean_de) — 1 стр. нот
+- [Jo. Rondelly](https://imslp.org/wiki/Category:Rondelly,_Jo.) — 1 стр. нот
+- [Joachim von der Hofe](https://imslp.org/wiki/Category:Hofe,_Joachim_von_der) — 1 стр. нот
+- [Joannes Baptista de Fogliaris](https://imslp.org/wiki/Category:Fogliaris,_Joannes_Baptista_de) — 1 стр. нот
+- [Joannes Fortuila](https://imslp.org/wiki/Category:Fortuila,_Joannes) — 1 стр. нот
+- [Johann Herbaut](https://imslp.org/wiki/Category:Herbaut,_Johann) — 1 стр. нот
+- [Johann Joseph Clittonius](https://imslp.org/wiki/Category:Clittonius,_Johann_Joseph) — 2 стр. нот
+- [Johannes Lambertus Brabant](https://imslp.org/wiki/Category:Brabant,_Johannes_Lambertus) — 2 стр. нот
+- [Johannes de Pinarol](https://imslp.org/wiki/Category:Pinarol,_Johannes_de) — 2 стр. нот
+- [John Marchant](https://imslp.org/wiki/Category:Marchant,_John) — 1 стр. нот
+- [John Sadler](https://imslp.org/wiki/Category:Sadler,_John) — 1 стр. нот
+- [Joseph Lupo](https://imslp.org/wiki/Category:Lupo,_Joseph) — 1 стр. нот
+- [Josquin Dor](https://imslp.org/wiki/Category:Dor,_Josquin) — 1 стр. нот
+- [L. J.](https://imslp.org/wiki/Category:J.,_L.) — 1 стр. нот
+- [La Foulerie](https://imslp.org/wiki/Category:La_Foulerie) — 1 стр. нот
+- [La Val](https://imslp.org/wiki/Category:La_Val) — 1 стр. нот
+- [Lombart](https://imslp.org/wiki/Category:Lombart) — 1 стр. нот
+- [Lucas Puxol](https://imslp.org/wiki/Category:Puxol,_Lucas) — 1 стр. нот
+- [Ludovico Fogliano](https://imslp.org/wiki/Category:Fogliano,_Ludovico) — 1 стр. нот
+- [Manuel da Fonseca](https://imslp.org/wiki/Category:Fonseca,_Manuel_da) — 1 стр. нот
+- [Manuel de Tavares](https://imslp.org/wiki/Category:Tavares,_Manuel_de) — 1 стр. нот
+- [Marbrianus de Orto](https://imslp.org/wiki/Category:Orto,_Marbrianus_de) — 12 стр. нот
+- [Marc'Antonio de Pordenon](https://imslp.org/wiki/Category:Pordenon,_Marc'Antonio_de) — 1 стр. нот
+- [Mathurin Cordier](https://imslp.org/wiki/Category:Cordier,_Mathurin) — 1 стр. нот
+- [Matthias Spiegler](https://imslp.org/wiki/Category:Spiegler,_Matthias) — 1 стр. нот
+- [Melchor Robledo](https://imslp.org/wiki/Category:Robledo,_Melchor) — 1 стр. нот
+- [Michelet](https://imslp.org/wiki/Category:Michelet) — 1 стр. нот
+- [Monachus Gulielmus](https://imslp.org/wiki/Category:Gulielmus,_Monachus) — 1 стр. нот
+- [Monsieur de Lorency](https://imslp.org/wiki/Category:Lorency,_Monsieur_de) — 1 стр. нот
+- [N. Natalis](https://imslp.org/wiki/Category:Natalis,_N.) — 1 стр. нот
+- [Nelbeland](https://imslp.org/wiki/Category:Nelbeland) — 1 стр. нот
+- [Nicholas Ludford](https://imslp.org/wiki/Category:Ludford,_Nicholas) — 10 стр. нот
+- [Niclas Piltz](https://imslp.org/wiki/Category:Piltz,_Niclas) — 2 стр. нот
+- [Nicolas Millot](https://imslp.org/wiki/Category:Millot,_Nicolas) — 2 стр. нот
+- [Orfeo Vecchi](https://imslp.org/wiki/Category:Vecchi,_Orfeo) — 2 стр. нот
+- [Orindio Bartolini](https://imslp.org/wiki/Category:Bartolini,_Orindio) — 2 стр. нот
+- [Passet](https://imslp.org/wiki/Category:Passet) — 2 стр. нот
+- [Paul Siefert](https://imslp.org/wiki/Category:Siefert,_Paul) — 3 стр. нот
+- [Petrus Symon](https://imslp.org/wiki/Category:Symon,_Petrus) — 1 стр. нот
+- [Philip ap Rhys](https://imslp.org/wiki/Category:Rhys,_Philip_ap) — 1 стр. нот
+- [Philippert de Pres](https://imslp.org/wiki/Category:Pres,_Philippert_de) — 1 стр. нот
+- [Pierre Biaumont](https://imslp.org/wiki/Category:Biaumont,_Pierre) — 1 стр. нот
+- [Pierre Daques](https://imslp.org/wiki/Category:Daques,_Pierre) — 1 стр. нот
+- [Pierre Lauverjat](https://imslp.org/wiki/Category:Lauverjat,_Pierre) — 1 стр. нот
+- [Pietro Taglia](https://imslp.org/wiki/Category:Taglia,_Pietro) — 1 стр. нот
+- [Pietro Vecoli](https://imslp.org/wiki/Category:Vecoli,_Pietro) — 1 стр. нот
+- [Poynts](https://imslp.org/wiki/Category:Poynts) — 1 стр. нот
+- [R. Askew](https://imslp.org/wiki/Category:Askew,_R.) — 1 стр. нот
+- [R. Golder](https://imslp.org/wiki/Category:Golder,_R.) — 1 стр. нот
+- [Raulequin de Mol](https://imslp.org/wiki/Category:Raulequin_de_Mol) — 1 стр. нот
+- [Raulin de Vaux](https://imslp.org/wiki/Category:Raulin_de_Vaux) — 1 стр. нот
+- [Richard Davy](https://imslp.org/wiki/Category:Davy,_Richard) — 3 стр. нот
+- [Richard Reade](https://imslp.org/wiki/Category:Reade,_Richard) — 1 стр. нот
+- [Sampson](https://imslp.org/wiki/Category:Sampson) — 1 стр. нот
+- [Simon De Roy](https://imslp.org/wiki/Category:De_Roy,_Simon) — 1 стр. нот
+- [Soursby](https://imslp.org/wiki/Category:Soursby) — 1 стр. нот
+- [Spierinck](https://imslp.org/wiki/Category:Spierinck) — 1 стр. нот
+- [Stephano Rossetti](https://imslp.org/wiki/Category:Rossetti,_Stephano) — 2 стр. нот
+- [Thomas Leetherland](https://imslp.org/wiki/Category:Leetherland,_Thomas) — 1 стр. нот
+- [Thomas Vautor](https://imslp.org/wiki/Category:Vautor,_Thomas) — 1 стр. нот
+- [Tiberio Fabrianese](https://imslp.org/wiki/Category:Fabrianese,_Tiberio) — 1 стр. нот
+- [Tobias Krumbhorn](https://imslp.org/wiki/Category:Krumbhorn,_Tobias) — 1 стр. нот
+- [Valerius Otto](https://imslp.org/wiki/Category:Otto,_Valerius) — 1 стр. нот
+- [Vincent Misonne](https://imslp.org/wiki/Category:Misonne,_Vincent) — 2 стр. нот
+- [Vincenzo Bertulosi](https://imslp.org/wiki/Category:Bertulosi,_Vincenzo) — 1 стр. нот
+- [Vincenzo dal Pozzo](https://imslp.org/wiki/Category:Pozzo,_Vincenzo_dal) — 1 стр. нот
+- [W. Homer Maris](https://imslp.org/wiki/Category:Maris,_W._Homer) — 1 стр. нот
+- [William Browne](https://imslp.org/wiki/Category:Browne,_William) — 1 стр. нот
+- [William Whytbroke](https://imslp.org/wiki/Category:Whytbroke,_William) — 1 стр. нот
