@@ -360,6 +360,16 @@ export const allAncientTraditions: AncientTradition[] = [
         sourceUrl: 'https://www.sjc.ox.ac.uk/discover/events/ancient-greek-choir-workshop/',
       },
       {
+        id: 'mesomedes-nemesis',
+        title: 'Гимн Немезиде',
+        originalTitle: 'Hymn to Nemesis',
+        date: 'первая половина II века н. э.',
+        author: 'Месомед Критский',
+        evidence: 'notation',
+        sourceTitle: 'Ancient Music at Oxford: Hymn to Nemesis',
+        sourceUrl: 'https://ancientmusicoxford.site.ox.ac.uk/programme',
+      },
+      {
         id: 'mesomedes-calliope-apollo',
         title: 'Гимн Каллиопе и Аполлону',
         originalTitle: 'Hymn to Calliope and Apollo',
@@ -402,6 +412,7 @@ export const ancientRecordedWorkIds = new Set([
   'seikilos-song',
   'mesomedes-muse',
   'mesomedes-sun',
+  'mesomedes-nemesis',
   'mesomedes-calliope-apollo',
   'oxyrhynchus-hymn',
 ])

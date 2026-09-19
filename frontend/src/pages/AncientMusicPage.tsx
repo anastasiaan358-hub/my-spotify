@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { BookOpen, ExternalLink, FileText, GitBranch, Landmark, Music2, Play, Search } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { AncientPlaybackCatalog, AncientPlaybackWork } from '../features/ancient-music/model/ancientPlayback'
+import { pendingAncientDocumentCount } from '../features/ancient-music/model/ancientAcademicResearch'
 import {
   ancientTraditions,
   ancientWorkCount,
@@ -116,7 +117,7 @@ export function AncientMusicPage() {
             <span><Play size={15} /> <b>Запись найдена</b> — подлинная нотация исполнена, либо современная интерпретация помечена отдельно.</span>
           </div>
           <Link className="ancient-research-link" to="/ancient-music/research">
-            <BookOpen size={16} /> Академический обзор и другие памятники <span>23</span>
+            <BookOpen size={16} /> Академический обзор и другие памятники <span>{pendingAncientDocumentCount}</span>
           </Link>
         </div>
       </section>
