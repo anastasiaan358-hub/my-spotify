@@ -31,6 +31,22 @@ services:
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.dev
 
+  telegram-bot:
+    build:
+      context: .
+      target: bot
+    image: my-spotify-telegram-bot:dev
+    volumes:
+      - .:/app
+
+  telegram-vk-catalog:
+    build:
+      context: .
+      target: bot
+    image: my-spotify-telegram-bot:dev
+    volumes:
+      - .:/app
+
   db:
     ports:
       - "5432:5432"
