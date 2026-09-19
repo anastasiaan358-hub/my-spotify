@@ -1,4 +1,4 @@
-import { ancientTraditions, type AncientEvidence } from './ancientMusic'
+import { allAncientTraditions, ancientTraditions, type AncientEvidence } from './ancientMusic'
 
 export interface LiteratureSource {
   label: string
@@ -31,7 +31,7 @@ type LiteratureDetail = Pick<AncientLiteratureRecord,
   'language' | 'genre' | 'relationship' | 'description' | 'survival' | 'manuscript' | 'history' | 'themes'
 > & { sources: LiteratureSource[] }
 
-const works = new Map(ancientTraditions.flatMap((tradition) => tradition.works.map((work) => [work.id, { work, tradition }] as const)))
+const works = new Map(allAncientTraditions.flatMap((tradition) => tradition.works.map((work) => [work.id, { work, tradition }] as const)))
 
 const etcsl: LiteratureSource = {
   label: 'Electronic Text Corpus of Sumerian Literature',
@@ -135,7 +135,7 @@ const mesomedesTransmission = [
   'Современные издания сопоставляют рукописи, поэтический метр и нотационные знаки; исполнения остаются научной реконструкцией.',
 ]
 
-export const ancientLiteratureRecords: AncientLiteratureRecord[] = [
+const allAncientLiteratureRecords: AncientLiteratureRecord[] = [
   add('kesh-temple-hymn', {
     language: 'Шумерский',
     genre: 'Храмовый гимн',
@@ -469,5 +469,13 @@ export const ancientLiteratureRecords: AncientLiteratureRecord[] = [
     ],
   }),
 ]
+
+const publishedWorkIds = new Set(
+  ancientTraditions.flatMap((tradition) => tradition.works.map((work) => work.id)),
+)
+
+export const ancientLiteratureRecords = allAncientLiteratureRecords.filter((record) =>
+  publishedWorkIds.has(record.workId),
+)
 
 export const ancientLiteratureByWorkId = new Map(ancientLiteratureRecords.map((record) => [record.workId, record]))

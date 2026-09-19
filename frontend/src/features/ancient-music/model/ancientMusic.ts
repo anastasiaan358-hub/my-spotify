@@ -25,7 +25,7 @@ export const evidenceLabels: Record<AncientEvidence, string> = {
   text: 'Текст / мелодия утрачена',
 }
 
-export const ancientTraditions: AncientTradition[] = [
+export const allAncientTraditions: AncientTradition[] = [
   {
     id: 'sumer-akkad',
     name: 'Шумер и Аккад',
@@ -382,6 +382,38 @@ export const ancientTraditions: AncientTradition[] = [
     ],
   },
 ]
+
+export const ancientRecordedWorkIds = new Set([
+  'kesh-temple-hymn',
+  'exaltation-inanna',
+  'lipit-ishtar-b',
+  'sobek-hymns',
+  'great-hymn-aten',
+  'harpist-song-intef',
+  'harris-love-songs',
+  're-horakhty-hymn',
+  'isis-nephthys-songs',
+  'hurrian-hymn-6',
+  'hurrian-fragments',
+  'ashurbanipal-ishtars',
+  'orestes-stasimon',
+  'first-delphic-hymn',
+  'second-delphic-hymn',
+  'seikilos-song',
+  'mesomedes-muse',
+  'mesomedes-sun',
+  'mesomedes-calliope-apollo',
+  'oxyrhynchus-hymn',
+])
+
+export const ancientTraditions: AncientTradition[] = allAncientTraditions
+  .map((tradition) => ({
+    ...tradition,
+    works: tradition.works.filter(
+      (work) => work.evidence === 'notation' || ancientRecordedWorkIds.has(work.id),
+    ),
+  }))
+  .filter((tradition) => tradition.works.length > 0)
 
 export const ancientWorkCount = ancientTraditions.reduce((total, tradition) => total + tradition.works.length, 0)
 export const notatedWorkCount = ancientTraditions.reduce(
