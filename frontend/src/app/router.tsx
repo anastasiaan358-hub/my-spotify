@@ -4,6 +4,7 @@ import { useSessionStore } from '../features/auth/model/sessionStore'
 import { AvatarSetupPage } from '../pages/AvatarSetupPage'
 import { AlbumPage } from '../pages/AlbumPage'
 import { AncientMusicPage } from '../pages/AncientMusicPage'
+import { AncientResearchPage } from '../pages/AncientResearchPage'
 import { AncientLiteratureDetailPage } from '../pages/AncientLiteratureDetailPage'
 import { ArtistDetailPage } from '../pages/ArtistDetailPage'
 import { ArtistsPage } from '../pages/ArtistsPage'
@@ -52,6 +53,7 @@ export function AppRouter() {
           <Route index element={<HomePage />} />
           <Route path="artists" element={<ArtistsPage />} />
           <Route path="ancient-music" element={<AncientMusicPage />} />
+          <Route path="ancient-music/research" element={<AncientResearchPage />} />
           <Route path="literature/:workId" element={<AncientLiteratureDetailPage />} />
           <Route path="artists/atlas" element={<ComposerAtlasPage />} />
           <Route path="artists/archive/:composerId" element={<ComposerArchivePage />} />
