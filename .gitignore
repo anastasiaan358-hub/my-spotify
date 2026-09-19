@@ -46,3 +46,5 @@ Thumbs.db
 /frontend/public/classical/audio/open-torrents/
 /frontend/public/classical/catalog/vk-audio.json
 /frontend/public/classical/catalog/vk-download-status.json
+
+/reports/

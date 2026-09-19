@@ -11,6 +11,10 @@ services:
     # прод-настройках, даже если в .env лежит dev-значение для локальной работы
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.prod
+    command: gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 4 --timeout 180 --access-logfile -
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     ports:
       - "8000:8000"
     depends_on:
@@ -63,6 +67,38 @@ services:
       redis-queue:
         condition: service_healthy
 
+  telegram-bot:
+    profiles: ["telegram"]
+    build:
+      context: .
+      target: bot
+    image: my-spotify-telegram-bot:prod
+    env_file: .env
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    volumes:
+      - telegram_bot_data:/app/data
+    restart: unless-stopped
+
+  telegram-vk-catalog:
+    profiles: ["telegram"]
+    build:
+      context: .
+      target: bot
+    image: my-spotify-telegram-bot:prod
+    env_file: .env
+    command:
+      - python
+      - -m
+      - scripts.send_vk_catalog_to_telegram
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    volumes:
+      - telegram_bot_data:/app/data
+    restart: unless-stopped
+
   db:
     image: postgres:16-alpine
     environment:
@@ -102,3 +138,4 @@ services:
 volumes:
   pgdata:
   queuedata:
+  telegram_bot_data:

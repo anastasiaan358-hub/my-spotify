@@ -1,0 +1,4 @@
+django-environ~=0.12
+aiogram==3.31.0
+vkpymusic==4.0.2
+yt-dlp==2026.8.19

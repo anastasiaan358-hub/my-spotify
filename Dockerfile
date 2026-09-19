@@ -25,6 +25,17 @@ COPY . .
 EXPOSE 8000
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
+# Telegram-бот запускается отдельным процессом и использует тот же каталог.
+FROM base AS bot
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+RUN pip install -r requirements/bot.txt
+RUN useradd --create-home botuser
+COPY --chown=botuser:botuser . .
+USER botuser
+CMD ["python", "-m", "telegram_music_bot"]
+
 # Prod: минимальный, непривилегированный
 FROM base AS prod
 COPY . .
