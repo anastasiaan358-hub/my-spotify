@@ -1,6 +1,8 @@
-import { useMemo, useState } from 'react'
-import { ArrowLeft, ArrowUpRight, BookOpenText, Clock3, Disc3, Search } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
+import { ArrowLeft, ArrowUpRight, BookOpenText, Clock3, Disc3, Play, Search, Waves } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { YouTubePlayerPanel } from '../features/artists/ui/YouTubePlayerPanel'
+import type { YouTubeWork } from '../features/artists/model/youtubeCatalog'
 import {
   historyCollections,
   musicHistoryEras,
@@ -12,12 +14,55 @@ import type { MusicHistoryStream } from '../features/music-history/model/musicHi
 
 type StreamFilter = 'all' | MusicHistoryStream
 
+interface HistoryListeningEntry {
+  title: string
+  artist: string
+  youtubeUrl: string
+  youtubeTitle: string
+  channel: string
+  durationSeconds?: number | null
+  playbackStatus: 'playable'
+  playableInEmbed: true
+  verifiedAt: string
+}
+
+interface HistoryListeningCatalog {
+  works: Record<string, HistoryListeningEntry | null>
+}
+
 const streamFilters = Object.entries(musicHistoryStreamLabels) as Array<[MusicHistoryStream, string]>
 
 export function MusicHistoryPage() {
   const [query, setQuery] = useState('')
   const [stream, setStream] = useState<StreamFilter>('all')
+  const [listeningCatalog, setListeningCatalog] = useState<HistoryListeningCatalog>({ works: {} })
+  const [selectedVideo, setSelectedVideo] = useState<YouTubeWork | null>(null)
   const normalizedQuery = query.trim().toLocaleLowerCase('ru')
+
+  useEffect(() => {
+    let cancelled = false
+    void fetch('/classical/catalog/history-listening.json')
+      .then((response) => {
+        if (!response.ok) throw new Error(`History listening catalog ${response.status}`)
+        return response.json() as Promise<HistoryListeningCatalog>
+      })
+      .then((catalog) => { if (!cancelled) setListeningCatalog(catalog) })
+      .catch(() => { if (!cancelled) setListeningCatalog({ works: {} }) })
+    return () => { cancelled = true }
+  }, [])
+
+  const openListening = (artist: string, work: string) => {
+    const catalogEntry = listeningCatalog.works[`${artist} — ${work}`]
+    if (!catalogEntry) {
+      window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(`${artist} ${work}`)}`, '_blank', 'noopener,noreferrer')
+      return
+    }
+    setSelectedVideo({
+      ...catalogEntry,
+      key: `${artist} — ${work}`,
+      confidence: 'editorial-search',
+    })
+  }
 
   const visibleEras = useMemo(() => musicHistoryEras.filter((era) => {
     const belongsToStream = stream === 'all' || era.streams.includes(stream)
@@ -77,6 +122,12 @@ export function MusicHistoryPage() {
           <li><span>03</span> После — короткий маршрут прослушивания</li>
         </ol>
       </section>
+
+      <Link className="history-folk-gateway" to="/folk-music">
+        <Waves size={34} strokeWidth={1} />
+        <div><span className="mono-label">НОВАЯ ВЕТВЬ / LIVING TRADITIONS</span><strong>Народная музыка</strong><p>Карельская руническая песня и ещё 27 устных, эпических, обрядовых и инструментальных традиций.</p></div>
+        <span>Открыть отдельный каталог <ArrowUpRight size={17} /></span>
+      </Link>
 
       <section className="history-browser" aria-labelledby="history-browser-heading">
         <header className="history-section-heading">
@@ -161,12 +212,15 @@ export function MusicHistoryPage() {
                 <h3>{collection.title}</h3>
                 <p>{collection.description}</p>
               </div>
-              <ol>
+              <ol className="history-collection__listening">
                 {collection.entries.map((entry, index) => (
                   <li key={`${entry.artist}-${entry.work}`}>
-                    <span>{String(index + 1).padStart(2, '0')}</span>
-                    <div><strong>{entry.work}</strong><small>{entry.artist}</small></div>
-                    <time>{entry.year}</time>
+                    <button type="button" onClick={() => openListening(entry.artist, entry.work)} aria-label={`Слушать ${entry.work} — ${entry.artist}`}>
+                      <span>{String(index + 1).padStart(2, '0')}</span>
+                      <div><strong>{entry.work}</strong><small>{entry.artist}</small></div>
+                      <time>{entry.year}</time>
+                      <i><Play size={12} fill="currentColor" /></i>
+                    </button>
                   </li>
                 ))}
               </ol>
@@ -202,6 +256,7 @@ export function MusicHistoryPage() {
         <p>Верхняя граница раздела — 31 декабря 1989 года. Жанры после этой даты будут вынесены в следующий том хронологии.</p>
         <span>VOL. 001 / END 1989</span>
       </footer>
+      {selectedVideo && <YouTubePlayerPanel work={selectedVideo} onClose={() => setSelectedVideo(null)} />}
     </div>
   )
 }

@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-09-20T21:05:00Z",
+  "method": "YouTube discovery for folk-tradition listening cards",
+  "totalCount": 28,
+  "availableCount": 28,
+  "traditions": {
+    "aboriginal-song": {
+      "title": "Песенные традиции аборигенов Австралии",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ogFWNagoyJU",
+      "youtubeTitle": "Indigenous Wisdom: Songlines | Great Maps Explained",
+      "channel": "Mapster",
+      "durationSeconds": 969,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "aka-polyphony": {
+      "title": "Полифония ака",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IHKlbs5yffg",
+      "youtubeTitle": "The Polyphonic Singing of the Aka Pygmies of Central Africa",
+      "channel": "Mehmet Koksal",
+      "durationSeconds": 179,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "andean-music": {
+      "title": "Андские общинные ансамбли",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TgOe-nNryLE",
+      "youtubeTitle": "Sikuri: The Ancestral Music",
+      "channel": "Salkantay Trekking",
+      "durationSeconds": 66,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "appalachian-old-time": {
+      "title": "Аппалачская баллада и old-time",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oIzxVR9U3Uw",
+      "youtubeTitle": "You've Never Heard an Ancient Irish Ballad Like This One - Róisín Dubh",
+      "channel": "The Cheeky Celt",
+      "durationSeconds": 211,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "armenian-duduk": {
+      "title": "Армянский дудук",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cOi1CyqM40s",
+      "youtubeTitle": "ДУДУК: Gevorg Ayvazyan - Tsiranapogh",
+      "channel": "RA HOUSE",
+      "durationSeconds": 269,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "azerbaijani-mugham": {
+      "title": "Азербайджанский мугам",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PqvlU9WI5pU",
+      "youtubeTitle": "\"Xarıbülbül\" Musiqi Festivalı: İllər Sonra Cıdır Düzündə \"Bayatı-Şiraz\"",
+      "channel": "Xəzər Media",
+      "durationSeconds": 181,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "belarus-polissya": {
+      "title": "Полесский календарный цикл",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CrA9Qfsfl8s",
+      "youtubeTitle": "The Songs of Old Europe – Ancient Belarusian Folk Songs",
+      "channel": "Volya Dzemka",
+      "durationSeconds": 3601,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "bengal-baul": {
+      "title": "Песни баулов",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-M5ln4rjxcQ",
+      "youtubeTitle": "ACHEN AMAR MOKTAAR - TAPOSH FEAT. SYED ABDUL HADI : ROBI YONDER MUSIC WIND OF CHANGE [ PS:02 ]",
+      "channel": "Gaan Bangla TV",
+      "durationSeconds": 551,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "brazilian-capoeira": {
+      "title": "Музыка круга капоэйры",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qj-VHOp2myk",
+      "youtubeTitle": "Only the Strong - Capoeira - Paranaue",
+      "channel": "armamento rap- life",
+      "durationSeconds": 214,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "bulgarian-shopluk": {
+      "title": "Болгарская архаическая полифония",
+      "youtubeUrl": "https://www.youtube.com/watch?v=embqg-yKHNQ",
+      "youtubeTitle": "The Bistritsa Babi — Archaic Polyphony, Dances and Rituals",
+      "channel": "UNESCO",
+      "durationSeconds": 202,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "cuban-rumba": {
+      "title": "Кубинская румба",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gJVT_5swkhA",
+      "youtubeTitle": "Rumba Guaguancó -  \"El Solar de los 6\" - Casa de Amado - La Habana 2011",
+      "channel": "Gingerfilm Latin",
+      "durationSeconds": 191,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "ethiopian-azmari": {
+      "title": "Эфиопские азмари",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5bcHkQrNmXk",
+      "youtubeTitle": "Is This the Most Emotional Music You’ve Never Heard? | Ethiopian Vibes",
+      "channel": "Axum Rockwell",
+      "durationSeconds": 2960,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "georgian-polyphony": {
+      "title": "Грузинское многоголосие",
+      "youtubeUrl": "https://www.youtube.com/watch?v=95Fl37Cyric",
+      "youtubeTitle": "ГРУЗИНСКОЕ МНОГОГОЛОСИЕ. АКАПЕЛЛА САКАРТВЕЛО. \"МНОГАЯ ЛЕТА\". СТАРИННЫЙ ЦЕРКОВНЫЙ ГИМН.",
+      "channel": "Победоносец Pobedonosets",
+      "durationSeconds": 180,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "gnawa": {
+      "title": "Музыка гнауа",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PwWndrJaReA",
+      "youtubeTitle": "Gnawa Nomads – Full Album (Desert Blues, Tuareg & Gnawa Fusion)",
+      "channel": "Sahraaoui",
+      "durationSeconds": 2144,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "indonesian-gamelan": {
+      "title": "Гамелан",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aZFECPabyvg",
+      "youtubeTitle": "Beautiful Indonesia - Gamelan Javanese Music, Meditation & Relaxing Music [Gamelan Vibes]",
+      "channel": "Java Delta - Meditation & Relaxing Music",
+      "durationSeconds": 3703,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "inuit-katajjaq": {
+      "title": "Инуитские игровые песни",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hWN36wBKFBM",
+      "youtubeTitle": "Inuit Throat Singing — Katajjaq",
+      "channel": "The Culture Society",
+      "durationSeconds": 127,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "japanese-minyo": {
+      "title": "Японская народная песня",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cWF5vR9rlIo",
+      "youtubeTitle": "\"Konpira Fune Fune\"(こんぴら ふねふね) - Japanese Folk Song",
+      "channel": "MomentomVmore",
+      "durationSeconds": 158,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "karelian-runosong": {
+      "title": "Карельская руническая песня",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VzCfRk0z5ME",
+      "youtubeTitle": "Authentic Kalevala Rune Song (Runolaulu) Finnish folk song",
+      "channel": "Finno-Ugric folk music",
+      "durationSeconds": 94,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "kazakh-kui": {
+      "title": "Казахский кюй",
+      "youtubeUrl": "https://www.youtube.com/watch?v=azYCSJdY3GM",
+      "youtubeTitle": "Dombyra 100 | OYU Special",
+      "channel": "OYU",
+      "durationSeconds": 143,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "kyrgyz-manas": {
+      "title": "Эпос «Манас»",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iNR_lHbfjqc",
+      "youtubeTitle": "Komuz, Саякбай Каралаев, эпос Манас. Altai kai topshur,  эпос Манас, kyrgyz beats",
+      "channel": "Sadykov Beats",
+      "durationSeconds": 214,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "mexican-son": {
+      "title": "Мексиканский сон и мариачи",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uoXh_CzAo10",
+      "youtubeTitle": "Mexican Mariachi Music | Cinco de Mayo Songs | Mexico Travel Video 🌮🌯🎉🏖️🌵",
+      "channel": "Visual Melodies",
+      "durationSeconds": 3795,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "mongolian-khoomei": {
+      "title": "Монгольский хөөмий",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y_GcZgFCNJE",
+      "youtubeTitle": "Bukhu Ganburged - Mother and Father - The Voice Australia 2020 FULL AUDITION",
+      "channel": "Maif Adam",
+      "durationSeconds": 454,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "russian-north": {
+      "title": "Русский Север",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GlDFwrwkW4w",
+      "youtubeTitle": "Folk Springs. Old Siberian songs performed by folk groups (1979)",
+      "channel": "Музыка на советском телевидении",
+      "durationSeconds": 1494,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "semeiskie": {
+      "title": "Пение семейских",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VS_00OHExb4",
+      "youtubeTitle": "Сгубили меня кари очи - протяжная песня Семейских Забайкалья",
+      "channel": "Видео фестиваля Даурия",
+      "durationSeconds": 133,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "seto-leelo": {
+      "title": "Сетуский леэло",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mSXcYph-ODc",
+      "youtubeTitle": "Seto Leelo, Seto polyphonic singing tradition",
+      "channel": "UNESCO",
+      "durationSeconds": 644,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "ukrainian-kobzar": {
+      "title": "Кобзарская традиция",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1zkfYNVq_jE",
+      "youtubeTitle": "Кобзар Олексій Чуприна • Kobzar Oleksij Chupryna (1990)",
+      "channel": "Marko Farion Banduryst",
+      "durationSeconds": 124,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "west-african-griot": {
+      "title": "Западноафриканская гриотская традиция",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-cLAwAOi-hA",
+      "youtubeTitle": "Toumani Diabaté & Sidiki Diabaté — Jarabi",
+      "channel": "NOISE CHAMBER",
+      "durationSeconds": 242,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    },
+    "yakut-olonkho": {
+      "title": "Якутский олонхо",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CmBi6HEO3Mw",
+      "youtubeTitle": "Olonkho",
+      "channel": "Release - Topic",
+      "durationSeconds": 178,
+      "playbackStatus": "playable",
+      "playableInEmbed": true,
+      "verifiedAt": "2026-09-20T21:05:00Z"
+    }
+  }
+}

@@ -10,6 +10,7 @@ import { ArtistDetailPage } from '../pages/ArtistDetailPage'
 import { ArtistsPage } from '../pages/ArtistsPage'
 import { ComposerAtlasPage } from '../pages/ComposerAtlasPage'
 import { ComposerArchivePage } from '../pages/ComposerArchivePage'
+import { FolkMusicPage } from '../pages/FolkMusicPage'
 import { HomePage } from '../pages/HomePage'
 import { LibraryPage } from '../pages/LibraryPage'
 import { LoginPage } from '../pages/LoginPage'
@@ -56,6 +57,7 @@ export function AppRouter() {
           <Route path="ancient-music" element={<AncientMusicPage />} />
           <Route path="ancient-music/research" element={<AncientResearchPage />} />
           <Route path="music-history" element={<MusicHistoryPage />} />
+          <Route path="folk-music" element={<FolkMusicPage />} />
           <Route path="literature/:workId" element={<AncientLiteratureDetailPage />} />
           <Route path="artists/atlas" element={<ComposerAtlasPage />} />
           <Route path="artists/archive/:composerId" element={<ComposerArchivePage />} />
