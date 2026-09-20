@@ -108,6 +108,19 @@ describe('App', () => {
     expect(screen.getByText('Музыкально-теоретические системы')).toBeInTheDocument()
   })
 
+  it('показывает хронологию всех музыкальных эпох и подборки до 1990 года', () => {
+    window.history.replaceState({}, '', '/music-history')
+    render(<AppProviders><App /></AppProviders>)
+
+    expect(screen.getByRole('heading', { name: 'ИСТОРИЯ МУЗЫКИ', level: 1 })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'ЭПОХИ И ЖАНРЫ' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Древние традиции' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Панк, хип-хоп и электронные сцены' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'ПОДБОРКИ' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Хип-хоп до 1990' })).toBeInTheDocument()
+    expect(screen.getAllByText(/31 декабря 1989 года/)).toHaveLength(2)
+  })
+
   it('открывает полную литературную историю музыкального памятника', () => {
     window.history.replaceState({}, '', '/literature/great-hymn-aten')
     render(<AppProviders><App /></AppProviders>)

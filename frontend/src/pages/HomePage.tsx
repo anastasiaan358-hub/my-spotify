@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { start as startAudioContext } from 'tone'
 import { ancientTraditions, ancientWorkCount } from '../features/ancient-music/model/ancientMusic'
 import { artists } from '../features/artists/model/artists'
+import { musicHistoryEras, uniqueMusicHistoryGenreCount } from '../features/music-history/model/musicHistory'
 import type { ExternalAudioCatalog, ExternalAudioWork } from '../features/artists/model/externalAudioCatalog'
 import type { YouTubeCatalog } from '../features/artists/model/youtubeCatalog'
 import { isVerifiedPlayable } from '../features/artists/model/youtubeCatalog'
@@ -187,14 +188,17 @@ export function HomePage() {
       <section className="era-window" aria-labelledby="era-window-heading">
         <div className="era-window__meta">
           <span>CHRONOLOGY / ARCHIVE NAVIGATION</span>
-          <span>3 PERIODS / OLDEST → NEWEST</span>
+          <span>{musicHistoryEras.length} PERIODS / {uniqueMusicHistoryGenreCount} GENRES / TO 1989</span>
         </div>
         <header className="era-window__header">
           <div>
             <span className="mono-label">// МУЗЫКАЛЬНАЯ ХРОНОЛОГИЯ</span>
             <h2 id="era-window-heading">МУЗЫКА<br />ПО ЭПОХАМ</h2>
           </div>
-          <p>Три наполненные части нашего архива: от первых сохранившихся музыкальных памятников до полифонии Возрождения и раннего барокко.</p>
+          <div className="era-window__intro">
+            <p>Полная карта от первых сохранившихся памятников до хип-хопа, хауса и техно 1980-х. Ниже — три уже наполненные части архива.</p>
+            <Link to="/music-history">Открыть все эпохи и подборки <ArrowUpRight size={16} /></Link>
+          </div>
         </header>
 
         <div className="era-timeline">
@@ -222,6 +226,11 @@ export function HomePage() {
             <small>{eraStats ? `${eraStats.Baroque.composers.toLocaleString('ru-RU')} авторов / ${eraStats.Baroque.works.toLocaleString('ru-RU')} произведений` : 'Загрузка каталога…'}</small>
           </Link>
         </div>
+        <Link className="era-window__all" to="/music-history">
+          <span>Полная музыкальная хронология</span>
+          <strong>{musicHistoryEras.length} эпох / {uniqueMusicHistoryGenreCount} жанров / {String(1989)}</strong>
+          <ArrowUpRight size={18} />
+        </Link>
       </section>
 
       <section className="track-section" aria-labelledby="track-list-heading">
