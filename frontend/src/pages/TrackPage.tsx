@@ -1,8 +1,9 @@
-import { ArrowLeft, Disc3, Download, ExternalLink, Music2, Play } from 'lucide-react'
-import { useState } from 'react'
+import { ArrowLeft, Disc3, Download, Music2, Play } from 'lucide-react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { start as startAudioContext } from 'tone'
 import { getAlbum, getArtist, getTrack } from '../features/artists/model/artists'
+import type { VkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
+import { findDownloadedBotAudio, loadVkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
 import { usePlayerStore } from '../features/player/model/playerStore'
 
 type TrackTab = 'notes' | 'biography'
@@ -13,7 +14,16 @@ export function TrackPage() {
   const album = getAlbum(artist, albumId)
   const track = getTrack(album, trackId)
   const [activeTab, setActiveTab] = useState<TrackTab>('notes')
+  const [audioCatalog, setAudioCatalog] = useState<VkAudioCatalog | null>(null)
   const setTrack = usePlayerStore((state) => state.setTrack)
+
+  useEffect(() => {
+    let cancelled = false
+    void loadVkAudioCatalog()
+      .then((catalog) => { if (!cancelled) setAudioCatalog(catalog) })
+      .catch(() => { if (!cancelled) setAudioCatalog(null) })
+    return () => { cancelled = true }
+  }, [])
 
   if (!artist || !album || !track) {
     return (
@@ -25,20 +35,19 @@ export function TrackPage() {
     )
   }
 
-  const playTrack = async () => {
-    if (track.mediaType === 'midi') await startAudioContext()
-    const [minutes, seconds] = track.duration.split(':').map(Number)
+  const downloaded = findDownloadedBotAudio(audioCatalog, artist.id, track.title)
+  const playTrack = () => {
+    if (!downloaded) return
     setTrack({
-      id: track.id,
-      title: track.title,
+      id: downloaded.key,
+      title: downloaded.title,
       artist: artist.name,
-      streamUrl: track.mediaUrl,
-      mediaType: track.mediaType,
-      durationMs: (minutes * 60 + seconds) * 1000,
+      sourceLabel: 'СКАЧАННЫЙ MP3',
+      streamUrl: downloaded.streamUrl,
+      mediaType: downloaded.mediaType,
+      durationMs: downloaded.durationSeconds ? downloaded.durationSeconds * 1000 : undefined,
     })
   }
-
-  const catalogQuery = encodeURIComponent(`${track.title} ${artist.name}`)
 
   return (
     <div className="catalog-page track-page">
@@ -56,7 +65,7 @@ export function TrackPage() {
           <div className="track-profile__meta">
             <span>{track.duration}</span><span>{track.key}</span><span>{track.bpm} BPM</span><span>{album.year}</span><span>{track.qualityLabel}</span>
           </div>
-          <button className="track-listen-button" type="button" onClick={playTrack}><Play size={16} fill="currentColor" /> Слушать произведение</button>
+          <button className="track-listen-button" type="button" disabled={!downloaded} onClick={playTrack}><Play size={16} fill="currentColor" /> {downloaded ? 'Слушать скачанный MP3' : 'MP3 ещё не скачан'}</button>
         </div>
         <Disc3 className="track-profile__disc" size={96} strokeWidth={.8} />
       </header>
@@ -77,10 +86,6 @@ export function TrackPage() {
               </div>
               <div className="score-toolbar__actions">
                 <a href={track.scoreUrl} download><Download size={15} /> Скачать PDF</a>
-                <a href={track.sourceUrl} target="_blank" rel="noreferrer">Файл и лицензия <ExternalLink size={15} /></a>
-                <a href={`https://imslp.org/index.php?search=${catalogQuery}`} target="_blank" rel="noreferrer">IMSLP <ExternalLink size={15} /></a>
-                <a href={`https://rism.online/search?mode=sources&q=${catalogQuery}`} target="_blank" rel="noreferrer">RISM <ExternalLink size={15} /></a>
-                <a href={`https://rusneb.ru/search/?q=${catalogQuery}`} target="_blank" rel="noreferrer">НЭБ <ExternalLink size={15} /></a>
               </div>
             </div>
             <a className="score-preview" href={track.scoreUrl} target="_blank" rel="noreferrer" title={`Партитура ${track.title}`}>

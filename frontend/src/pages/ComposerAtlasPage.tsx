@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { ArrowLeft, ArrowUpRight, ChevronRight, ExternalLink, Folder, GitBranch, Search } from 'lucide-react'
+import { ArrowLeft, ArrowUpRight, ChevronRight, Folder, GitBranch, Search } from 'lucide-react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { composerLifetime, composerRoute, type AtlasComposer } from '../features/artists/model/atlasCatalog'
 
@@ -197,9 +197,7 @@ export function ComposerAtlasPage() {
                 <small>{edge.label}</small>
               </div>
               <p>{edge.summary}</p>
-              <a href={edge.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Источник: ${edge.sourceTitle}`}>
-                Источник <ExternalLink size={12} />
-              </a>
+              <span className="influence-evidence__source">{edge.sourceTitle}</span>
             </article>
           ))}
         </div>

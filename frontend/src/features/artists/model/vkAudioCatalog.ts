@@ -38,5 +38,29 @@ export async function loadVkAudioCatalog() {
 }
 
 export function isVerifiedVkPlayable(work: VkAudioWork | undefined) {
-  return Boolean(work && work.playbackStatus === 'playable' && work.streamUrl)
+  return Boolean(
+    work
+    && work.playbackStatus === 'playable'
+    && work.mediaType === 'audio'
+    && work.streamUrl.startsWith('/classical/audio/vk/')
+    && work.streamUrl.toLocaleLowerCase().endsWith('.mp3'),
+  )
+}
+
+function normalizeTitle(value: string) {
+  return value
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLocaleLowerCase()
+    .replace(/[^a-zа-яё0-9]+/gi, ' ')
+    .trim()
+}
+
+export function findDownloadedBotAudio(catalog: VkAudioCatalog | null, artistId: string, title: string) {
+  const expected = normalizeTitle(title)
+  return Object.values(catalog?.artists[artistId]?.works ?? {}).find((work) => {
+    if (!isVerifiedVkPlayable(work)) return false
+    const candidate = normalizeTitle(work.title)
+    return candidate === expected || candidate.startsWith(`${expected} `) || expected.startsWith(`${candidate} `)
+  })
 }

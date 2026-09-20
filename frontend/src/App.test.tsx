@@ -121,15 +121,12 @@ describe('App', () => {
     expect(screen.getAllByText(/31 декабря 1989 года/)).toHaveLength(2)
   })
 
-  it('открывает запись из музыкальной подборки во встроенном плеере', async () => {
-    const user = userEvent.setup()
+  it('не открывает сторонний поток для ещё не скачанной записи', () => {
     window.history.replaceState({}, '', '/music-history')
     render(<AppProviders><App /></AppProviders>)
 
-    await user.click(await screen.findByRole('button', { name: 'Слушать Хурритский гимн Никкаль h.6 — Неизвестный автор' }))
-
-    expect(screen.getByRole('dialog', { name: 'Прослушивание Хурритский гимн Никкаль h.6' })).toBeInTheDocument()
-    expect(screen.getByText('Источник: YouTube · воспроизведение внутри сайта')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Файл Хурритский гимн Никкаль h.6 — Неизвестный автор ещё не скачан ботом' })).toBeDisabled()
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
 
   it('показывает отдельный каталог народной музыки с карельской традицией', () => {

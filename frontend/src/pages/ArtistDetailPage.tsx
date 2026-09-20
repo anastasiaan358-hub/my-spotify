@@ -1,25 +1,10 @@
 import { ArrowLeft, ArrowUpRight, ChevronDown, Disc3, Play, Quote, Search } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { start as startAudioContext } from 'tone'
-import { getArtist, type ArtistCardData, type TrackData } from '../features/artists/model/artists'
-import type { ExternalAudioCatalog, ExternalAudioComposerWorks } from '../features/artists/model/externalAudioCatalog'
-import { isVerifiedExternalPlayable } from '../features/artists/model/externalAudioCatalog'
-import type {
-  LocalAudioCatalog,
-  LocalAudioComposerWorks,
-} from '../features/artists/model/localAudioCatalog'
-import { isVerifiedLocalPlayable } from '../features/artists/model/localAudioCatalog'
+import { getArtist, type ArtistCardData } from '../features/artists/model/artists'
 import type { VkAudioComposerWorks } from '../features/artists/model/vkAudioCatalog'
 import { isVerifiedVkPlayable, loadVkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
-import type {
-  YouTubeCatalog,
-  YouTubeComposerWorks,
-  YouTubeWork,
-} from '../features/artists/model/youtubeCatalog'
-import { isVerifiedPlayable } from '../features/artists/model/youtubeCatalog'
 import { quotationRecordsForArtist } from '../features/artists/model/quotationCatalog'
-import { YouTubePlayerPanel } from '../features/artists/ui/YouTubePlayerPanel'
 import { QuotationBadge } from '../features/artists/ui/QuotationBadge'
 import { usePlayerStore } from '../features/player/model/playerStore'
 
@@ -50,47 +35,25 @@ interface PublicCatalog {
   artists: Record<string, ComposerCatalog>
 }
 
-function normalizeWorkTitle(title: string) {
-  return title.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
-}
-
 function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
   const [catalog, setCatalog] = useState<ComposerCatalog | null>(null)
-  const [youtubeCatalog, setYoutubeCatalog] = useState<YouTubeComposerWorks | null>(null)
-  const [localAudioCatalog, setLocalAudioCatalog] = useState<LocalAudioComposerWorks | null>(null)
   const [vkAudioCatalog, setVkAudioCatalog] = useState<VkAudioComposerWorks | null>(null)
-  const [externalAudioCatalog, setExternalAudioCatalog] = useState<ExternalAudioComposerWorks | null>(null)
-  const [selectedVideo, setSelectedVideo] = useState<YouTubeWork | null>(null)
   const [query, setQuery] = useState('')
   const [visibleCount, setVisibleCount] = useState(40)
   const setTrack = usePlayerStore((state) => state.setTrack)
-  const setPlaying = usePlayerStore((state) => state.setPlaying)
-  const playableTracks = useMemo(() => artist.albums.flatMap((album) => album.tracks).map((track) => ({
-    normalizedTitle: normalizeWorkTitle(track.title),
-    track,
-  })), [artist.albums])
   const quotationResearch = useMemo(() => quotationRecordsForArtist(artist.id), [artist.id])
   const playbackSummary = useMemo(() => {
     if (!catalog) return { playable: 0, missing: 0 }
     const playableIds = new Set([
-      ...Object.entries(localAudioCatalog?.works ?? {})
-        .filter(([, work]) => isVerifiedLocalPlayable(work))
-        .map(([workId]) => workId),
       ...Object.entries(vkAudioCatalog?.works ?? {})
         .filter(([, work]) => isVerifiedVkPlayable(work))
-        .map(([workId]) => workId),
-      ...Object.entries(youtubeCatalog?.works ?? {})
-        .filter(([, work]) => isVerifiedPlayable(work))
-        .map(([workId]) => workId),
-      ...Object.entries(externalAudioCatalog?.works ?? {})
-        .filter(([, work]) => isVerifiedExternalPlayable(work))
         .map(([workId]) => workId),
     ])
     return {
       playable: catalog.works.filter((work) => playableIds.has(work.id)).length,
       missing: catalog.works.filter((work) => !playableIds.has(work.id)).length,
     }
-  }, [catalog, externalAudioCatalog, localAudioCatalog, vkAudioCatalog, youtubeCatalog])
+  }, [catalog, vkAudioCatalog])
 
   useEffect(() => {
     let cancelled = false
@@ -99,27 +62,12 @@ function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
         if (!response.ok) throw new Error(`Catalog ${response.status}`)
         return response.json() as Promise<PublicCatalog>
       }),
-      fetch('/classical/catalog/youtube-works.json').then((response) => {
-        if (!response.ok) throw new Error(`YouTube catalog ${response.status}`)
-        return response.json() as Promise<YouTubeCatalog>
-      }),
-      fetch('/classical/catalog/local-audio.json').then((response) => {
-        if (!response.ok) throw new Error(`Local audio catalog ${response.status}`)
-        return response.json() as Promise<LocalAudioCatalog>
-      }),
       loadVkAudioCatalog(),
-      fetch('/classical/catalog/external-audio.json').then((response) => {
-        if (!response.ok) throw new Error(`External audio catalog ${response.status}`)
-        return response.json() as Promise<ExternalAudioCatalog>
-      }),
     ])
-      .then(([payload, youtubeWorks, localAudio, vkAudio, externalAudio]) => {
+      .then(([payload, vkAudio]) => {
         if (cancelled) return
         setCatalog(payload.artists[artist.id] ?? null)
-        setYoutubeCatalog(youtubeWorks.artists[artist.id] ?? null)
-        setLocalAudioCatalog(localAudio.artists[artist.id] ?? null)
         setVkAudioCatalog(vkAudio.artists[artist.id] ?? null)
-        setExternalAudioCatalog(externalAudio.artists[artist.id] ?? null)
       })
       .catch(() => {
         if (!cancelled) setCatalog(null)
@@ -138,25 +86,6 @@ function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
       || first.title.localeCompare(second.title)
     ))
   }, [catalog, query])
-
-  const playTrack = async (track: TrackData) => {
-    if (track.mediaType === 'midi') await startAudioContext()
-    const [minutes, seconds] = track.duration.split(':').map(Number)
-    setTrack({
-      id: track.id,
-      title: track.title,
-      artist: artist.name,
-      streamUrl: track.mediaUrl,
-      mediaType: track.mediaType,
-      durationMs: (minutes * 60 + seconds) * 1000,
-    })
-  }
-
-  const selectedVideoWorkId = selectedVideo?.key.split('|').pop()
-  const selectedVideoScore = selectedVideoWorkId
-    && catalog?.works.some((work) => work.id === selectedVideoWorkId && work.printUrl)
-    ? { catalogId: artist.id, workId: selectedVideoWorkId }
-    : undefined
 
   return (
     <section className="open-catalog" aria-labelledby="open-catalog-heading">
@@ -181,15 +110,6 @@ function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
         )}
       </div>
 
-      {selectedVideo && (
-        <YouTubePlayerPanel
-          key={selectedVideo.key}
-          work={selectedVideo}
-          score={selectedVideoScore}
-          onClose={() => setSelectedVideo(null)}
-        />
-      )}
-
       <label className="catalog-search">
         <Search size={17} />
         <span>Поиск произведения</span>
@@ -199,22 +119,9 @@ function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
       <div className="open-catalog__rows" aria-live="polite">
         {catalog && filteredWorks.length === 0 && <p className="open-catalog__empty">Ничего не найдено</p>}
         {filteredWorks.slice(0, visibleCount).map((work, index) => {
-          const normalizedWorkTitle = normalizeWorkTitle(work.title)
-          const playableTrack = playableTracks.find(({ normalizedTitle }) => (
-            normalizedTitle === normalizedWorkTitle
-            || normalizedTitle.startsWith(`${normalizedWorkTitle} `)
-            || normalizedWorkTitle.startsWith(`${normalizedTitle} `)
-          ))?.track
-          const localAudio = localAudioCatalog?.works[work.id]
-          const verifiedLocalAudio = isVerifiedLocalPlayable(localAudio) ? localAudio : undefined
           const vkAudio = vkAudioCatalog?.works[work.id]
           const verifiedVkAudio = isVerifiedVkPlayable(vkAudio) ? vkAudio : undefined
-          const youtubeWork = youtubeCatalog?.works[work.id]
-          const verifiedYoutubeWork = isVerifiedPlayable(youtubeWork) ? youtubeWork : undefined
-          const externalAudio = externalAudioCatalog?.works[work.id]
-          const verifiedExternalAudio = isVerifiedExternalPlayable(externalAudio) ? externalAudio : undefined
-          const externalFormat = verifiedExternalAudio?.mediaType === 'midi' ? 'MIDI' : 'MP3'
-          const canPlay = Boolean(verifiedLocalAudio || verifiedVkAudio || playableTrack || verifiedExternalAudio || verifiedYoutubeWork)
+          const canPlay = Boolean(verifiedVkAudio)
           return (
             <article className="catalog-work" key={work.id}>
               <span>{String(index + 1).padStart(3, '0')}</span>
@@ -223,65 +130,29 @@ function OpenWorksCatalog({ artist }: { artist: ArtistCardData }) {
                   <strong>{work.title}</strong>
                   <QuotationBadge artistId={artist.id} workId={work.id} />
                 </div>
-                <small>
-                  {work.dateLabel ?? 'Дата не установлена'}
-                  {verifiedExternalAudio ? ` · ${externalFormat} · ${verifiedExternalAudio.provider}` : ''}
-                </small>
+                <small>{work.dateLabel ?? 'Дата не установлена'}</small>
               </div>
               <button
                   className="catalog-work__play"
                   type="button"
                   disabled={!canPlay}
-                  onClick={async () => {
-                    if (verifiedLocalAudio) {
-                      setSelectedVideo(null)
-                      if (verifiedLocalAudio.mediaType === 'midi') await startAudioContext()
-                      setTrack({
-                        id: verifiedLocalAudio.key,
-                        title: verifiedLocalAudio.title,
-                        artist: artist.name,
-                        sourceLabel: verifiedLocalAudio.sourceName,
-                        streamUrl: verifiedLocalAudio.streamUrl,
-                        mediaType: verifiedLocalAudio.mediaType,
-                      })
-                    } else if (verifiedVkAudio) {
-                      setSelectedVideo(null)
+                  onClick={() => {
+                    if (verifiedVkAudio) {
                       setTrack({
                         id: verifiedVkAudio.key,
                         title: verifiedVkAudio.title,
                         artist: artist.name,
-                        sourceLabel: 'MP3 · VK',
+                        sourceLabel: 'СКАЧАННЫЙ MP3',
                         streamUrl: verifiedVkAudio.streamUrl,
                         mediaType: verifiedVkAudio.mediaType,
                         durationMs: verifiedVkAudio.durationSeconds
                           ? verifiedVkAudio.durationSeconds * 1000
                           : undefined,
                       })
-                    } else if (playableTrack) {
-                      setSelectedVideo(null)
-                      void playTrack(playableTrack)
-                    } else if (verifiedExternalAudio) {
-                      setSelectedVideo(null)
-                      const mediaType = verifiedExternalAudio.mediaType ?? 'audio'
-                      if (mediaType === 'midi') await startAudioContext()
-                      setTrack({
-                        id: verifiedExternalAudio.key,
-                        title: verifiedExternalAudio.title,
-                        artist: artist.name,
-                        sourceLabel: `${externalFormat} · ${verifiedExternalAudio.provider}`,
-                        streamUrl: verifiedExternalAudio.streamUrl,
-                        mediaType,
-                        durationMs: verifiedExternalAudio.durationSeconds
-                          ? verifiedExternalAudio.durationSeconds * 1000
-                          : undefined,
-                      })
-                    } else if (verifiedYoutubeWork) {
-                      setPlaying(false)
-                      setSelectedVideo(verifiedYoutubeWork)
                     }
                   }}
                   aria-label={canPlay ? `Воспроизвести ${work.title}` : `Аудиозапись ${work.title} пока недоступна`}
-                  title={verifiedLocalAudio?.mediaType === 'midi' ? 'Воспроизвести нотный MIDI без ограничений' : verifiedLocalAudio || verifiedVkAudio || playableTrack ? 'Воспроизвести локальную запись' : verifiedExternalAudio ? `Воспроизвести через ${verifiedExternalAudio.provider} · поток проверен` : verifiedYoutubeWork ? 'Воспроизвести через YouTube · поток проверен' : localAudio || vkAudio ? 'Локальный аудиофайл повреждён или отсутствует' : youtubeWork ? 'Назначенная запись недоступна после проверки' : 'Запись пока не найдена'}
+                  title={verifiedVkAudio ? 'Воспроизвести скачанный ботом MP3' : vkAudio ? 'Скачанный файл повреждён или отсутствует' : 'Файл ещё не скачан ботом'}
                 >
                   <Play size={15} fill="currentColor" />
               </button>

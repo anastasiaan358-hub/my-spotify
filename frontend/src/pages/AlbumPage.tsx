@@ -1,14 +1,25 @@
 import { ArrowLeft, ArrowUpRight, Disc3, Play } from 'lucide-react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { start as startAudioContext } from 'tone'
 import { getAlbum, getArtist, type TrackData } from '../features/artists/model/artists'
+import type { VkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
+import { findDownloadedBotAudio, loadVkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
 import { usePlayerStore } from '../features/player/model/playerStore'
 
 export function AlbumPage() {
   const { artistId, albumId } = useParams()
   const artist = getArtist(artistId)
   const album = getAlbum(artist, albumId)
+  const [audioCatalog, setAudioCatalog] = useState<VkAudioCatalog | null>(null)
   const setTrack = usePlayerStore((state) => state.setTrack)
+
+  useEffect(() => {
+    let cancelled = false
+    void loadVkAudioCatalog()
+      .then((catalog) => { if (!cancelled) setAudioCatalog(catalog) })
+      .catch(() => { if (!cancelled) setAudioCatalog(null) })
+    return () => { cancelled = true }
+  }, [])
 
   if (!artist || !album) {
     return (
@@ -20,16 +31,17 @@ export function AlbumPage() {
     )
   }
 
-  const playTrack = async (track: TrackData) => {
-    if (track.mediaType === 'midi') await startAudioContext()
-    const [minutes, seconds] = track.duration.split(':').map(Number)
+  const playTrack = (track: TrackData) => {
+    const downloaded = findDownloadedBotAudio(audioCatalog, artist.id, track.title)
+    if (!downloaded) return
     setTrack({
-      id: track.id,
-      title: track.title,
+      id: downloaded.key,
+      title: downloaded.title,
       artist: artist.name,
-      streamUrl: track.mediaUrl,
-      mediaType: track.mediaType,
-      durationMs: (minutes * 60 + seconds) * 1000,
+      sourceLabel: 'СКАЧАННЫЙ MP3',
+      streamUrl: downloaded.streamUrl,
+      mediaType: downloaded.mediaType,
+      durationMs: downloaded.durationSeconds ? downloaded.durationSeconds * 1000 : undefined,
     })
   }
 
@@ -56,7 +68,7 @@ export function AlbumPage() {
             <span>{artist.genre}</span>
             <span>{album.tracks[0].qualityLabel}</span>
           </div>
-          <button className="track-listen-button" type="button" onClick={() => playTrack(album.tracks[0])}><Play size={16} fill="currentColor" /> Слушать сборник</button>
+          <button className="track-listen-button" type="button" disabled={!findDownloadedBotAudio(audioCatalog, artist.id, album.tracks[0].title)} onClick={() => playTrack(album.tracks[0])}><Play size={16} fill="currentColor" /> {findDownloadedBotAudio(audioCatalog, artist.id, album.tracks[0].title) ? 'Слушать скачанный MP3' : 'MP3 ещё не скачан'}</button>
         </div>
       </section>
 
@@ -76,7 +88,7 @@ export function AlbumPage() {
                 <span>({track.duration})</span>
                 <ArrowUpRight size={18} />
               </Link>
-              <button className="album-track__play" type="button" onClick={() => playTrack(track)} aria-label={`Воспроизвести ${track.title}`} title="Воспроизвести">
+              <button className="album-track__play" type="button" disabled={!findDownloadedBotAudio(audioCatalog, artist.id, track.title)} onClick={() => playTrack(track)} aria-label={`Воспроизвести ${track.title}`} title={findDownloadedBotAudio(audioCatalog, artist.id, track.title) ? 'Воспроизвести скачанный ботом MP3' : 'Файл ещё не скачан ботом'}>
                 <Play size={17} fill="currentColor" />
               </button>
             </div>

@@ -1,7 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
-import { BookOpen, ExternalLink, FileText, GitBranch, Landmark, Music2, Play, Search } from 'lucide-react'
+import { useMemo, useState } from 'react'
+import { BookOpen, FileText, GitBranch, Landmark, Music2, Play, Search } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import type { AncientPlaybackCatalog, AncientPlaybackWork } from '../features/ancient-music/model/ancientPlayback'
 import { pendingAncientDocumentCount } from '../features/ancient-music/model/ancientAcademicResearch'
 import {
   ancientTraditions,
@@ -9,69 +8,11 @@ import {
   evidenceLabels,
   notatedWorkCount,
 } from '../features/ancient-music/model/ancientMusic'
-import type { YouTubeWork } from '../features/artists/model/youtubeCatalog'
-import { YouTubePlayerPanel } from '../features/artists/ui/YouTubePlayerPanel'
 import { QuotationBadge } from '../features/artists/ui/QuotationBadge'
 import { LiteratureBadge } from '../features/ancient-music/ui/LiteratureBadge'
-import { usePlayerStore } from '../features/player/model/playerStore'
-
-function youtubeWork(playback: AncientPlaybackWork): YouTubeWork | null {
-  if (playback.sourceType !== 'youtube' || !playback.youtubeUrl) return null
-  return {
-    key: `ancient|${playback.workId}`,
-    title: playback.title,
-    youtubeUrl: playback.youtubeUrl,
-    youtubeTitle: playback.youtubeTitle ?? playback.title,
-    channel: playback.channel ?? 'YouTube',
-    confidence: 'curated',
-    playbackStatus: 'playable',
-    playableInEmbed: true,
-    durationSeconds: playback.durationSeconds,
-  }
-}
 
 export function AncientMusicPage() {
   const [query, setQuery] = useState('')
-  const [playbackCatalog, setPlaybackCatalog] = useState<AncientPlaybackCatalog | null>(null)
-  const [selectedVideo, setSelectedVideo] = useState<YouTubeWork | null>(null)
-  const setTrack = usePlayerStore((state) => state.setTrack)
-  const setPlaying = usePlayerStore((state) => state.setPlaying)
-
-  useEffect(() => {
-    let cancelled = false
-    void fetch('/classical/catalog/ancient-playback.json')
-      .then((response) => {
-        if (!response.ok) throw new Error(`Ancient playback catalog ${response.status}`)
-        return response.json() as Promise<AncientPlaybackCatalog>
-      })
-      .then((catalog) => {
-        if (!cancelled) setPlaybackCatalog(catalog)
-      })
-      .catch(() => {
-        if (!cancelled) setPlaybackCatalog(null)
-      })
-    return () => { cancelled = true }
-  }, [])
-
-  const playRecording = (playback: AncientPlaybackWork) => {
-    const video = youtubeWork(playback)
-    if (video) {
-      setPlaying(false)
-      setSelectedVideo(video)
-      return
-    }
-    if (!playback.streamUrl) return
-    setSelectedVideo(null)
-    setTrack({
-      id: `ancient-${playback.workId}`,
-      title: playback.title,
-      artist: 'Архив древней музыки',
-      sourceLabel: `${playback.mediaType === 'midi' ? 'MIDI' : 'MP3'} · ${playback.provider ?? 'OPEN ARCHIVE'}`,
-      streamUrl: playback.streamUrl,
-      mediaType: playback.mediaType ?? 'audio',
-      durationMs: playback.durationSeconds ? playback.durationSeconds * 1000 : undefined,
-    })
-  }
 
   const normalizedQuery = query.trim().toLocaleLowerCase('ru')
   const visibleTraditions = useMemo(() => ancientTraditions
@@ -100,7 +41,7 @@ export function AncientMusicPage() {
             <div><dt>Памятники</dt><dd>{ancientWorkCount}</dd></div>
             <div><dt>Традиции</dt><dd>{ancientTraditions.length}</dd></div>
             <div><dt>С нотацией</dt><dd>{notatedWorkCount}</dd></div>
-            <div><dt>С записями</dt><dd>{playbackCatalog?.availableCount ?? '…'}</dd></div>
+            <div><dt>С MP3 бота</dt><dd>0</dd></div>
           </dl>
         </div>
       </header>
@@ -155,12 +96,7 @@ export function AncientMusicPage() {
                 <ol className="ancient-work-list">
                   {tradition.works.map((work, workIndex) => {
                     const EvidenceIcon = work.evidence === 'notation' ? Music2 : FileText
-                    const playback = playbackCatalog?.works[work.id]
-                    const playbackKind = playback?.interpretation === 'notation-performance'
-                      ? 'ИСПОЛНЕНИЕ НОТАЦИИ'
-                      : playback
-                        ? 'СОВРЕМЕННАЯ ИНТЕРПРЕТАЦИЯ'
-                        : 'ЗАПИСЬ НЕ НАЙДЕНА'
+                    const playbackKind = 'MP3 ЕЩЁ НЕ СКАЧАН БОТОМ'
                     return (
                       <li className="ancient-work" key={work.id}>
                         <span className="ancient-work__index">{String(workIndex + 1).padStart(2, '0')}</span>
@@ -171,11 +107,7 @@ export function AncientMusicPage() {
                             <LiteratureBadge workId={work.id} title={work.title} />
                           </div>
                           {work.originalTitle && <p>{work.originalTitle}</p>}
-                          <small className={playback ? 'is-available' : ''}>
-                            {playback
-                              ? `${playback.sourceType === 'youtube' ? 'YOUTUBE' : playback.provider ?? 'AUDIO'} · ${playbackKind}`
-                              : playbackKind}
-                          </small>
+                          <small>{playbackKind}</small>
                         </div>
                         <div className="ancient-work__author">
                           <span>Автор / атрибуция</span>
@@ -188,16 +120,12 @@ export function AncientMusicPage() {
                         <div className="ancient-work__actions">
                           <button
                             type="button"
-                            disabled={!playback}
-                            onClick={() => playback && playRecording(playback)}
-                            aria-label={playback ? `Воспроизвести ${work.title}` : `Запись ${work.title} пока не найдена`}
-                            title={playback ? `${playbackKind} · ${playback.sourceType === 'youtube' ? 'YouTube' : playback.provider}` : 'YouTube и открытые MP3-архивы проверены — запись пока не найдена'}
+                            disabled
+                            aria-label={`MP3 ${work.title} ещё не скачан ботом`}
+                            title="Файл ещё не скачан ботом"
                           >
                             <Play size={14} fill="currentColor" />
                           </button>
-                          <a className="ancient-work__source" href={work.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Источник: ${work.sourceTitle}`}>
-                            <ExternalLink size={14} />
-                          </a>
                         </div>
                       </li>
                     )
@@ -209,7 +137,6 @@ export function AncientMusicPage() {
           </div>
         </div>
       </section>
-      {selectedVideo && <YouTubePlayerPanel work={selectedVideo} onClose={() => setSelectedVideo(null)} />}
     </div>
   )
 }

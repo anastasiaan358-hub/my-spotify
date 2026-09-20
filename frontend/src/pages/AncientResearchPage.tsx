@@ -1,4 +1,4 @@
-import { ArrowLeft, BookOpen, CheckCircle2, Database, ExternalLink, FileMusic, TriangleAlert } from 'lucide-react'
+import { ArrowLeft, BookOpen, CheckCircle2, Database, FileMusic, TriangleAlert } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import {
   academicSources,
@@ -31,9 +31,7 @@ function DocumentRegister({ documents }: { documents: AdditionalAncientDocument[
             {document.status}
           </span>
           <p className="ancient-document-row__note">{document.note}</p>
-          <a href={document.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Открыть академический указатель для ${document.title}`}>
-            <ExternalLink size={14} />
-          </a>
+          <span className="ancient-document-row__source">Источник сохранён в исследовательском реестре</span>
         </article>
       ))}
     </div>
@@ -143,7 +141,7 @@ export function AncientResearchPage() {
         </header>
         <div className="ancient-bibliography">
           {academicSources.map((source, index) => (
-            <a key={source.id} href={source.url} target="_blank" rel="noreferrer">
+            <article key={source.id}>
               <span className="ancient-bibliography__index">{String(index + 1).padStart(2, '0')}</span>
               <span className="ancient-bibliography__icon">
                 {source.kind === 'Цифровой корпус' ? <Database size={17} /> : <FileMusic size={17} />}
@@ -158,8 +156,7 @@ export function AncientResearchPage() {
                 <i>{source.kind}</i>
                 <i>{source.access}</i>
               </span>
-              <ExternalLink size={14} />
-            </a>
+            </article>
           ))}
         </div>
       </section>

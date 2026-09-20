@@ -1,8 +1,6 @@
-import { useEffect, useState } from 'react'
-import { ArrowLeft, ArrowUpRight, BookOpenText, Headphones, Play, Search, Waves } from 'lucide-react'
+import { useState } from 'react'
+import { ArrowLeft, BookOpenText, Headphones, Play, Search, Waves } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import type { YouTubeWork } from '../features/artists/model/youtubeCatalog'
-import { YouTubePlayerPanel } from '../features/artists/ui/YouTubePlayerPanel'
 import {
   folkRegionCount,
   folkRegionLabels,
@@ -14,21 +12,6 @@ import type { FolkRegion } from '../features/folk-music/model/folkMusic'
 
 type RegionFilter = 'all' | FolkRegion
 
-interface FolkListeningEntry {
-  title: string
-  youtubeUrl: string
-  youtubeTitle: string
-  channel: string
-  durationSeconds?: number | null
-  playbackStatus: 'playable'
-  playableInEmbed: true
-  verifiedAt: string
-}
-
-interface FolkListeningCatalog {
-  traditions: Record<string, FolkListeningEntry | null>
-}
-
 const regionFilters = Object.entries(folkRegionLabels) as Array<[FolkRegion, string]>
 const traditionById = new Map(folkTraditions.map((tradition) => [tradition.id, tradition]))
 const karelian = folkTraditions.find((tradition) => tradition.id === 'karelian-runosong')!
@@ -36,30 +19,7 @@ const karelian = folkTraditions.find((tradition) => tradition.id === 'karelian-r
 export function FolkMusicPage() {
   const [query, setQuery] = useState('')
   const [region, setRegion] = useState<RegionFilter>('all')
-  const [listeningCatalog, setListeningCatalog] = useState<FolkListeningCatalog>({ traditions: {} })
-  const [selectedVideo, setSelectedVideo] = useState<YouTubeWork | null>(null)
   const normalizedQuery = query.trim().toLocaleLowerCase('ru')
-
-  useEffect(() => {
-    let cancelled = false
-    void fetch('/classical/catalog/folk-listening.json')
-      .then((response) => {
-        if (!response.ok) throw new Error(`Folk listening catalog ${response.status}`)
-        return response.json() as Promise<FolkListeningCatalog>
-      })
-      .then((catalog) => { if (!cancelled) setListeningCatalog(catalog) })
-      .catch(() => { if (!cancelled) setListeningCatalog({ traditions: {} }) })
-    return () => { cancelled = true }
-  }, [])
-
-  const openListening = (traditionId: string, title: string) => {
-    const catalogEntry = listeningCatalog.traditions[traditionId]
-    if (!catalogEntry) {
-      window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(`${title} traditional music`)}`, '_blank', 'noopener,noreferrer')
-      return
-    }
-    setSelectedVideo({ ...catalogEntry, key: traditionId, confidence: 'editorial-search' })
-  }
   const visibleTraditions = folkTraditions.filter((tradition) => {
     const belongsToRegion = region === 'all' || tradition.region === region
     const haystack = [
@@ -105,7 +65,7 @@ export function FolkMusicPage() {
           <strong>8613</strong>
           <span>оцифрованных мелодий</span>
           <p>Ноты, тональность, метр, место записи, текст и сведения о собирателе объединены в исследовательской базе.</p>
-          <a href={karelian.sourceUrl} target="_blank" rel="noreferrer">Открыть карельский архив <ArrowUpRight size={15} /></a>
+          <span>Описание архива сохранено в карточке</span>
         </aside>
       </section>
 
@@ -148,8 +108,8 @@ export function FolkMusicPage() {
                 <div><dt>Инструменты</dt><dd>{tradition.instruments.join(' / ')}</dd></div>
               </dl>
               <div className="folk-card__actions">
-                <button type="button" onClick={() => openListening(tradition.id, tradition.title)} aria-label={`Слушать: ${tradition.title}`}><Play size={13} fill="currentColor" /> Слушать</button>
-                <a href={tradition.sourceUrl} target="_blank" rel="noreferrer"><span>{tradition.sourceLabel}</span><ArrowUpRight size={14} /></a>
+                <button type="button" disabled title="Файл ещё не скачан ботом" aria-label={`Файл ${tradition.title} ещё не скачан ботом`}><Play size={13} fill="currentColor" /> MP3 не скачан</button>
+                <span>{tradition.sourceLabel}</span>
               </div>
             </article>
           ))}
@@ -186,15 +146,13 @@ export function FolkMusicPage() {
         </header>
         <div>
           {folkSources.map((source, index) => (
-            <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
+            <article key={source.url}>
               <span>{String(index + 1).padStart(2, '0')}</span><BookOpenText size={19} />
               <div><strong>{source.label}</strong><small>{source.institution}</small><p>{source.note}</p></div>
-              <ArrowUpRight size={16} />
-            </a>
+            </article>
           ))}
         </div>
       </section>
-      {selectedVideo && <YouTubePlayerPanel work={selectedVideo} onClose={() => setSelectedVideo(null)} />}
     </div>
   )
 }

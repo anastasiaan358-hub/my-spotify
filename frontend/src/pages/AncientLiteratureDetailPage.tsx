@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, BookOpenText, FileText, Languages, LibraryBig, ScrollText } from 'lucide-react'
+import { ArrowLeft, BookOpenText, FileText, Languages, LibraryBig, ScrollText } from 'lucide-react'
 import { Link, useParams } from 'react-router-dom'
 import { ancientLiteratureByWorkId } from '../features/ancient-music/model/ancientLiteratureCatalog'
 
@@ -95,11 +95,10 @@ export function AncientLiteratureDetailPage() {
         </header>
         <div>
           {record.sources.map((source, index) => (
-            <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${source.label}`}>
+            <article key={`${source.url}-${source.label}`}>
               <span>{String(index + 1).padStart(2, '0')}</span>
               <div><small>{source.kind}</small><strong>{source.label}</strong><p>{source.reference}</p></div>
-              <ArrowUpRight size={18} />
-            </a>
+            </article>
           ))}
         </div>
       </section>

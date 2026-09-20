@@ -1,14 +1,11 @@
 import { ArrowUpRight, Disc3, Play } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { start as startAudioContext } from 'tone'
 import { ancientTraditions, ancientWorkCount } from '../features/ancient-music/model/ancientMusic'
-import { artists } from '../features/artists/model/artists'
 import { musicHistoryEras, uniqueMusicHistoryGenreCount } from '../features/music-history/model/musicHistory'
 import { folkTraditions } from '../features/folk-music/model/folkMusic'
-import type { ExternalAudioCatalog, ExternalAudioWork } from '../features/artists/model/externalAudioCatalog'
-import type { YouTubeCatalog } from '../features/artists/model/youtubeCatalog'
-import { isVerifiedPlayable } from '../features/artists/model/youtubeCatalog'
+import type { VkAudioWork } from '../features/artists/model/vkAudioCatalog'
+import { isVerifiedVkPlayable, loadVkAudioCatalog } from '../features/artists/model/vkAudioCatalog'
 import { usePlayerStore, type PlayerTrack } from '../features/player/model/playerStore'
 
 interface AtlasCatalog {
@@ -22,7 +19,7 @@ interface AtlasCatalog {
   }>
 }
 
-interface AlternativeTrack extends ExternalAudioWork {
+interface DownloadedTrack extends VkAudioWork {
   artistId: string
   artistName: string
   workId: string
@@ -33,22 +30,6 @@ interface EraStats {
   works: number
 }
 
-const tracks: Array<PlayerTrack & { number: string; duration: string; code: string }> = artists.slice(0, 5).map((artist, index) => {
-  const work = artist.albums[0].tracks[0]
-  const [minutes, seconds] = work.duration.split(':').map(Number)
-  return {
-    id: work.id,
-    number: `${String(index + 1).padStart(2, '0')}.`,
-    title: work.title,
-    artist: artist.name,
-    duration: work.duration,
-    code: `R${String(index + 1).padStart(3, '0')}`,
-    streamUrl: work.mediaUrl,
-    mediaType: work.mediaType,
-    durationMs: (minutes * 60 + seconds) * 1000,
-  }
-})
-
 const collections = [
   { index: 'A/01', title: 'Священная полифония', caption: 'Рим / Англия / Испания', variant: 'grid' },
   { index: 'A/02', title: 'Мадригалы', caption: 'Италия / XVI век', variant: 'rings' },
@@ -58,46 +39,34 @@ const collections = [
 const initialAlternativeCount = 8
 
 function trackDuration(seconds: number | null | undefined) {
-  if (!seconds) return 'STREAM'
+  if (!seconds) return 'MP3'
   const minutes = Math.floor(seconds / 60)
   return `${minutes}:${String(seconds % 60).padStart(2, '0')}`
 }
 
 export function HomePage() {
-  const [alternativeTracks, setAlternativeTracks] = useState<AlternativeTrack[]>([])
+  const [downloadedTracks, setDownloadedTracks] = useState<DownloadedTrack[]>([])
   const [showAllAlternatives, setShowAllAlternatives] = useState(false)
   const [eraStats, setEraStats] = useState<Record<'Renaissance' | 'Baroque', EraStats> | null>(null)
   const setTrack = usePlayerStore((state) => state.setTrack)
-  const playTrack = async (track: PlayerTrack) => {
-    if (track.mediaType === 'midi') await startAudioContext()
-    setTrack(track)
-  }
+  const playTrack = (track: PlayerTrack) => setTrack(track)
 
   useEffect(() => {
     let cancelled = false
 
     void Promise.all([
-      fetch('/classical/catalog/external-audio.json').then((response) => {
-        if (!response.ok) throw new Error(`External audio catalog ${response.status}`)
-        return response.json() as Promise<ExternalAudioCatalog>
-      }),
-      fetch('/classical/catalog/youtube-works.json').then((response) => {
-        if (!response.ok) throw new Error(`YouTube catalog ${response.status}`)
-        return response.json() as Promise<YouTubeCatalog>
-      }),
+      loadVkAudioCatalog(),
       fetch('/classical/catalog/renaissance-composers.json').then((response) => {
         if (!response.ok) throw new Error(`Composer catalog ${response.status}`)
         return response.json() as Promise<AtlasCatalog>
       }),
     ])
-      .then(([externalAudio, youtube, atlas]) => {
+      .then(([vkAudio, atlas]) => {
         if (cancelled) return
 
         const artistNames = new Map(atlas.countries.flatMap((country) => (
           country.composers.map((composer) => [composer.id, composer.name] as const)
         )))
-        artists.forEach((artist) => artistNames.set(artist.id, artist.name))
-
         const atlasComposers = atlas.countries.flatMap((country) => country.composers)
         const statsFor = (period: 'Renaissance' | 'Baroque') => {
           const periodComposers = atlasComposers.filter((composer) => composer.period === period)
@@ -108,41 +77,44 @@ export function HomePage() {
         }
         setEraStats({ Renaissance: statsFor('Renaissance'), Baroque: statsFor('Baroque') })
 
-        const usedStreams = new Set<string>()
-        const tracksWithoutYouTube = Object.entries(externalAudio.artists).flatMap(([artistId, artistCatalog]) => (
-          Object.entries(artistCatalog.works).flatMap(([workId, work]) => {
-            const youtubeWork = youtube.artists[artistId]?.works[workId]
-            if (isVerifiedPlayable(youtubeWork) || usedStreams.has(work.streamUrl)) return []
-            usedStreams.add(work.streamUrl)
-            return [{
-              ...work,
-              artistId,
-              artistName: artistNames.get(artistId) ?? artistId.replaceAll('-', ' '),
-              workId,
-            }]
-          })
-        ))
+        const localDownloads = Object.entries(vkAudio.artists).flatMap(([artistId, artistCatalog]) => (
+          Object.entries(artistCatalog.works).flatMap(([workId, work]) => (
+            isVerifiedVkPlayable(work)
+              ? [{ ...work, artistId, artistName: artistNames.get(artistId) ?? artistId.replaceAll('-', ' '), workId }]
+              : []
+          ))
+        )).sort((first, second) => first.artistName.localeCompare(second.artistName, 'ru') || first.title.localeCompare(second.title, 'ru'))
 
-        setAlternativeTracks(tracksWithoutYouTube)
+        setDownloadedTracks(localDownloads)
       })
       .catch(() => {
-        if (!cancelled) setAlternativeTracks([])
+        if (!cancelled) setDownloadedTracks([])
       })
 
     return () => { cancelled = true }
   }, [])
 
+  const rotationTracks = downloadedTracks.slice(0, 5).map((track, index) => ({
+    ...track,
+    id: track.key,
+    number: `${String(index + 1).padStart(2, '0')}.`,
+    artist: track.artistName,
+    duration: trackDuration(track.durationSeconds),
+    code: `D${String(index + 1).padStart(3, '0')}`,
+    sourceLabel: 'СКАЧАННЫЙ MP3',
+    durationMs: track.durationSeconds ? track.durationSeconds * 1000 : undefined,
+  }))
   const visibleAlternativeTracks = showAllAlternatives
-    ? alternativeTracks
-    : alternativeTracks.slice(0, initialAlternativeCount)
+    ? downloadedTracks
+    : downloadedTracks.slice(0, initialAlternativeCount)
 
-  const playAlternative = (track: AlternativeTrack) => playTrack({
-    id: `external-${track.artistId}-${track.workId}`,
+  const playAlternative = (track: DownloadedTrack) => playTrack({
+    id: track.key,
     title: track.title,
     artist: track.artistName,
-    sourceLabel: `${track.mediaType === 'midi' ? 'MIDI' : 'MP3'} · ${track.provider}`,
+    sourceLabel: 'СКАЧАННЫЙ MP3',
     streamUrl: track.streamUrl,
-    mediaType: track.mediaType ?? 'audio',
+    mediaType: track.mediaType,
     durationMs: track.durationSeconds ? track.durationSeconds * 1000 : undefined,
   })
 
@@ -180,8 +152,8 @@ export function HomePage() {
         </div>
 
         <div className="mono-hero__footer">
-          <span>OPEN LICENSE MUSIC ARCHIVE</span>
-          <span>PDF — MIDI — OGG</span>
+          <span>LOCAL MUSIC ARCHIVE</span>
+          <span>DOWNLOADED MP3 ONLY</span>
           <span>LISTEN / READ / STUDY</span>
         </div>
       </section>
@@ -247,10 +219,10 @@ export function HomePage() {
         <div className="track-section__content">
           <div className="mono-section-heading">
             <div><span className="mono-label">// TRACK LIST</span><h2 id="track-list-heading">ТЕКУЩАЯ РОТАЦИЯ</h2></div>
-            <span className="mono-count">005 TRACKS<br />18:05 TOTAL</span>
+            <span className="mono-count">{String(rotationTracks.length).padStart(3, '0')} TRACKS<br />LOCAL MP3</span>
           </div>
           <div className="track-list">
-            {tracks.map((track) => (
+            {rotationTracks.map((track) => (
               <button className="track-row" type="button" key={track.id} onClick={() => playTrack(track)}>
                 <span className="track-row__number">{track.number}</span>
                 <span className="track-row__main"><strong>{track.title}</strong><small>{track.artist}</small></span>
@@ -290,11 +262,11 @@ export function HomePage() {
         <div className="track-section__content">
           <div className="mono-section-heading">
             <div>
-              <span className="mono-label">// OPEN AUDIO / NO YOUTUBE</span>
-              <h2 id="alternative-tracks-heading">ПРЯМЫЕ АУДИОЗАПИСИ</h2>
-              <p className="alternative-section__lead">MP3 и MIDI из открытых архивов. Записи запускаются без видео в нижнем плеере.</p>
+              <span className="mono-label">// DOWNLOADED AUDIO / LOCAL ONLY</span>
+              <h2 id="alternative-tracks-heading">СКАЧАННЫЕ MP3</h2>
+              <p className="alternative-section__lead">Только файлы, скачанные ботом и сохранённые внутри проекта. Сторонние потоки отключены.</p>
             </div>
-            <span className="mono-count">{String(alternativeTracks.length).padStart(3, '0')} TRACKS<br />OPEN STREAM</span>
+            <span className="mono-count">{String(downloadedTracks.length).padStart(3, '0')} TRACKS<br />LOCAL FILES</span>
           </div>
 
           <div className="track-list">
@@ -302,17 +274,17 @@ export function HomePage() {
               <button className="track-row" type="button" key={track.streamUrl} onClick={() => playAlternative(track)}>
                 <span className="track-row__number">{String(index + 1).padStart(2, '0')}.</span>
                 <span className="track-row__main"><strong>{track.title}</strong><small>{track.artistName}</small></span>
-                <span className="track-row__code">{track.provider}</span>
-                <span className="track-row__duration">({track.mediaType === 'midi' ? 'MIDI' : trackDuration(track.durationSeconds)})</span>
+                <span className="track-row__code">MP3</span>
+                <span className="track-row__duration">({trackDuration(track.durationSeconds)})</span>
                 <span className="track-row__play"><Play size={17} fill="currentColor" /></span>
               </button>
             ))}
           </div>
 
           <div className="alternative-section__footer">
-            {alternativeTracks.length > initialAlternativeCount && (
+            {downloadedTracks.length > initialAlternativeCount && (
               <button className="mono-link" type="button" onClick={() => setShowAllAlternatives((value) => !value)}>
-                {showAllAlternatives ? 'СВЕРНУТЬ СПИСОК' : `ПОКАЗАТЬ ВСЕ ${alternativeTracks.length}`} <ArrowUpRight size={16} />
+                {showAllAlternatives ? 'СВЕРНУТЬ СПИСОК' : `ПОКАЗАТЬ ВСЕ ${downloadedTracks.length}`} <ArrowUpRight size={16} />
               </button>
             )}
             <Link className="mono-link" to="/artists/atlas">ОТКРЫТЬ КАТАЛОГ <ArrowUpRight size={16} /></Link>

@@ -29,7 +29,7 @@ function WorkCard({ work, label, detail }: { work: QuotationWork; label: string;
       {detail && <small>{detail}</small>}
       <div>
         {work.detailLink?.external
-          ? <a href={work.detailLink.url} target="_blank" rel="noreferrer">{work.detailLink.label} <ArrowUpRight size={13} /></a>
+          ? <span>{work.detailLink.label}</span>
           : <Link to={internalWorkRoute(work)}>{work.detailLink?.label ?? 'Композитор'} <ArrowRight size={13} /></Link>}
         {scoreRoute && <Link to={scoreRoute}>SHEET <ArrowUpRight size={13} /></Link>}
       </div>
@@ -119,11 +119,10 @@ export function QuotationDetailPage() {
         </header>
         <div>
           {record.sources.map((source, index) => (
-            <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
+            <article key={source.url}>
               <span>{String(index + 1).padStart(2, '0')}</span>
               <div><small>{source.kind}</small><strong>{source.label}</strong><p>{source.reference}</p></div>
-              <ArrowUpRight size={18} />
-            </a>
+            </article>
           ))}
         </div>
       </section>
