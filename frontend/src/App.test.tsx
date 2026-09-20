@@ -121,6 +121,29 @@ describe('App', () => {
     expect(screen.getAllByText(/31 декабря 1989 года/)).toHaveLength(2)
   })
 
+  it('открывает запись из музыкальной подборки во встроенном плеере', async () => {
+    const user = userEvent.setup()
+    window.history.replaceState({}, '', '/music-history')
+    render(<AppProviders><App /></AppProviders>)
+
+    await user.click(await screen.findByRole('button', { name: 'Слушать Хурритский гимн Никкаль h.6 — Неизвестный автор' }))
+
+    expect(screen.getByRole('dialog', { name: 'Прослушивание Хурритский гимн Никкаль h.6' })).toBeInTheDocument()
+    expect(screen.getByText('Источник: YouTube · воспроизведение внутри сайта')).toBeInTheDocument()
+  })
+
+  it('показывает отдельный каталог народной музыки с карельской традицией', () => {
+    window.history.replaceState({}, '', '/folk-music')
+    render(<AppProviders><App /></AppProviders>)
+
+    expect(screen.getByRole('heading', { name: 'НАРОДНАЯ МУЗЫКА', level: 1 })).toBeInTheDocument()
+    expect(screen.getAllByRole('heading', { name: 'Карельская руническая песня' })).toHaveLength(2)
+    expect(screen.getByRole('heading', { name: 'КАРТОЧКИ ТРАДИЦИЙ' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Грузинское многоголосие' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'МАРШРУТЫ' })).toBeInTheDocument()
+    expect(screen.getByText('8613')).toBeInTheDocument()
+  })
+
   it('открывает полную литературную историю музыкального памятника', () => {
     window.history.replaceState({}, '', '/literature/great-hymn-aten')
     render(<AppProviders><App /></AppProviders>)

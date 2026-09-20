@@ -5,6 +5,7 @@ import { start as startAudioContext } from 'tone'
 import { ancientTraditions, ancientWorkCount } from '../features/ancient-music/model/ancientMusic'
 import { artists } from '../features/artists/model/artists'
 import { musicHistoryEras, uniqueMusicHistoryGenreCount } from '../features/music-history/model/musicHistory'
+import { folkTraditions } from '../features/folk-music/model/folkMusic'
 import type { ExternalAudioCatalog, ExternalAudioWork } from '../features/artists/model/externalAudioCatalog'
 import type { YouTubeCatalog } from '../features/artists/model/youtubeCatalog'
 import { isVerifiedPlayable } from '../features/artists/model/youtubeCatalog'
@@ -224,6 +225,14 @@ export function HomePage() {
             <h3>РАННЕЕ<br />БАРОККО</h3>
             <p>Монтеверди, Фрескобальди, Аллегри, Шейдеман и переход к новому музыкальному языку.</p>
             <small>{eraStats ? `${eraStats.Baroque.composers.toLocaleString('ru-RU')} авторов / ${eraStats.Baroque.works.toLocaleString('ru-RU')} произведений` : 'Загрузка каталога…'}</small>
+          </Link>
+
+          <Link className="era-card" to="/folk-music" aria-label="Открыть подборку народной музыки">
+            <div className="era-card__top"><i /><span>04 / LIVING TRADITIONS</span><ArrowUpRight size={16} /></div>
+            <time>УСТНАЯ ПАМЯТЬ / ПОЛЕВЫЕ ЗАПИСИ</time>
+            <h3>НАРОДНАЯ<br />МУЗЫКА</h3>
+            <p>Карельская руническая песня, эпические, обрядовые, многоголосные и инструментальные традиции мира.</p>
+            <small>{folkTraditions.length} традиций / 6 регионов</small>
           </Link>
         </div>
         <Link className="era-window__all" to="/music-history">

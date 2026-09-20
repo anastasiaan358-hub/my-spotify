@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { Bell, History, Home, Library, ListTree, Search, UserRound } from 'lucide-react'
+import { AudioLines, Bell, History, Home, Library, ListTree, Search, UserRound } from 'lucide-react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { getProfile } from '../../features/auth/api/authApi'
 import { useSessionStore } from '../../features/auth/model/sessionStore'
@@ -13,6 +13,7 @@ const navigation = [
   { to: '/search', label: 'Поиск', icon: Search },
   { to: '/ancient-music', label: 'Древняя музыка', icon: History },
   { to: '/music-history', label: 'Хронология', icon: ListTree },
+  { to: '/folk-music', label: 'Народная', icon: AudioLines },
   { to: '/library', label: 'Моя медиатека', icon: Library },
 ]
 
